@@ -140,7 +140,7 @@ await torus.init({
 
 ## getPublicAddress
 
-Name resolver for email address to Ethereum public Address. Returns an account if it already exists on torus network. Creates, if otherwise
+This resolves an email address to an Ethereum public Address. Returns an account if it already exists on torus network. Creates, if otherwise
 
 ```js
 const publicAddress = await torus.getPublicAddress(email);
@@ -150,7 +150,7 @@ const publicAddress = await torus.getPublicAddress(email);
 - `email` - `string` : Google account of user e.g. "hello@tor.us"
 
 **Returns**
-- `Promise<string>` : Returns a promise which resolves to the Ethereum address associated to the email
+- `Promise<string>` : Returns a promise which resolves to the Ethereum address associated with the email
 
 **Examples**
 
@@ -161,7 +161,7 @@ ___
 
 ## setProvider
 
-Changes the network provider to the specified provider. Opens a popup for user's consent
+This changes the network provider to a specified provider. Opens a popup for user's consent
 
 ```js
 await torus.setProvider(params);
@@ -223,9 +223,9 @@ await torus.login();
 
 ## getUserInfo
 
-Returns the loggedin user's google info including name, email and imageUrl.
+Returns the logged-in user's google info including name, email, and imageUrl.
 Please make sure the user is logged in before calling this method.
-In every `session`, only the first call opens the popup for user's consent. All subsequent requests don't open the popup
+In every `session`, only the first call opens the popup for the user's consent. All subsequent requests don't open the popup
 
 ```js
 const userInfo = await torus.getUserInfo();
@@ -268,7 +268,7 @@ await torus.logout();
 ---
 
 ## cleanUp
-Cleans up the iframe and buttons created by torus package.
+This cleans up the iframe and buttons created by torus package.
 If the user is logged in, it logs him out first and then cleans up
 
 ```js
@@ -288,7 +288,7 @@ await torus.cleanUp();
 
 ## showWallet
 
-Pops up the Torus Wallet app for the user to view. This method is synchronus
+Pops up the Torus Wallet app for the user to view. This method is synchronous
 
 ```js
 torus.showWallet(path);
@@ -311,7 +311,7 @@ torus.showWallet('transfer'); // default: 'home'
 
 ## showTorusButton
 
-Shows the Torus Button to the user. This method is synchronus
+Shows the Torus Button to the user. This method is synchronous
 
 **Examples**
 ```js
