@@ -8,7 +8,7 @@ process, buffer
 
 And add the following code into polyfills.ts
 
-```javascript
+```js
 import * as process from 'process';
 window['process'] = process;
 (window as any).global = window;

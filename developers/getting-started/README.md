@@ -23,15 +23,41 @@ The code snippet below sets Torus as the default login method for the DApp, past
 
 You can install via a [npm package](https://www.npmjs.com/package/@toruslabs/torus-embed).
 
-```javascript
-  import Torus from "@toruslabs/torus-embed";
-  import Web3 from "web3";
-  
-  const torus = new Torus();
-  await torus.init();
-  await torus.login(); // await torus.ethereum.enable()
-  const web3 = new Web3(torus.provider);
-```
+- Basic:
+
+  ```js
+    import Torus from "@toruslabs/torus-embed";
+    import Web3 from "web3";
+    
+    const torus = new Torus();
+    await torus.init();
+    await torus.login(); // await torus.ethereum.enable()
+    const web3 = new Web3(torus.provider);
+  ```
+
+- Advanced:
+    
+  ```js
+    import Torus from "@toruslabs/torus-embed";
+    import Web3 from "web3";
+    
+    const torus = new Torus({
+      buttonPosition: 'top-left' // default: bottom-left
+    });
+    await torus.init({
+          buildEnv: 'production', // default: production
+          enableLogging: true, // default: false
+          network: {
+            host: 'kovan', // default: mainnet
+            chainId: 42, // default: 1
+            networkName: 'Kovan Test Network' // default: Main Ethereum Network
+          },
+          showTorusButton: false // default: true
+        });
+    await torus.login(); // await torus.ethereum.enable()
+    const web3 = new Web3(torus.provider);
+  ```
+
 
 Please refer to the [examples](https://github.com/torusresearch/torus-embed/tree/master/examples) folder for sample implementations
 
@@ -39,7 +65,7 @@ Please refer to the [examples](https://github.com/torusresearch/torus-embed/tree
 
 Test if Torus works with your DApp with the code snippet from below:
 
-```javascript
+```js
 // Start using web3 in your dapp
 $ web3.eth.accounts[0]
 > "0x05B53A73B...150C005e21"
