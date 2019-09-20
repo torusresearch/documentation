@@ -14,7 +14,7 @@
 
 ## Users
 
-* [Logging In with Torus](users/logging-in-with-torus.md)
+* [Getting Started](users/logging-in-with-torus.md)
 * [User Frequently Asked Questions](users/user-frequently-asked-questions.md)
 
 ## Legal

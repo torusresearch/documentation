@@ -1,7 +1,7 @@
 ---
 description: >-
-  Welcome to Torus Docs! Torus is currently in beta,
-  check this space regularly to stay up to date.
+  Welcome to Torus Docs! Torus is currently in beta, check this space regularly
+  to stay up to date.
 ---
 
 # Documentation
@@ -10,7 +10,7 @@ description: >-
 
 Developers can integrate Torus into their DApps with just a few lines of code. [Get started here](developers/getting-started/).
 
-Here is the associated [API Reference](developers/api-reference)
+Here is the associated [API Reference](https://github.com/torusresearch/documentation/tree/b3e53f3ac3ba3963da580c6d0b57b227f3366c5b/developers/api-reference/README.md)
 
 ## Users
 
