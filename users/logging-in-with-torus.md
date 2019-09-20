@@ -10,7 +10,7 @@ description: >-
 
 ### Step 1 : Visit [Torus wallet website](https://app.tor.us)
 
-https://app.tor.us
+<a href="https://app.tor.us">Torus Wallet</a>
 
 ### Step 2 : Sign in with your preferred social login
 
