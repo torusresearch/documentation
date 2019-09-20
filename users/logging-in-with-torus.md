@@ -6,11 +6,11 @@ description: >-
 
 # Getting Started
 
-## Method A : Sign in via Torus wallet website
+## Method A : Sign in via Torus Wallet user site
 
-### Step 1 : Visit [Torus wallet website](https://app.tor.us)
+### Step 1 : Visit [Torus Wallet](https://app.tor.us) user site
 
-<a href="https://app.tor.us" style="color: blue;">Torus Wallet</a>
+![](../.gitbook/assets/torus-website-1-new%20%281%29.png)
 
 ### Step 2 : Sign in with your preferred social login
 
@@ -34,7 +34,7 @@ DApp is an abbreviated form for Decentralized Application. They work just like a
 
 It will be shown either as "TORUS" or a "T"
 
-Note: This experience is only available for DApps that have integrated Torus. 
+Note: This experience is only available for DApps that have integrated Torus.
 
 Users can try it on the following **shortlisted DApps** that better illustrate the seamless login experience.
 
@@ -56,10 +56,4 @@ Note: Ensure you enable Pop-up in order to continue with the sign in process
 You can now top up your wallet and carry out transfer to your friends.
 
 ![](../.gitbook/assets/torus-website-3-2x.png)
-
-#### 
-
-### 
-
-#### 
 
