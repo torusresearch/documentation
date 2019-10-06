@@ -137,21 +137,32 @@ await torus.init({
 This resolves an email address to an Ethereum public Address. Returns an account if it already exists on torus network. Creates, if otherwise
 
 ```javascript
-const publicAddress = await torus.getPublicAddress(email);
+const publicAddress = await torus.getPublicAddress(params);
 ```
 
 **Parameters**
 
-* `email` - `string` : Google account of user e.g. "hello@tor.us"
+* `params` - `VerifierArgs` : The parameters passed to the method
+  * `verifier` - `enum` : The verifier to use. Supported enums are `google`, `reddit`, `discord`
+  * `verifierId` - `string` : The unique identifier for that verifier. (Say email for google, username for reddit and id for discord)
 
 **Returns**
 
 * `Promise<string>` : Returns a promise which resolves to the Ethereum address associated with the email
 
+**Reference**
+
+```ts
+interface VerifierArgs {
+  verifier: 'google' | 'reddit' | 'discord'
+  verifierId: string
+}
+```
+
 **Examples**
 
 ```javascript
-const publicAddress = await torus.getPublicAddress('random@gmail.com')
+const publicAddress = await torus.getPublicAddress({ verifier: 'google', verifierId: 'random@gmail.com' })
 ```
 
 ## setProvider
@@ -204,12 +215,24 @@ await torus.setProvider({
 Prompts the user to login. Opens the login popup
 
 ```javascript
-await torus.login();
+await torus.login(params);
 ```
+
+**Parameters**
+
+* `params` - `LoginParams` (optional) : The login options. Used to specify a type of login
+  * `verifier` - `enum` : The OAuth verifier name. Supported options for verifier are `google` `facebook` `twitch` `reddit` `discord`
 
 **Returns**
 
 * `Promise<string[]>` : Returns a promise which resolves to the Ethereum Addresses associated with the user
+
+**Reference**
+```ts
+interface LoginParams {
+  verifier?: 'google' | 'facebook' | 'twitch' | 'reddit' | 'discord'
+}
+```
 
 **Examples**
 
