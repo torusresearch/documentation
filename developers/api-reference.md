@@ -110,6 +110,16 @@ await torus.init({
 
 ```javascript
 await torus.init({
+  network: {
+    host: 'https://ethboston1.skalenodes.com:10062', // mandatory
+    chainId: 1, // optional
+    networkName: 'Skale Network' // optional
+  }
+});
+```
+
+```javascript
+await torus.init({
   buildEnv: 'staging', // uses staging.tor.us
   enableLogging: false, // default : false
   network: {
@@ -121,12 +131,8 @@ await torus.init({
 
 ```javascript
 await torus.init({
-  buildEnv: 'production', // default: production
-  enableLogging: true, // default : false
   network: {
-    host: 'https://ethboston1.skalenodes.com:10062', // mandatory
-    chainId: 1, // optional
-    networkName: 'Skale Network' // optional
+    host: 'matic', // mandatory
   },
   showTorusButton: true // default: true
 });
