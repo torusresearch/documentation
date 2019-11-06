@@ -72,6 +72,7 @@ await torus.init(params)
   * `buildEnv` - `enum` \(optional\): The build environment to use. Supported values are `production` `development` `staging` `testing`
   * `enableLogging` - `boolean` \(optional\) : Enables/disables logging. Useful for debugging
   * `showTorusButton` - `boolean` \(optional\) : Shows/Hides the Torus Button
+  * `enabledVerifiers` - `VerifierStatus` \(optional\) : Hides certain types of logins (Default is true)
 
 **Returns**
 
@@ -85,6 +86,15 @@ interface TorusParams {
   buildEnv?: 'production' | 'development' | 'staging' | 'testing';
   enableLogging?: boolean;
   showTorusButton?: boolean;
+  enabledVerifiers?: VerifierStatus
+}
+
+interface VerifierStatus {
+  google?: boolean;
+  facebook?: boolean;
+  reddit?: boolean;
+  twitch?: boolean;
+  discord?: boolean;
 }
 
 interface NetworkInterface {
@@ -125,7 +135,10 @@ await torus.init({
   network: {
     host: 'kovan', // default : 'mainnet'
   },
-  showTorusButton: false // default: true
+  showTorusButton: false, // default: true
+  enabledVerifiers: {
+    facebook: false // default: true
+  }
 });
 ```
 
