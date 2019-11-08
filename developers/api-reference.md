@@ -2,7 +2,9 @@
 
 ## Torus
 
-    `Class`
+```text
+`Class`
+```
 
 This is the main class of anything related to Torus
 
@@ -18,7 +20,9 @@ import Torus from "@toruslabs/torus-embed";
 
 ## torus object
 
-    `instance`
+```text
+`instance`
+```
 
 All API's can be accessed by creating a new instance of Torus
 
@@ -39,7 +43,7 @@ The Torus constructor takes an object with `TorusCtorArgs` as input
 
 **Reference**
 
-```typescript
+```javascript
 interface TorusCtorArgs {
   buttonPosition?: 'top-left' | 'top-right' | 'bottom-right' | 'bottom-left'
 }
@@ -72,7 +76,7 @@ await torus.init(params)
   * `buildEnv` - `enum` \(optional\): The build environment to use. Supported values are `production` `development` `staging` `testing`
   * `enableLogging` - `boolean` \(optional\) : Enables/disables logging. Useful for debugging
   * `showTorusButton` - `boolean` \(optional\) : Shows/Hides the Torus Button
-  * `enabledVerifiers` - `VerifierStatus` \(optional\) : Hides certain types of logins (Default is true)
+  * `enabledVerifiers` - `VerifierStatus` \(optional\) : Hides certain types of logins \(Default is true\)
 
 **Returns**
 
@@ -163,7 +167,7 @@ const publicAddress = await torus.getPublicAddress(params);
 
 * `params` - `VerifierArgs` : The parameters passed to the method
   * `verifier` - `enum` : The verifier to use. Supported enums are `google`, `reddit`, `discord`
-  * `verifierId` - `string` : The unique identifier for that verifier. (Say email for google, username for reddit and id for discord)
+  * `verifierId` - `string` : The unique identifier for that verifier. \(Say email for google, username for reddit and id for discord\)
 
 **Returns**
 
@@ -171,7 +175,7 @@ const publicAddress = await torus.getPublicAddress(params);
 
 **Reference**
 
-```ts
+```typescript
 interface VerifierArgs {
   verifier: 'google' | 'reddit' | 'discord'
   verifierId: string
@@ -239,7 +243,7 @@ await torus.login(params);
 
 **Parameters**
 
-* `params` - `LoginParams` (optional) : The login options. Used to specify a type of login
+* `params` - `LoginParams` \(optional\) : The login options. Used to specify a type of login
   * `verifier` - `enum` : The OAuth verifier name. Supported options for verifier are `google` `facebook` `twitch` `reddit` `discord`
 
 **Returns**
@@ -247,7 +251,8 @@ await torus.login(params);
 * `Promise<string[]>` : Returns a promise which resolves to the Ethereum Addresses associated with the user
 
 **Reference**
-```ts
+
+```typescript
 interface LoginParams {
   verifier?: 'google' | 'facebook' | 'twitch' | 'reddit' | 'discord'
 }
