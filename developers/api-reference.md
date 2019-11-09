@@ -9,7 +9,7 @@
 This is the main class of anything related to Torus
 
 ```javascript
-const Torus = require("@toruslabs/torus-embed");
+const Torus = require("@toruslabs/torus-embed").default;
 ```
 
 Using ES6,
