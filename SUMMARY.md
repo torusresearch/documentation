@@ -26,9 +26,14 @@
 
 - [Ethereum API](API%20Reference/Ethereum%20API/README.md)
 
-  - [Show button](API%20Reference/Ethereum%20API/README.md)
-  - [Hide button](API%20Reference/Ethereum%20API/README.md)
-  - [Show wallet](API%20Reference/Ethereum%20API/README.md)
+  - [web3](API%20Reference/Ethereum%20API/README.md)
+  - [Ethereum](API%20Reference/Ethereum%20API/README.md)
+  - [Provider](API%20Reference/Ethereum%20API/README.md)
+
+## Supported Integrations
+
+- [Layer 2 compatible](Integraion/layer2.md)
+- [Smart contract compatible](Integration/SmartContract.md)
 
 ## Developers
 
