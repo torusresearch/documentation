@@ -4,7 +4,7 @@ description: >-
   to stay up to date.
 ---
 
-# Documentation
+# Overview
 
 ## Developers
 
@@ -17,4 +17,3 @@ Here is the associated [API Reference](https://github.com/torusresearch/document
 Logging into DApps with Torus is simple and seamless, view our [guide](users/logging-in-with-torus.md) or read our [FAQ](users/user-frequently-asked-questions.md).
 
 ![Logging into Google OAuth with Torus](.gitbook/assets/torus-demo-01.gif)
-
