@@ -4,16 +4,24 @@
 
 ## API Reference
 
-- [Class](API%20Reference/Account/README.md)
+- [Class](API%20Reference/Class/README.md)
 
-  - [Torus](API%20Reference/Account/README.md)
-  - [Torus object](API%20Reference/Account/README.md)
-  - [Initalise Torus object](API%20Reference/Account/README.md)
+  - [Torus](API%20Reference/Class/README.md)
+  - [Torus object](API%20Reference/Class/README.md)
+  - [Initalise Torus object](API%20Reference/Class/README.md)
 
 - [Display](API%20Reference/Display/README.md)
+
   - [Show button](API%20Reference/Display/README.md)
   - [Hide button](API%20Reference/Display/README.md)
   - [Show wallet](API%20Reference/Display/README.md)
+
+- [Account](API%20Reference/Account/README.md)
+  - [Login](API%20Reference/Account/README.md)
+  - [Logout](API%20Reference/Account/README.md)
+  - [Get user information](API%20Reference/Account/README.md)
+  - [Get public address](API%20Reference/Account/README.md)
+  - [Set Provider](API%20Reference/Account/README.md)
 
 ## Developers
 
