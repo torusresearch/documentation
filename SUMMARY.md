@@ -5,6 +5,9 @@
 ## API Reference
 
 - [Class](API%20Reference/Account/README.md)
+  - [Torus](API%20Reference/Account/README.md)
+  - [Torus object](API%20Reference/Account/README.md)
+  - [Initalise Torus object](API%20Reference/Account/README.md)
 
 ## Developers
 
