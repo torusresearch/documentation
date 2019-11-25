@@ -2,6 +2,10 @@
 
 - [Overview](README.md)
 
+## API Reference
+
+- [Class](API%20Reference/Account/README.md)
+
 ## Developers
 
 - [Getting Started](developers/getting-started/README.md)
