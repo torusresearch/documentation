@@ -5,9 +5,15 @@
 ## API Reference
 
 - [Class](API%20Reference/Account/README.md)
+
   - [Torus](API%20Reference/Account/README.md)
   - [Torus object](API%20Reference/Account/README.md)
   - [Initalise Torus object](API%20Reference/Account/README.md)
+
+- [Display](API%20Reference/Display/README.md)
+  - [Show button](API%20Reference/Display/README.md)
+  - [Hide button](API%20Reference/Display/README.md)
+  - [Show wallet](API%20Reference/Display/README.md)
 
 ## Developers
 
