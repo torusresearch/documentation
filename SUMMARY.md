@@ -6,8 +6,8 @@
 
 - [Class](API%20Reference/Class/README.md)
 
-  - [Torus](#torus)
-  - [Torus object](API%20Reference/Class/README.md#torus-object)
+  - [Torus](https://docs.tor.us/api-reference/class#torus)
+  - [Torus object](https://docs.tor.us/api-reference/class#torus-object)
   - [Initalise Torus object](API%20Reference/Class/README.md#init)
 
 - [Display](API%20Reference/Display/README.md)
