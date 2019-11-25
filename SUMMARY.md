@@ -6,7 +6,7 @@
 
 - [Class](API%20Reference/Class/README.md)
 
-  - [Torus](API%20Reference/Class/README.md#torus)
+  - [Torus](#torus)
   - [Torus object](API%20Reference/Class/README.md#torus-object)
   - [Initalise Torus object](API%20Reference/Class/README.md#init)
 
