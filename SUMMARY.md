@@ -62,9 +62,9 @@
 
 ## Legal
 
-- [Terms and Conditions](legal/README.md)
-- [Privacy Policy](legal/README.md)
-- [Cookie Policy](legal/README.md)
+- [Terms and Conditions](legal/terms-and-conditions.md)
+- [Privacy Policy](legal/privacy-policy.md)
+- [Cookie Policy](legal/cookie-policy.md)
 
 ## Developers
 
@@ -80,9 +80,3 @@
 
 - [Getting Started](users/logging-in-with-torus.md)
 - [User Frequently Asked Questions](users/user-frequently-asked-questions.md)
-
-## Legal
-
-- [Terms and Conditions](legal/terms-and-conditions.md)
-- [Privacy Policy](legal/privacy-policy.md)
-- [Cookie Policy](legal/cookie-policy.md)
