@@ -35,6 +35,37 @@
 - [Layer 2 compatible](Integraion/layer2.md)
 - [Smart contract compatible](Integration/SmartContract.md)
 
+## Features
+
+- [Permissions](features/README.md)
+- [Name resolver](features/README.md)
+- [Direct purchase of cryptocurrency](features/README.md)
+- [Account recovery](features/README.md)
+- [Private key export](features/README.md)
+- [Edit transaction - speed up / cancel transaction](features/README.md)
+- [ERC 721](features/README.md)
+- [Personalising login](features/README.md)
+- [Themes](features/README.md)
+- [Language](features/README.md)
+- [Whitelabelling](features/README.md)
+
+## Developing with torus
+
+- [Developing with Ganache](dev%20with%20torus/README.md)
+- [Network List](dev%20with%20torus/README.md)
+- [Error Management](dev%20with%20torus/README.md)
+- [Node.js version](dev%20with%20torus/README.md)
+
+## Data and security
+
+## FAQ
+
+## Legal
+
+- [Terms and Conditions](legal/README.md)
+- [Privacy Policy](legal/README.md)
+- [Cookie Policy](legal/README.md)
+
 ## Developers
 
 - [Getting Started](developers/getting-started/README.md)

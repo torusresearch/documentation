@@ -2,6 +2,8 @@
 
 Some random text here.
 
+**Examples**
+
 ```javascript
 await torus.init({
   network: {
