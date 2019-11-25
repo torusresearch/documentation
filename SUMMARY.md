@@ -17,11 +17,18 @@
   - [Show wallet](API%20Reference/Display/README.md)
 
 - [Account](API%20Reference/Account/README.md)
+
   - [Login](API%20Reference/Account/README.md)
   - [Logout](API%20Reference/Account/README.md)
   - [Get user information](API%20Reference/Account/README.md)
   - [Get public address](API%20Reference/Account/README.md)
   - [Set Provider](API%20Reference/Account/README.md)
+
+- [Ethereum API](API%20Reference/Ethereum%20API/README.md)
+
+  - [Show button](API%20Reference/Ethereum%20API/README.md)
+  - [Hide button](API%20Reference/Ethereum%20API/README.md)
+  - [Show wallet](API%20Reference/Ethereum%20API/README.md)
 
 ## Developers
 
