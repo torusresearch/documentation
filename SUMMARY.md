@@ -2,6 +2,8 @@
 
 - [Overview](README.md)
 
+<!--
+
 ## API Reference
 
 - [Class](API%20Reference/Class/README.md)
@@ -58,13 +60,7 @@
 
 ## Data and security
 
-## FAQ
-
-## Legal
-
-- [Terms and Conditions](legal/terms-and-conditions.md)
-- [Privacy Policy](legal/privacy-policy.md)
-- [Cookie Policy](legal/cookie-policy.md)
+## FAQ -->
 
 ## Developers
 
@@ -80,3 +76,9 @@
 
 - [Getting Started](users/logging-in-with-torus.md)
 - [User Frequently Asked Questions](users/user-frequently-asked-questions.md)
+
+## Legal
+
+- [Terms and Conditions](legal/terms-and-conditions.md)
+- [Privacy Policy](legal/privacy-policy.md)
+- [Cookie Policy](legal/cookie-policy.md)
