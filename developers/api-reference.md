@@ -264,6 +264,11 @@ interface LoginParams {
 await torus.login();
 ```
 
+To login with a single provider directly without showing the torus popup, please use the following
+```javascript
+await torus.login({ verifier: 'google' });
+```
+
 ## getUserInfo
 
 Returns the logged-in user's google info including name, email, and imageUrl. Please make sure the user is logged in before calling this method. In every `session`, only the first call opens the popup for the user's consent. All subsequent requests don't open the popup
