@@ -14,8 +14,6 @@ Here is the associated [API Reference](https://github.com/torusresearch/document
 
 ## Key Management Architecture (how it works)
 
-Torus key management architecture is summarised below. You can view our most updated code repository at https://github.com/torusresearch.
-
 ![General Architecture of Torus](../.gitbook/assets/image.png)
 
 ### General Overview <a id="general-overview"></a>
@@ -37,7 +35,7 @@ The user then recollects these shares and reconstructs his or her key in the fro
 
 ### A Node and Its Trust Assumptions <a id="a-node-and-its-trust-assumptions"></a>
 
-#### What a Torus Node Is <a id="what-a-torus-node-is"></a>
+#### What is a Torus node ? <a id="what-a-torus-node-is"></a>
 
 A Torus node primarily does four things: it starts, it runs a key generation protocol, it maps keys, and it re-shares its keys to the next set of nodes. To not roll our crypto, we stick to the academic schemes for Distributed Key Generation \(DKG\) and Proactive Secret Sharing \(PSS\) carefully and have made modifications only where necessary.‌
 
