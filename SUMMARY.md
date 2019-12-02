@@ -2,7 +2,7 @@
 
 - [Overview](README.md)
 
-<!--
+## Getting started
 
 ## API Reference
 
@@ -60,9 +60,9 @@
 
 ## Data and security
 
-## FAQ -->
+## FAQ
 
-## Developers
+<!-- ## Developers
 
 - [Getting Started](developers/getting-started/README.md)
   - [Web3/Ethers JS Instances](developers/getting-started/web3-ethers-js-instances.md)
@@ -81,4 +81,4 @@
 
 - [Terms and Conditions](legal/terms-and-conditions.md)
 - [Privacy Policy](legal/privacy-policy.md)
-- [Cookie Policy](legal/cookie-policy.md)
+- [Cookie Policy](legal/cookie-policy.md) -->
