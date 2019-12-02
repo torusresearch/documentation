@@ -22,14 +22,14 @@ This document is not meant to serve as a set of technical specifications. You ca
 
 The Torus Architecture is described in four main parts:‌
 
-- Nodes in charge of Distributed Key Generation
+- Nodes in charge of Distributed Key Generation (DKG)
 - A smart contract in charge of the management of nodes
 - A private Byzantine Fault Tolerant network between nodes
 - A Javascript client that interacts with nodes
 
-A smart contract is used to manage the nodes. They are selected, operate for a fixed period, and generate a set of keys via DKG.‌
+A smart contract is used for node discovery. They are selected, operate for a fixed period, and generate a set of keys via DKG.‌
 
-When a user arrives at a DApp, the javascript client is loaded, and creating a secure javascript context. From there, a user logs in, they provide proof that they are logged in with a third-party authentication service, and the proof is verified by each node individually. This proof can be integrated into today's OAuth 2.0 standard flow. For new users, nodes will assign a new key share from the pre-generated set of keys, and store this assignment in an internal mapping. For returning users, nodes will look up their internal mapping and return that user's corresponding key share.‌
+When a user arrives at a DApp, the javascript client is loaded, and creating a secure javascript context. From there, a user logs in, they provide proof that they are logged in with a third-party authentication service, and the proof is verified by each node individually. This proof can be integrated into today's OAuth 2.0 standard flow. For new users, nodes will assign a new key share from the pre-generated set of key shares, and store this assignment in an internal mapping. For returning users, nodes will look up their internal mapping and return that user's corresponding key share.‌
 
 The user then recollects these shares and reconstructs his or her key in the front-end javascript client, only to be kept for the session and erased once the browser is closed.‌
 
@@ -57,7 +57,7 @@ While most other secret sharing schemes use 2/3 honest majority with a 1/3 + 1 r
 
 Since key generation is an activity that requires several rounds of communication, it is unwise to do this whenever a user requires new keys. Instead, we generate buffers of unused keys ahead of time, so that we only need to assign them to users when they request for new keys.‌
 
-We run this Distributed Key Generation \(DKG\) via a cryptographic scheme called [Asynchronous Verifiable Secret Sharing \(AVSS\) by Cachin et al. \(2002\)](https://eprint.iacr.org/2002/134.pdf). The main advantage the DKG has over the other well-known DKGs like Pedersen DKG - Feldmen's VSS and its variants is that it is fully Asynchronous and thus does not require a complaint phase when we consider the allowance for a small zero-knowledge proof. This simplifies matters greatly, reducing the rounds of communication, but at the expense of message complexity and some initial logical overhead \(we will need to use bivariate sharings instead of the usual univariate sharings\).‌ Which is a fair trade-off
+We run this Distributed Key Generation \(DKG\) via a cryptographic scheme called [Asynchronous Verifiable Secret Sharing \(AVSS\) by Cachin et al. \(2002\)](https://eprint.iacr.org/2002/134.pdf). The main advantage the DKG has over the other well-known DKGs like Pedersen DKG - Feldmen's VSS and its variants is that it is fully Asynchronous and thus does not require a complaint phase when we consider the allowance for a small zero-knowledge proof. This simplifies matters greatly, reducing the rounds of communication, but at the expense of message complexity and some initial logical overhead \(we will need to use bivariate sharings instead of the usual univariate sharings\).‌ Which is a fair trade-off.
 
 In brief, this scheme generates a random 2D plane and creates horizontal \(X\) and vertical \(Y\) slices at the appropriate indices as sharings. We then get sub-sharings on these horizontal and vertical sharings at the appropriate indices and echo them to other nodes. As a node, the sub-sharings received from other nodes should match up with the initial sharing that the node received from the dealer, and even if they do not, the node can always interpolate the correct sharing via these echoed sub-sharings. This eliminates the dealer complaint phase. Once completed, we restrict ourselves to just the horizontal \(X\) domain such that our final sharings are still on that of a univariate polynomial, which is what a typical DKG does.‌
 
@@ -67,7 +67,7 @@ At the end of the Key Generation process, the nodes are left with a final \(aggr
 
 #### Key Assignments <a id="key-assignments"></a>
 
-The keys are assigned to a combination of verifier \(e.g., Google, Github\) and `verifier_id`, which is a unique identifier respective and provided by the `verifier`.‌ This assignment can be triggered by any node and is decided through the nodes consensus layer.
+The keys are assigned to a combination of `verifier` \(e.g., Google, Reddit, Discord\) and `verifier_id` (e.g., email, username), which is a unique identifier respective and provided by the `verifier`.‌ This assignment can be triggered by any node and is decided through the nodes consensus layer.
 
 #### Verifiers and Key Retrieval <a id="verifiers-and-key-retrieval"></a>
 
