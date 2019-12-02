@@ -2,7 +2,7 @@
 
 - [Overview](README.md)
 
-## Getting started
+- [Getting started](developers/getting-started/README.md)
 
 ## API Reference
 
