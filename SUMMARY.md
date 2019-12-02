@@ -34,7 +34,7 @@
 
 ## Supported Integrations
 
-- [Layer 2 compatible](Integration/layer2.md)
+- [Layer 2 compatible](Integration/Layer2.md)
 - [Smart contract compatible](Integration/SmartContract.md)
 
 ## Features
