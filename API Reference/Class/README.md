@@ -18,7 +18,7 @@ Using ES6,
 import Torus from "@toruslabs/torus-embed";
 ```
 
-## torus object
+## torusObject
 
 ```text
 `instance`
