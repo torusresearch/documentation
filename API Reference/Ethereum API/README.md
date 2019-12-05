@@ -2,7 +2,7 @@
 
 The associated web3 object. Please refer to web3 [documentation](https://github.com/ethereum/wiki/wiki/JavaScript-API) for more information
 
-## ethereum
+## Ethereum
 
 The associated ethereum object. Please refer to Metamask documentation [here](https://github.com/MetaMask/metamask-inpage-provider)
 
@@ -12,7 +12,7 @@ The associated ethereum object. Please refer to Metamask documentation [here](ht
 await torus.ethereum.enable(); // does the same thing as `await torus.login();`
 ```
 
-## provider
+## Provider
 
 The associated provider object
 
