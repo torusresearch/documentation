@@ -3,20 +3,21 @@
 - [Overview](README.md)
 
 - [Getting started](developers/getting-started/README.md)
+  <!--
 
 ## API Reference
 
 - [Class](API%20Reference/Class/README.md)
 
-  - [Torus](API%20Reference/Class/README.md/class#Torus)
-  - [Torus object](https://docs.tor.us/api-reference/class#torusobject)
-  - [Initalise Torus object](API%20Reference/Display/README.md))
+  - [Torus](API%20Reference/Class/README.md#Torus)
+  - [Torus object](API%20Reference/Class/README.md#torus-object)
+  - [Initalise Torus object](API%20Reference/Class/README.md#init)
 
 - [Display](API%20Reference/Display/README.md)
 
+  - [Show wallet](API%20Reference/Display/README.md)
   - [Show button](API%20Reference/Display/README.md)
   - [Hide button](API%20Reference/Display/README.md)
-  - [Show wallet](API%20Reference/Display/README.md)
 
 - [Account](API%20Reference/Account/README.md)
 
@@ -60,9 +61,9 @@
 
 ## Data and security
 
-## FAQ
+## FAQ -->
 
-<!-- ## Developers
+## Developers
 
 - [Getting Started](developers/getting-started/README.md)
   - [Web3/Ethers JS Instances](developers/getting-started/web3-ethers-js-instances.md)
@@ -81,4 +82,4 @@
 
 - [Terms and Conditions](legal/terms-and-conditions.md)
 - [Privacy Policy](legal/privacy-policy.md)
-- [Cookie Policy](legal/cookie-policy.md) -->
+- [Cookie Policy](legal/cookie-policy.md)
