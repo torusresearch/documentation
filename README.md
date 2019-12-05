@@ -10,7 +10,7 @@ description: >-
 Torus is a secure, non-custodial key management for DApps (Decentralised Applications). We provide mainstream users a gateway to the decentralized ecosystem via Google, Facebook, or other OAuth logins.
 Developers can integrate Torus into their DApps with just a few lines of code. [Get started here](developers/getting-started/).
 
-Here is the associated [API Reference](#torus)
+Here is the associated [API Reference](API%20Reference/Class/README.md)
 
 ## Key Management Architecture (how it works)
 
