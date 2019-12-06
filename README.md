@@ -11,7 +11,7 @@ description: >-
 
 Developers can integrate Torus into their DApps with just a few lines of code. [Get started here](getting-started.md).
 
-Here is the associated [API Reference]()
+Here is the associated [API Reference](https://docs.tor.us/developers/api-reference).
 
 ## Key Management Architecture \(how it works\)
 
