@@ -90,7 +90,7 @@ Notwithstanding the above, the Owner informs that Users may follow the instructi
 
 ## Owner and Data Controller
 
-Torus Labs Private Limited   
+Torus Labs Private Limited  
 60 Paya Lebar Road, \#04-46, Paya Lebar Square, Singapore 409051
 
 **Owner Contact Email:** hello@tor.us

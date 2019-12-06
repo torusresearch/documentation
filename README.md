@@ -1,19 +1,21 @@
 ---
 description: >-
-  Welcome to Torus Docs! Torus is a secure, non-custodial key management for DApps (Decentralised Applications). We provide mainstream users a gateway to the decentralized ecosystem via Google, Facebook, or other OAuth logins.
+  Welcome to Torus Docs! Torus is a secure, non-custodial key management for
+  DApps (Decentralised Applications). We provide mainstream users a gateway to
+  the decentralized ecosystem via Google, Facebook
 ---
 
 # Overview
 
 ## Integrate Torus with your DApp to reach mainstream users
 
-Developers can integrate Torus into their DApps with just a few lines of code. [Get started here](developers/getting-started/).
+Developers can integrate Torus into their DApps with just a few lines of code. [Get started here](getting-started.md).
 
-Here is the associated [API Reference](API%20Reference/Class/README.md)
+Here is the associated [API Reference]()
 
-## Key Management Architecture (how it works)
+## Key Management Architecture \(how it works\)
 
-![General Architecture of Torus](../.gitbook/assets/image.png)
+![General Architecture of Torus](.gitbook/assets/image.png)
 
 ### General Overview <a id="general-overview"></a>
 
@@ -21,10 +23,10 @@ This document is not meant to serve as a set of technical specifications. You ca
 
 The Torus Architecture is described in four main parts:‌
 
-- Nodes in charge of Distributed Key Generation (DKG)
-- A smart contract in charge of the management of nodes
-- A private Byzantine Fault Tolerant network between nodes
-- A Javascript client that interacts with nodes
+* Nodes in charge of Distributed Key Generation \(DKG\)
+* A smart contract in charge of the management of nodes
+* A private Byzantine Fault Tolerant network between nodes
+* A Javascript client that interacts with nodes
 
 A smart contract is used for node discovery. They are selected, operate for a fixed period, and generate a set of keys via DKG.‌
 
@@ -66,7 +68,7 @@ At the end of the Key Generation process, the nodes are left with a final \(aggr
 
 #### Key Assignments <a id="key-assignments"></a>
 
-The keys are assigned to a combination of `verifier` \(e.g., Google, Reddit, Discord\) and `verifier_id` (e.g., email, username), which is a unique identifier respective and provided by the `verifier`.‌ This assignment can be triggered by any node and is decided through the nodes consensus layer.
+The keys are assigned to a combination of `verifier` \(e.g., Google, Reddit, Discord\) and `verifier_id` \(e.g., email, username\), which is a unique identifier respective and provided by the `verifier`.‌ This assignment can be triggered by any node and is decided through the nodes consensus layer.
 
 #### Verifiers and Key Retrieval <a id="verifiers-and-key-retrieval"></a>
 
@@ -77,13 +79,13 @@ In order to allow for general identifiers to be used instead of only allowing OA
 
 Typically any entity that fulfills an interface and provides signatures on unique ID strings and timestamp can be a verifier. This is extendable to most authentication schemes, including many implementations of the OAuth standard and OpenID Connect.‌
 
-###### OAuth Integration <a id="oauth-integration"></a>
+**OAuth Integration**
 
 Although there is the OAuth 2.0 standard, many implementations of them differ slightly from the specification. Many implementations, including Google's, do not necessitate a server gaining access to a user's OAuth before the front-end. Google's, for example, through its client, uses an iframe and post a message to communicate the OAuth token directly to the front-end. The OAuth tokens often represent signatures that can be verified locally against a public key by the recipient nodes.‌
 
 In the case where tokens are shared with a server ahead of the front-end, we extend commit-reveal schemes, similar to the one described below, to ensure a user's key is always returned to only themselves.‌
 
-###### Front-Running Protection <a id="front-running-protection"></a>
+**Front-Running Protection**
 
 In order to prevent the possibility of a rogue node from front-running you by taking your token, spinning up a browser and pretending to be you and thereby stealing your key, we use a commitment scheme on our token similar to Bracha's Reliable Broadcast, to ensure that all nodes can be sure that most other nodes are aware of the commitment, before it is finally revealed.‌
 
@@ -104,3 +106,4 @@ The Torus network functions in epochs. Each epoch has a set of nodes that are in
 The migration of keys uses Proactive Secret Sharing, also from Cachin et al. This is necessary because we cannot just copy shares to the new set of nodes, as that might mean that a single node operator could get access to more than one share, and it is not possible to add or remove nodes. Proactive Secret Sharing allows that.‌
 
 In brief, the key idea is that we create sharings of shares and add them up in a way such that they form a Lagrange Interpolation on the original secret. Much like how DKGs are the sum of several secret sharings, where the master secret is the sum of all of the secrets from each of the N-parallel secret sharing protocols, we can do the same thing by setting N-parallel secret sharing protocols to be run by the original set of nodes, with their "secret" as their share. The resulting shares of shares, if added appropriately \(multiply them by Lagrange coefficients first\), would lead to a re-sharing on the original secret.
+

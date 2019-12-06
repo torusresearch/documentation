@@ -265,6 +265,7 @@ await torus.login();
 ```
 
 To login with a single provider directly without showing the torus popup, please use the following
+
 ```javascript
 await torus.login({ verifier: 'google' });
 ```
@@ -336,9 +337,8 @@ await torus.cleanUp();
 ```
 
 ## initiateTopup
-Initiates a topup tx with the specified provider right from the dapp.
-Please refer below for supported values of params and providers
 
+Initiates a topup tx with the specified provider right from the dapp. Please refer below for supported values of params and providers
 
 ```javascript
 const paymentStatus = await torus.initiateTopup(provider, params);
@@ -357,7 +357,8 @@ const paymentStatus = await torus.initiateTopup(provider, params);
 * `Promise<boolean>` : Returns a promise which resolves to a `boolean` indicating whether user has successfully completed the flow
 
 **Reference**
-```js
+
+```javascript
 const paymentProviders = {
   simplex: {
     minOrderValue: 50,

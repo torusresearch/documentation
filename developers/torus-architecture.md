@@ -59,7 +59,7 @@ At the end of the Key Generation process, the nodes are left with a final \(aggr
 
 ### Key Assignments <a id="key-assignments"></a>
 
-Keys are Assigned to a combination of verifier \(e.g. Google, Github\) and `verifier_id`, which is a unique identifier respective and provided by the `verifier`.‌ This assignment can be triggered by any node and is decided through the nodes consensus layer. 
+Keys are Assigned to a combination of verifier \(e.g. Google, Github\) and `verifier_id`, which is a unique identifier respective and provided by the `verifier`.‌ This assignment can be triggered by any node and is decided through the nodes consensus layer.
 
 ### Verifiers and Key Retrieval <a id="verifiers-and-key-retrieval"></a>
 

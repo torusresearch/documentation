@@ -8,7 +8,7 @@ Torus Labs collects some Personal Data from its Users.
 
 ## Owner and Data Controller
 
-Torus Labs Private Limited   
+Torus Labs Private Limited  
 60 Paya Lebar Road \#04-46 Paya Lebar Square Singapore 409051
 
 **Contact email:** hello@tor.us
@@ -50,12 +50,12 @@ In any case, the Owner will gladly help to clarify the specific legal basis that
 
 ### Place
 
-The Data is processed at the Owner's operating offices and in any other places where the parties involved in the processing are located.  
-  
+The Data is processed at the Owner's operating offices and in any other places where the parties involved in the processing are located.
+
 Depending on the User's location, data transfers may involve transferring the User's Data to a country other than their own. To find out more about the place of processing of such transferred Data, Users can check the section containing details about the processing of Personal Data.
 
-Users are also entitled to learn about the legal basis of Data transfers to a country outside the European Union or to any international organization governed by public international law or set up by two or more countries, such as the UN, and about the security measures taken by the Owner to safeguard their Data.  
-  
+Users are also entitled to learn about the legal basis of Data transfers to a country outside the European Union or to any international organization governed by public international law or set up by two or more countries, such as the UN, and about the security measures taken by the Owner to safeguard their Data.
+
 If any such transfer takes place, Users can find out more by checking the relevant sections of this document or inquire with the Owner using the information provided in the contact section.
 
 ### Retention Time
@@ -67,8 +67,8 @@ Therefore:
 * Personal Data collected for purposes related to the performance of a contract between the Owner and the User shall be retained until such contract has been fully performed.
 * Personal Data collected for the purposes of the Owner’s legitimate interests shall be retained as long as needed to fulfill such purposes. Users may find specific information regarding the legitimate interests pursued by the Owner within the relevant sections of this document or by contacting the Owner.
 
-The Owner may be allowed to retain Personal Data for a longer period whenever the User has given consent to such processing, as long as such consent is not withdrawn. Furthermore, the Owner may be obliged to retain Personal Data for a longer period whenever required to do so for the performance of a legal obligation or upon order of an authority.  
-  
+The Owner may be allowed to retain Personal Data for a longer period whenever the User has given consent to such processing, as long as such consent is not withdrawn. Furthermore, the Owner may be obliged to retain Personal Data for a longer period whenever required to do so for the performance of a legal obligation or upon order of an authority.
+
 Once the retention period expires, Personal Data shall be deleted. Therefore, the right to access, the right to erasure, the right to rectification and the right to data portability cannot be enforced after expiration of the retention period.
 
 ## The Purposes of Processing
@@ -211,8 +211,8 @@ To determine whether any of the third-party services it uses honor the “Do Not
 
 ### Changes to this Privacy Policy
 
-The Owner reserves the right to make changes to this privacy policy at any time by giving notice to its Users on this page and possibly within Torus Labs and/or - as far as technically and legally feasible - sending a notice to Users via any contact information available to the Owner. It is strongly recommended to check this page often, referring to the date of the last modification listed at the bottom.   
-  
+The Owner reserves the right to make changes to this privacy policy at any time by giving notice to its Users on this page and possibly within Torus Labs and/or - as far as technically and legally feasible - sending a notice to Users via any contact information available to the Owner. It is strongly recommended to check this page often, referring to the date of the last modification listed at the bottom.
+
 Should the changes affect processing activities performed on the basis of the User’s consent, the Owner shall collect new consent from the User, where required.
 
 ## Definitions and Legal References

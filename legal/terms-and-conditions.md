@@ -6,7 +6,7 @@ description: 'Last updated: 18 July 2019'
 
 **IMPORTANT NOTICE: THIS AGREEMENT IS SUBJECT TO BINDING ARBITRATION AND A WAIVER OF CLASS ACTION RIGHTS AS DETAILED IN SECTION 14. PLEASE READ THE AGREEMENT CAREFULLY.**
 
-## **1. Acceptance of Terms**
+**1. Acceptance of Terms**
 
 Torus Labs provides a platform for managing cryptographic token \(cryptocurrency\) accounts, and allowing decentralised application \(DApp\) websites to interact with blockchains, while keeping the user in control over what transactions they approve, through our website located at [https://tor.us](https://tor.us/) and web application \(the “Site”\) – which includes text, images, audio, code and other materials \(collectively, the “Content”\) and all of the features, and services provided. The Site, and any other features, tools, materials, or other services offered from time to time by Torus Labs are referred to here as the “Service”. Please read these Terms and Conditions \(the “Terms” or “Terms of Use”\) carefully before using the Service. By using or otherwise accessing the Services, or clicking to accept or agree to these Terms where that option is made available, you \(1\) accept and agree to these Terms \(2\) consent to the collection, use, disclosure and other handling of information as described in our Privacy Policy and Cookie Policy and \(3\) any additional terms, rules and conditions of participation issued by Torus Labs from time to time. If you do not agree to the Terms, then you many not access or use the Content of Services.
 

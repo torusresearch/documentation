@@ -5,7 +5,7 @@ description: >-
   tools. Integrating Torus with your DApp is as s
 ---
 
-# Getting Started
+# Getting started
 
 ## Environment requirements
 

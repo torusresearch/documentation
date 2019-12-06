@@ -152,7 +152,3 @@ Only provide your credit card details to trusted payment platforms, they are the
 
 If you have any questions that are yet to be addressed here, feel free to contact us via email at hello@tor.us or on Telegram at [https://t.me/TorusLabs](https://t.me/TorusLabs).
 
-
-
-
-
