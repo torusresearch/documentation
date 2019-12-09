@@ -20,7 +20,6 @@
 - [Users](faq/users.md)
 - [Developers](faq/developers.md)
 
-<!--
 ## API Reference
 
 - [Class](API%20Reference/Class/README.md)
@@ -52,7 +51,14 @@
 ## Supported Integrations
 
 - [Layer 2 compatible](Integration/Layer2.md)
-- [Smart contract compatible](Integration/SmartContract.md) -->
+- [Smart contract compatible](Integration/SmartContract.md)
+
+## Legal
+
+- [Terms and Conditions](legal/terms-and-conditions.md)
+- [Privacy Policy](legal/privacy-policy.md)
+- [Cookie Policy](legal/cookie-policy.md)
+
 
 <!--
 ## Developing with torus
@@ -79,9 +85,4 @@
 
 - [Getting Started](users/logging-in-with-torus.md)
 - [User Frequently Asked Questions](users/user-frequently-asked-questions.md)
-
-## Legal
-
-- [Terms and Conditions](legal/terms-and-conditions.md)
-- [Privacy Policy](legal/privacy-policy.md)
-- [Cookie Policy](legal/cookie-policy.md) -->
+-->
