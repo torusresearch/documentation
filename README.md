@@ -2,7 +2,7 @@
 description: >-
   Welcome to Torus Docs! Torus is a secure, non-custodial key management for
   DApps. We provide mainstream users a gateway to
-  the decentralized ecosystem via Google and other OAuth providers
+  the decentralized ecosystem via Google and other OAuth providers.
 ---
 
 # Overview
