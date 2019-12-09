@@ -19,6 +19,7 @@
 ## FAQ
 - [Users](faq/users.md)
 - [Developers](faq/developers.md)
+
 <!--
 ## API Reference
 
@@ -63,7 +64,7 @@
 
 ## Data and security
  -->
-
+<!-- 
 ## Developers
 
 - [Getting Started](developers/getting-started/README.md)
@@ -83,4 +84,4 @@
 
 - [Terms and Conditions](legal/terms-and-conditions.md)
 - [Privacy Policy](legal/privacy-policy.md)
-- [Cookie Policy](legal/cookie-policy.md)
+- [Cookie Policy](legal/cookie-policy.md) -->
