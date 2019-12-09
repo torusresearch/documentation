@@ -23,30 +23,9 @@
 ## API Reference
 
 - [Class](API%20Reference/Class/README.md)
-
-  - [Torus](API%20Reference/Class/README.md#Torus)
-  - [Torus object](API%20Reference/Class/README.md#torus-object)
-  - [Initalise Torus object](API%20Reference/Class/README.md#init)
-
 - [Display](API%20Reference/Display/README.md)
-
-  - [Show wallet](API%20Reference/Display/README.md)
-  - [Show button](API%20Reference/Display/README.md)
-  - [Hide button](API%20Reference/Display/README.md)
-
 - [Account](API%20Reference/Account/README.md)
-
-  - [Login](API%20Reference/Account/README.md)
-  - [Logout](API%20Reference/Account/README.md)
-  - [Get user information](API%20Reference/Account/README.md)
-  - [Get public address](API%20Reference/Account/README.md)
-  - [Set Provider](API%20Reference/Account/README.md)
-
 - [Ethereum API](API%20Reference/Ethereum%20API/README.md)
-
-  - [web3](API%20Reference/Ethereum%20API/README.md)
-  - [Ethereum](API%20Reference/Ethereum%20API/README.md)
-  - [Provider](API%20Reference/Ethereum%20API/README.md)
 
 ## Supported Integrations
 
