@@ -2,6 +2,7 @@
 
 - [Overview](README.md)
 - [Getting started](getting-started.md)
+- []
 
 ## Features
 
@@ -16,6 +17,9 @@
 - [Themes](features/Themes.md)
 - [Whitelabeling](features/Whitelabeling.md)
 
+## FAQ
+- [Users](faq/users.md)
+- [Developers](faq/developers.md)
 <!--
 ## API Reference
 
@@ -59,8 +63,7 @@
 - [Node.js version](dev%20with%20torus/README.md)
 
 ## Data and security
-
-## FAQ -->
+ -->
 
 ## Developers
 

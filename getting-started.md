@@ -2,7 +2,7 @@
 description: >-
   Torus streamlines all DApp login processes and allows users to log in to your
   DApp with Google OAuth Login accounts without the need for any complicated
-  tools. Integrating Torus with your DApp is as s
+  tools.
 ---
 
 # Getting started

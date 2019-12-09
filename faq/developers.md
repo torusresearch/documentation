@@ -1,5 +1,3 @@
-# User Frequently Asked Questions
-
 ## Private Key
 
 ### How is my private key stored?
