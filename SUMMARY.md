@@ -25,6 +25,7 @@
 - [Class](API%20Reference/Class/README.md)
 - [Display](API%20Reference/Display/README.md)
 - [Account](API%20Reference/Account/README.md)
+- [Topup](API%20Reference/Topup/README.md)
 - [Ethereum API](API%20Reference/Ethereum%20API/README.md)
 
 ## Supported Integrations
