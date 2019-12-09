@@ -51,20 +51,6 @@
 - [Layer 2 compatible](Integration/Layer2.md)
 - [Smart contract compatible](Integration/SmartContract.md) -->
 
-## Features
-
-- [Account recovery](features/README.md)
-- [Direct purchase of cryptocurrency](features/README.md)
-- [Edit transaction - speed up / cancel transaction](features/README.md)
-- [ERC 721](features/README.md)
-- [Language](features/README.md)
-- [Name resolver](features/README.md)
-- [Permissions](features/README.md)
-- [Personalising login](features/README.md)
-- [Private key export](features/README.md)
-- [Themes](features/README.md)
-- [Whitelabelling](features/README.md)
-
 <!--
 ## Developing with torus
 
