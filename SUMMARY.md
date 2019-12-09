@@ -6,16 +6,15 @@
 ## Features
 
 - [Account recovery](features/AccountRecovery.md)
-- [Direct purchase of cryptocurrency](features/PurchaseCrpytocurrency.md)
+- [Fiat to Cryptocurrency](features/PurchaseCryptocurrency.md)
 - [Edit transaction](features/EditTransaction.md)
 - [ERC 721](features/ERC721.md)
 - [Language](features/Language.md)
 - [Name resolver](features/NameResolver.md)
 - [Permissions](features/Permissions.md)
-- [Personalising login](features/Login.md)
 - [Private key export](features/PrivateKeyExport.md)
 - [Themes](features/Themes.md)
-- [Whitelabelling](features/Whitelabeling.md)
+- [Whitelabeling](features/Whitelabeling.md)
 
 <!--
 ## API Reference
