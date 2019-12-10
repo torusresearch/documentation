@@ -40,3 +40,31 @@
 * [Privacy Policy](legal/privacy-policy.md)
 * [Cookie Policy](legal/cookie-policy.md)
 
+## Developing with torus
+
+* [Developing with Ganache](devWithTorus/ganache.md)
+* [Network List](devWithTorus/networklist.md)
+
+<!--
+
+
+## Data and security
+ -->
+<!-- 
+## Developers
+
+- [Getting Started](developers/getting-started/README.md)
+  - [Web3/Ethers JS Instances](developers/getting-started/web3-ethers-js-instances.md)
+  - [For angular users](developers/getting-started/for-angular-users.md)
+- [API Reference](developers/api-reference.md)
+- [Developing with Ganache](developers/getting-started-with-ganache.md)
+- [Sign-In Brand Guideline](developers/sign-in-branding-guideline.md)
+- [Torus Architecture](developers/torus-architecture.md)
+
+## Users
+
+- [Getting Started](users/logging-in-with-torus.md)
+- [User Frequently Asked Questions](users/user-frequently-asked-questions.md)
+-->
+
+
