@@ -1,4 +1,4 @@
-# Topup wallet
+# Topup
 
 ## initiateTopup
 
@@ -78,3 +78,4 @@ const paymentStatus = await torus.initiateTopup('simplex', {
   selectedCurrency: "USD"
 });
 ```
+

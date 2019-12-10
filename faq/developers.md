@@ -1,3 +1,5 @@
+# Developers
+
 ## Private Key
 
 ### How is my private key stored?
@@ -10,8 +12,7 @@ No they do not. Please refer to Q1 to understand how a private key is being stor
 
 ### What is Shamir's secret sharing?
 
-It is a form of secret sharing, where a secret is divided into parts, giving each participant its own unique part.
-To reconstruct the original secret, a minimum number of parts is required. In the threshold scheme this number is less than the total number of parts. Otherwise all participants are needed to reconstruct the original secret.
+It is a form of secret sharing, where a secret is divided into parts, giving each participant its own unique part. To reconstruct the original secret, a minimum number of parts is required. In the threshold scheme this number is less than the total number of parts. Otherwise all participants are needed to reconstruct the original secret.
 
 ### How solid is the blockchain ? Should the user have a secondary external backup for his keys ?
 
@@ -31,8 +32,7 @@ We use it for identification. All the user login data is encrypted. We do not se
 
 ### How do I start using Torus?
 
-Developers can refer the ""Getting Started' section. (Hyperlink included to direct to Getting Started).
-Users can start using Torus by the guide or visiting https://app.tor.us or from the respective DApps who have integrated us shown below :"
+Developers can refer the ""Getting Started' section. \(Hyperlink included to direct to Getting Started\). Users can start using Torus by the guide or visiting [https://app.tor.us](https://app.tor.us) or from the respective DApps who have integrated us shown below :"
 
 ### How is my login method related to how I send and receive something from my wallet?
 
@@ -45,3 +45,4 @@ Torus allow more node operators to join freely, so that this system can be even 
 ## Have a question that is not answered here?
 
 If you have any questions that are yet to be addressed here, feel free to contact us via email at hello@tor.us or on Telegram at [https://t.me/TorusLabs](https://t.me/TorusLabs).
+

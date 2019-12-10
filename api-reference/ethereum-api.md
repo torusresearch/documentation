@@ -1,3 +1,5 @@
+# Ethereum API
+
 ## web3
 
 The associated web3 object. Please refer to web3 [documentation](https://github.com/ethereum/wiki/wiki/JavaScript-API) for more information
@@ -48,3 +50,4 @@ interface Callback<ResultType> {
 ```javascript
 const web3 = new Web3(torus.provider);
 ```
+

@@ -1,3 +1,5 @@
+# Account
+
 ## login
 
 Prompts the user to login. Opens the login popup
@@ -8,12 +10,12 @@ await torus.login(params);
 
 **Parameters**
 
-- `params` - `LoginParams` \(optional\) : The login options. Used to specify a type of login
-  - `verifier` - `enum` : The OAuth verifier name. Supported options for verifier are `google` `facebook` `twitch` `reddit` `discord`
+* `params` - `LoginParams` \(optional\) : The login options. Used to specify a type of login
+  * `verifier` - `enum` : The OAuth verifier name. Supported options for verifier are `google` `facebook` `twitch` `reddit` `discord`
 
 **Returns**
 
-- `Promise<string[]>` : Returns a promise which resolves to the Ethereum Addresses associated with the user
+* `Promise<string[]>` : Returns a promise which resolves to the Ethereum Addresses associated with the user
 
 **Reference**
 
@@ -39,7 +41,7 @@ await torus.logout();
 
 **Returns**
 
-- `Promise<void>` : Returns a promise which resolves to void
+* `Promise<void>` : Returns a promise which resolves to void
 
 **Examples**
 
@@ -57,7 +59,7 @@ await torus.cleanUp();
 
 **Returns**
 
-- `Promise<void>` : Returns a promise which resolves to void
+* `Promise<void>` : Returns a promise which resolves to void
 
 **Examples**
 
@@ -75,7 +77,7 @@ const userInfo = await torus.getUserInfo();
 
 **Returns**
 
-- `Promise<UserInfo>` : Returns a promise which resolves to `UserInfo` object
+* `Promise<UserInfo>` : Returns a promise which resolves to `UserInfo` object
 
 **Reference**
 
@@ -105,13 +107,13 @@ const publicAddress = await torus.getPublicAddress(params);
 
 **Parameters**
 
-- `params` - `VerifierArgs` : The parameters passed to the method
-  - `verifier` - `enum` : The verifier to use. Supported enums are `google`, `reddit`, `discord`
-  - `verifierId` - `string` : The unique identifier for that verifier. \(Say email for google, username for reddit and id for discord\)
+* `params` - `VerifierArgs` : The parameters passed to the method
+  * `verifier` - `enum` : The verifier to use. Supported enums are `google`, `reddit`, `discord`
+  * `verifierId` - `string` : The unique identifier for that verifier. \(Say email for google, username for reddit and id for discord\)
 
 **Returns**
 
-- `Promise<string>` : Returns a promise which resolves to the Ethereum address associated with the email
+* `Promise<string>` : Returns a promise which resolves to the Ethereum address associated with the email
 
 **Reference**
 
@@ -141,14 +143,14 @@ await torus.setProvider(params);
 
 **Parameters**
 
-- `params` - `NetworkInterface` : The network options. Used to specify a network provider
-  - `host` - `string` : The hostname or the `HTTPS` `JSON-RPC` endpoint. Supported options for hostname are `mainnet` `rinkeby` `ropsten` `kovan` `goerli` `localhost` `matic`
-  - `chainId` - `number` \(optional\) : ChainId of the network
-  - `networkName` - `string` \(optional\) : Name of the network
+* `params` - `NetworkInterface` : The network options. Used to specify a network provider
+  * `host` - `string` : The hostname or the `HTTPS` `JSON-RPC` endpoint. Supported options for hostname are `mainnet` `rinkeby` `ropsten` `kovan` `goerli` `localhost` `matic`
+  * `chainId` - `number` \(optional\) : ChainId of the network
+  * `networkName` - `string` \(optional\) : Name of the network
 
 **Returns**
 
-- `Promise<void>` : Returns a promise which resolves to void
+* `Promise<void>` : Returns a promise which resolves to void
 
 **Reference**
 
@@ -183,3 +185,4 @@ await torus.setProvider({
   networkName: "Skale Network" // optional
 });
 ```
+

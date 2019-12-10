@@ -1,5 +1,8 @@
 ---
-description: 'This cookie policy is only applicable to Torus website (https://tor.us) not Torus wallet (https://app.tor.us). The Torus wallet does not use any cookies. Latest update: 9 December 2019'
+description: >-
+  This cookie policy is only applicable to Torus website (https://tor.us) not
+  Torus wallet (https://app.tor.us). The Torus wallet does not use any cookies.
+  Latest update: 9 December 2019
 ---
 
 # Cookie Policy

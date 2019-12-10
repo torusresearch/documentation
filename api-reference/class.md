@@ -1,4 +1,4 @@
-# API Reference
+# Class
 
 ## Torus
 
@@ -34,12 +34,12 @@ The Torus constructor takes an object with `TorusCtorArgs` as input
 
 **Parameters**
 
-- `options` - `TorusCtorArgs` \(optional\) : The options of the constructor
-  - `buttonPosition` - `enum` \(optional\) : The position of the Torus button. Supported values are `top-left` `bottom-left` `top-right` `bottom-right`
+* `options` - `TorusCtorArgs` \(optional\) : The options of the constructor
+  * `buttonPosition` - `enum` \(optional\) : The position of the Torus button. Supported values are `top-left` `bottom-left` `top-right` `bottom-right`
 
 **Returns**
 
-- `Object`: The torus instance with all its methods and events.
+* `Object`: The torus instance with all its methods and events.
 
 **Reference**
 
@@ -71,16 +71,16 @@ await torus.init(params);
 
 **Parameters**
 
-- `params` - `TorusParams` \(optional\) : The parameters passed to initialize torus object
-  - `network` - `NetworkInterface` \(optional\) : The network options. Used for setting a default network
-  - `buildEnv` - `enum` \(optional\): The build environment to use. Supported values are `production` `development` `staging` `testing`
-  - `enableLogging` - `boolean` \(optional\) : Enables/disables logging. Useful for debugging
-  - `showTorusButton` - `boolean` \(optional\) : Shows/Hides the Torus Button
-  - `enabledVerifiers` - `VerifierStatus` \(optional\) : Hides certain types of logins \(Default is true\)
+* `params` - `TorusParams` \(optional\) : The parameters passed to initialize torus object
+  * `network` - `NetworkInterface` \(optional\) : The network options. Used for setting a default network
+  * `buildEnv` - `enum` \(optional\): The build environment to use. Supported values are `production` `development` `staging` `testing`
+  * `enableLogging` - `boolean` \(optional\) : Enables/disables logging. Useful for debugging
+  * `showTorusButton` - `boolean` \(optional\) : Shows/Hides the Torus Button
+  * `enabledVerifiers` - `VerifierStatus` \(optional\) : Hides certain types of logins \(Default is true\)
 
 **Returns**
 
-- `Promise<void>` : Returns a promise which resolves to void
+* `Promise<void>` : Returns a promise which resolves to void
 
 **Reference**
 
@@ -162,3 +162,4 @@ await torus.init({
   showTorusButton: true // default: true
 });
 ```
+

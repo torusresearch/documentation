@@ -1,3 +1,5 @@
+# Display
+
 ## showWallet
 
 Pops up the Torus Wallet app for the user to view. This method is synchronous
@@ -8,7 +10,7 @@ torus.showWallet(path);
 
 **Parameters**
 
-- `path` - `enum` : The route of torus website to open in the popup. Supported options are `transfer` `topup` `home` `settings` `history`
+* `path` - `enum` : The route of torus website to open in the popup. Supported options are `transfer` `topup` `home` `settings` `history`
 
 **Examples**
 
@@ -39,3 +41,4 @@ Hides the Torus default button from the user
 ```javascript
 torus.hideTorusButton();
 ```
+

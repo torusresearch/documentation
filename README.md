@@ -1,8 +1,8 @@
 ---
 description: >-
   Welcome to Torus Docs! Torus is a secure, non-custodial key management for
-  DApps. We provide mainstream users a gateway to
-  the decentralized ecosystem via Google and other OAuth providers.
+  DApps. We provide mainstream users a gateway to the decentralized ecosystem
+  via Google and other OAuth providers.
 ---
 
 # Overview
@@ -23,10 +23,10 @@ This document is not meant to serve as a set of technical specifications. You ca
 
 The Torus Architecture is described in four main parts:‌
 
-- Nodes in charge of Distributed Key Generation \(DKG\)
-- A smart contract in charge of the management of nodes
-- A private Byzantine Fault Tolerant network between nodes
-- A Javascript client that interacts with nodes
+* Nodes in charge of Distributed Key Generation \(DKG\)
+* A smart contract in charge of the management of nodes
+* A private Byzantine Fault Tolerant network between nodes
+* A Javascript client that interacts with nodes
 
 A smart contract is used for node discovery. They are selected, operate for a fixed period, and generate a set of keys via DKG.‌
 
@@ -106,3 +106,4 @@ The Torus network functions in epochs. Each epoch has a set of nodes that are in
 The migration of keys uses Proactive Secret Sharing, also from Cachin et al. This is necessary because we cannot just copy shares to the new set of nodes, as that might mean that a single node operator could get access to more than one share, and it is not possible to add or remove nodes. Proactive Secret Sharing allows that.‌
 
 In brief, the key idea is that we create sharings of shares and add them up in a way such that they form a Lagrange Interpolation on the original secret. Much like how DKGs are the sum of several secret sharings, where the master secret is the sum of all of the secrets from each of the N-parallel secret sharing protocols, we can do the same thing by setting N-parallel secret sharing protocols to be run by the original set of nodes, with their "secret" as their share. The resulting shares of shares, if added appropriately \(multiply them by Lagrange coefficients first\), would lead to a re-sharing on the original secret.
+
