@@ -33,7 +33,7 @@
 ## Supported Integrations
 
 * [Layer 2 Compatible](supported-integrations/layer2.md)
-* [Smart contract Compatible](supported-integrations/smartcontract.md)
+* [Smart Contract Compatible](supported-integrations/smartcontract.md)
 
 ## Developing with torus
 
