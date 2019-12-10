@@ -38,7 +38,7 @@
 ## FAQ
 
 * [Users](faq/users.md)
-* [Developers](faq/developers.md
+* [Developers](faq/developers.md)
 
 ## Legal
 
