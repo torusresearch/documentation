@@ -1,7 +1,7 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Getting started](getting-started.md)
+* [Getting Started](getting-started.md)
 
 ## API Reference
 
@@ -13,22 +13,27 @@
 
 ## Features
 
-* [Account recovery](features/accountrecovery.md)
+* [Account Recovery](features/accountrecovery.md)
 * [Fiat to Cryptocurrency](features/purchasecryptocurrency.md)
-* [Edit transaction](features/edittransaction.md)
+* [Edit Transaction](features/edittransaction.md)
 * [ERC 721](features/erc721.md)
 * [Language](features/language.md)
-* [Name resolver](features/nameresolver.md)
+* [Name Resolver](features/nameresolver.md)
 * [Permissions](features/permissions.md)
-* [Private key export](features/privatekeyexport.md)
+* [Private Key Export](features/privatekeyexport.md)
 * [Themes](features/themes.md)
 * [Whitelabeling](features/whitelabeling.md)
 )
 
+## Enabled Logins
+
+* [OAuth](enabled-logins/oauth.md)
+* [Email Password / Phone number](enabled-logins/email.md)
+
 ## Supported Integrations
 
-* [Layer 2 compatible](supported-integrations/layer2.md)
-* [Smart contract compatible](supported-integrations/smartcontract.md)
+* [Layer 2 Compatible](supported-integrations/layer2.md)
+* [Smart contract Compatible](supported-integrations/smartcontract.md)
 
 ## Developing with torus
 

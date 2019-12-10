@@ -1,5 +1,5 @@
 ---
-description: 'This privacy policy is only applicable to Torus website (https://tor.us) not Torus wallet (https://app.tor.us). The Torus wallet does not store any data. Latest update: 9 December 2019. <br> Latest update: 17 July 2019'
+description: 'This privacy policy is only applicable to Torus website (https://tor.us) not Torus wallet (https://app.tor.us). The Torus wallet does not store any data. Latest update: 9 December 2019.'
 ---
 
 # Privacy Policy
@@ -7,7 +7,7 @@ description: 'This privacy policy is only applicable to Torus website (https://t
 ## Owner and Data Controller
 
 Torus Labs Private Limited  
-60 Paya Lebar Road \#04-46 Paya Lebar Square Singapore 409051
+60 Paya Lebar Road \#08-05 Paya Lebar Square Singapore 409051
 
 **Contact email:** hello@tor.us
 
