@@ -4,7 +4,8 @@ description: 'Latest update: 17 July 2019'
 
 # Privacy Policy
 
-Torus Labs collects some Personal Data from its Users.
+Torus Labs collects some Personal Data from its Users. 
+*Note - This privacy policy is only applicable to Torus website (https://tor.us) not Torus wallet (https://app.tor.us). The Torus wallet does not store any data. Latest update: 9 December 2019
 
 ## Owner and Data Controller
 

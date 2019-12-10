@@ -32,7 +32,7 @@ We use it for identification. All the user login data is encrypted. We do not se
 
 ### How do I start using Torus?
 
-Developers can refer the ""Getting Started' section. \(Hyperlink included to direct to Getting Started\). Users can start using Torus by the guide or visiting [https://app.tor.us](https://app.tor.us) or from the respective DApps who have integrated us shown below :"
+Developers can refer the ["Getting Started"](../getting-started.md) section. Users can start using Torus by the guide or visiting [https://app.tor.us](https://app.tor.us) or from the respective DApps who have integrated us shown below :"
 
 ### How is my login method related to how I send and receive something from my wallet?
 
