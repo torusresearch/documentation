@@ -23,16 +23,22 @@
 * [Private key export](features/privatekeyexport.md)
 * [Themes](features/themes.md)
 * [Whitelabeling](features/whitelabeling.md)
-
-## FAQ
-
-* [Users](faq/users.md)
-* [Developers](faq/developers.md)
+)
 
 ## Supported Integrations
 
 * [Layer 2 compatible](supported-integrations/layer2.md)
 * [Smart contract compatible](supported-integrations/smartcontract.md)
+
+## Developing with torus
+
+* [Developing with Ganache](devWithTorus/ganache.md)
+* [Network List](devWithTorus/networklist.md)
+
+## FAQ
+
+* [Users](faq/users.md)
+* [Developers](faq/developers.md
 
 ## Legal
 
@@ -40,10 +46,6 @@
 * [Privacy Policy](legal/privacy-policy.md)
 * [Cookie Policy](legal/cookie-policy.md)
 
-## Developing with torus
-
-* [Developing with Ganache](devWithTorus/ganache.md)
-* [Network List](devWithTorus/networklist.md)
 
 <!--
 
