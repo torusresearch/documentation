@@ -2,10 +2,6 @@
 
 ## Torus
 
-```text
-`Class`
-```
-
 This is the main class of anything related to Torus
 
 ```javascript
