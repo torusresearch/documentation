@@ -68,7 +68,7 @@ const paymentStatus = await torus.initiateTopup('moonpay', {
 ```
 
 ```javascript
-const paymentStatus = await torus.initiateTopup('simplex', {
+const paymentStatus = await torus.initiateTopup('coindirect', {
   selectedCurrency: "USD"
 });
 ```
