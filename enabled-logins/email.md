@@ -1,5 +1,6 @@
-# Email password / Phone login
+# Email Password / Phone number
 
 Coming soon
 
-![Coming soon](../.gitbook/assets/comingSoon.png)
+![Coming soon](../.gitbook/assets/comingsoon.png)
+

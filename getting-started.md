@@ -5,7 +5,7 @@ description: >-
   tools.
 ---
 
-# Getting started
+# Getting Started
 
 ## Environment requirements
 

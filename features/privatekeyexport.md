@@ -1,4 +1,4 @@
-# Private key export
+# Private Key Export
 
 Users can export private key from `Settings > Private Key`. However, using the respective OAuth recovery method, users will not lose their account.
 
