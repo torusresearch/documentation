@@ -14,10 +14,10 @@
 ## Features
 
 * [Account Recovery](features/accountrecovery.md)
-* [Fiat to Cryptocurrency](features/purchasecryptocurrency.md)
+* [FIAT to Cryptocurrency](features/purchasecryptocurrency.md)
 * [Edit Transaction](features/edittransaction.md)
 * [ERC 721](features/erc721.md)
-* [Language](features/language.md)
+* [Language Support](features/language.md)
 * [Name Resolver](features/nameresolver.md)
 * [Permissions](features/permissions.md)
 * [Private Key Export](features/privatekeyexport.md)

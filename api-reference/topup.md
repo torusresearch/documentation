@@ -24,12 +24,6 @@ const paymentStatus = await torus.initiateTopup(provider, params);
 
 ```javascript
 const paymentProviders = {
-  simplex: {
-    minOrderValue: 50,
-    maxOrderValue: 20000,
-    validCurrencies: ['USD', 'EUR'],
-    validCryptoCurrencies: ['ETH']
-  },
   moonpay: {
     minOrderValue: 24.99,
     maxOrderValue: 2000,
