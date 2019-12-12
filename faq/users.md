@@ -96,8 +96,6 @@ As an authenticator, the only information you are revealed to is when a User log
 
 Every transaction on the blockchain is required to be signed with both your private and public keys to ensure that each transaction made from your wallet is authorised by you. When you sign, Torus aggregates your private key that has been split across the different nodes to form the full private key. Paired together with your public key, the transaction is then authorised by both your public and private keys to be processed and registered unto the blockchain.
 
-### How secure is this request?
-
 ## Profile and Wallet
 
 ### Am I sharing my private key here? Can Torus view my private key?
