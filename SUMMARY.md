@@ -17,10 +17,10 @@
 * [FIAT to Cryptocurrency](features/purchasecryptocurrency.md)
 * [Edit Transaction](features/edittransaction.md)
 * [ERC 721](features/erc721.md)
+* [Export Private Key](features/exportprivatekey.md)
 * [Language Support](features/language.md)
 * [Name Resolver](features/nameresolver.md)
 * [Permissions](features/permissions.md)
-* [Private Key Export](features/privatekeyexport.md)
 * [Themes](features/themes.md)
 * [Whitelabeling](features/whitelabeling.md)
 
