@@ -6,5 +6,5 @@ In the event where the user would like to export their private key and use their
 
 It is recommended to store the Private Key in a safe place that is not accessible to malicious actors, whom in gaining access to your private key, would also gain access to your funds.
 
-![Private key export](../.gitbook/assets/privatekeyexport.png)
+![Export private key](../.gitbook/assets/privatekeyexport.png)
 
