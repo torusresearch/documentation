@@ -1,6 +1,6 @@
 # Whitelabeling
 
-Torus provides whitelabelling solution to your DApp. We customise the wallet according to how you need it best. Do not hesitate to contact us to find out more hello@tor.us
+For the best UX most applications don't want their users to be flooded with different brands. For this reason our front-end is customizable to Enterprises on a production level. Contact us at hello@tor.us to find out more
 
 ![Whitelabeling](../.gitbook/assets/whitelabeling.png)
 
