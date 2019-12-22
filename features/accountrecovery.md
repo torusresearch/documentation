@@ -1,6 +1,8 @@
 # Account Recovery
 
-Torus's OAuth logins inherits account recovery and management mechanisms from thier Verifiers. For example; Google's own password recovery system, or Facebook's method of questions before recovery. In this manner your Users would too be able to recover their Torus wallet like how you would recover any social account.
+Torus's OAuth logins inherits account recovery and management mechanisms from thier Verifiers. For example; Google's own password recovery system, or Facebook's method of questions before recovery. In this manner, your Users would be able to recover their Torus wallet through recovering thier specific social account, with UX flows that they are already used to having.
+
+Each OAuth provider has their own methods of handling account recovery, completely independent from Torus.
 
 ![Account recovery](../.gitbook/assets/accountrecovery.png)
 
