@@ -9,7 +9,7 @@ description: >-
 
 ## Integrate Torus with your DApp to reach mainstream users
 
-Developers can integrate Torus into their DApps with just a few lines of code. [Get started here](getting-started.md).
+Developers can integrate Torus into their DApps with just a few lines of code - [Get started here](getting-started.md).
 
 Here is the associated [API Reference](api-reference/class.md).
 
