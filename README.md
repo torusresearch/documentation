@@ -7,13 +7,13 @@ description: >-
 
 # Overview
 
-## Integrate Torus with your DApp to reach mainstream users
+## Itching to Target Mainstream Users?
 
-Developers can integrate Torus into their DApps with just a few lines of code - [Get started here](getting-started.md).
+Developers can integrate Torus into their DApps with just a few lines of code - [get started here](getting-started.md).
 
-Here is the associated [API Reference](api-reference/class.md).
+Or here is the [API Reference](api-reference/class.md).
 
-## Key Management Architecture \(how it works\)
+## Key Management Architecture \(How It Works?\)
 
 ![General Architecture of Torus](.gitbook/assets/image.png)
 
