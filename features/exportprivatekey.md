@@ -4,7 +4,5 @@ Users are able to use the respective OAuth recovery method to maintain access to
 
 In the event where the user would like to export their private key and use their funds from a different wallet provider, they can export their private key from `Settings > Private Key`.
 
-It is recommended to store the Private Key in a safe place that is not accessible to malicious actors, whom in gaining access to your private key, would also gain access to your funds.
-
 ![Export private key](../.gitbook/assets/privatekeyexport.png)
 
