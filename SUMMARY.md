@@ -8,6 +8,7 @@
 * [Class](api-reference/class.md)
 * [Display](api-reference/display.md)
 * [Account](api-reference/account.md)
+* [Account Resolver](api-reference/address-resolver.md) 
 * [Topup](api-reference/topup.md)
 * [Ethereum API](api-reference/ethereum-api.md)
 
