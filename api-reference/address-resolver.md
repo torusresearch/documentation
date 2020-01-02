@@ -1,5 +1,4 @@
-# Address/ Public Key Resolver
-
+# Account Resolver
 
 ## getPublicAddress
 
@@ -36,3 +35,4 @@ const publicAddress = await torus.getPublicAddress({
   verifierId: "random@gmail.com"
 });
 ```
+
