@@ -56,7 +56,7 @@ await torus.login(); // await torus.ethereum.enable()
 const web3 = new Web3(torus.provider);
 ```
 
-Please refer to the [examples](https://github.com/torusresearch/torus-embed/tree/master/examples) folder for sample implementations
+Please refer to the [examples](https://github.com/torusresearch/torus-embed/tree/master/examples) folder for sample implementations or the Class documentation for further init options
 
 ### Web3/ether.js
 
