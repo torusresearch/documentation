@@ -5,7 +5,7 @@
 
 ## API Reference
 
-* [Class](api-reference/class.md)
+* [Initialization](api-reference/class.md)
 * [Display](api-reference/display.md)
 * [Account](api-reference/account.md)
 * [Account Resolver](api-reference/address-resolver.md)
