@@ -7,7 +7,7 @@ description: >-
 
 # Overview
 
-## Itching to Target Mainstream Users?
+## TLDR:
 
 Developers can integrate Torus into their DApps with just a few lines of code - [get started here](getting-started.md).
 
