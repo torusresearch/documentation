@@ -15,11 +15,11 @@ Or here is the [API Reference](api-reference/class.md).
 
 ## Architecture
 
-![General Architecture of Torus](.gitbook/assets/image.png)
+![](.gitbook/assets/image.png)
 
 ### General Overview <a id="general-overview"></a>
 
-This document serves primarily as a guide to Torus, you can view our the open-source code at [https://github.com/torusresearch](https://github.com/torusresearch/torus-website)​‌
+_This document serves primarily as a guide to Torus, and not as a technical specification. It may become outdated. For the latest and greatest, checkout our open-source code at_ [_https://github.com/torusresearch_](https://github.com/torusresearch/torus-website)_​‌_
 
 The architecture consists of four parts:‌
 
