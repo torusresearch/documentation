@@ -8,8 +8,6 @@ description: >-
 
 ## Install Torus
 
-Integrating Torus with your DApp is as seamless as using it. Let us start by first installing Torus onto your DApp website.
-
 ### NPM Package
 
 You can install via a [npm package](https://www.npmjs.com/package/@toruslabs/torus-embed).
@@ -53,7 +51,7 @@ Please refer to the [examples](https://github.com/torusresearch/torus-embed/tree
 
 ### Web3/ether.js
 
-Integrating with Torus gives you a provider, which can be wrapped by the Web3. This instance can be used to play with, read more on [Web3's Documentation](https://web3js.readthedocs.io/en/1.0/). You can implement web3 functionalities just like you would with Metamask.
+Integrating with Torus gives you a provider, which can be wrapped by the Web3. This instance can be used to play with, read more on [Web3's Documentation](https://web3js.readthedocs.io/en/1.0/). You can implement web3 functionalities just like you would with Metamask. 
 
 ### AngularJS users
 
