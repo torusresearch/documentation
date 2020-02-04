@@ -44,7 +44,7 @@ Torus nodes operate within a certain time period, called an epoch. Nodes within 
 
 When a Torus node is started, the node tries to register its connection details on an Ethereum smart contract. Once all nodes have been registered for that epoch, they try to connect with each other to set up the BFT network, and start generating distributed keys. They also listen for incoming information from nodes in the previous epoch.
 
-#### Operation <a id="operation"></a>
+#### Operation <a id="what-a-torus-node-is"></a>
 
 During operation, a Torus node runs three separate parallel process: one to map user IDs to keys, one to generate distributed key shares, and one to allow users to retrieve their shares.
 

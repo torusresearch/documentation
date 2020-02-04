@@ -8,5 +8,5 @@ All you need is your email\* or social ID, users can transact without having to 
 
 ### How does this work?
 
-Read the Overview
+Read the [overview](https://docs.tor.us/#operation)
 
