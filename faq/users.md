@@ -108,6 +108,8 @@ Your private key is divided and distributed with proof mechanisms to ensure that
 
 ### How do I restore/backup my wallet?
 
+Your login is what is used to control access to your Torus wallet. If you have lost your login credentials \(eg. forgot your Google password\), just use existing account recovery tools like password reset or security questions provided by your login provider to recover your account.
+
 ### Are my funds secured?
 
 The funds in your wallet require both public and private keys to access and utilize, which only comes together upon the successful login into Torus with your Google account on your computer. Other entities involved in the process including Google identity platform, Torus and DApps will not have full and complete access to your information to conduct any malicious activity.

@@ -4,49 +4,45 @@
 
 ### How is my private key stored?
 
-Torus splits a user’s private keys into shares across a network of nodes, and allows a user to retrieve this using natural login mechanisms like social authentication. You need access to more than half of the shares to reconstruct the private key.
+Torus splits a user’s private keys into shares across a network of nodes, and allows a user to retrieve this using natural login mechanisms like social authentication. One needs more than half of the shares to reconstruct the private key
 
-### What is Shamir secret sharing?
+### Does Google/Facebook/ other OAuths have access to my private key?
 
-2 points make a line right? Draw a straight line and write down the coordinates of 3 points. Erase the line. 
+No they do not. Please refer to Q1 to understand how a private key is being stored.
 
-You now need at least 2 out of 3 of the points are required to reconstruct the line.
+### What is Shamir's secret sharing?
 
-This is a 2/3 Shamir secret sharing of the original line.
+It is a form of secret sharing, where a secret is divided into parts, giving each participant its own unique part. To reconstruct the original secret, a minimum number of parts is required. In the threshold scheme this number is less than the total number of parts. Otherwise all participants are needed to reconstruct the original secret.
 
-### Should I backup my keys?
+### How solid is the blockchain ? Should the user have a secondary external backup for his keys ?
 
-Our nodes have managed volumes and snapshot policies to ensure that key shares are not lost. We also have coverage that extends to key loss due to technical failures. 
-
-### Can I get access to a user's private keys?
-
-No...
+A user's private key shares aren't stored on the blockchain, so even if the blockchain is "hacked" and the data on it is leaked, it doesnt affect user's keys. Hence, we live it up to users on their decision to have a secondary external backup for their keys. But there is no need to, really.
 
 ## Privacy
 
 ### Will Torus have access to my contacts related to my OAuth login?
 
-No, the initial login only requests for the minimal public information, which you can see during the OAuth popup screen by the 3rd-party provider. The purpose of the login is only for verification of your identity, not for access to your personal information.
+No, we will not.
 
-### How long is my login persisted? Can Google/Facebook/Reddit track my activity?
+### What does Torus do to my email/OAuth details?
 
-We log you out of your 3rd-party account immediately after your identity is verified. The only information that is accessible to these 3rd-party login providers is that you were logged in \(and logged out\) with Torus.
+We use it for identification. All the user login data is encrypted. We do not sell or distribute any user data.
 
-## Torus
+## Using Torus
 
 ### How do I start using Torus?
 
-For DApp integrations, refer the ["Getting Started"](../getting-started.md) section. To use the wallet, head over to [https://app.tor.us](https://app.tor.us)
+Developers can refer the ["Getting Started"](../getting-started.md) section. Users can start using Torus by the guide or visiting [https://app.tor.us](https://app.tor.us) or from the respective DApps who have integrated us shown below :"
 
-### Can I use the Torus wallet outside of a browser context?
+### How is my login method related to how I send and receive something from my wallet?
 
-There are several restrictions. Some integrations are possible \(eg. native support, Chrome extensions\), whereas others are not \(eg. using Torus wallet in a server context\). Right now, we only have browser based support. 
+Each OAuth is tied to a unique Ethereum address.
 
 ### How can i become one of the nodes running Torus?
 
-We are currently running the network as a permissioned network, so there is a whitelist process, please reach out at hello@tor.us
+Torus allow more node operators to join freely, so that this system can be even more decentralised. there is a whitelist process, please reach out at hello@tor.us
 
-## Any other questions?
+## Have a question that is not answered here?
 
 If you have any questions that are yet to be addressed here, feel free to contact us via email at hello@tor.us or on Telegram at [https://t.me/TorusLabs](https://t.me/TorusLabs).
 
