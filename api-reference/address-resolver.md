@@ -1,12 +1,8 @@
----
-description: assigns an Ethereum address to any social account
----
-
 # Account Resolver
 
 ## getPublicAddress
 
-This resolves an email address to an Ethereum public Address. Returns an account if it already exists on torus network. Creates a new wallet for that user if it does not exist.
+This resolves an email address to an Ethereum public Address. Returns an account if it already exists on torus network. Creates, if otherwise
 
 ```javascript
 const publicAddress = await torus.getPublicAddress(params);
@@ -16,11 +12,11 @@ const publicAddress = await torus.getPublicAddress(params);
 
 * `params` - `VerifierArgs` : The parameters passed to the method
   * `verifier` - `enum` : The verifier to use. Supported enums are `google`, `reddit`, `discord`
-  * `verifierId` - `string` : The unique identifier for that verifier. \(Say email for google, username for reddit and id for discord\).
+  * `verifierId` - `string` : The unique identifier for that verifier. \(Say email for google, username for reddit and id for discord\)
 
 **Returns**
 
-* `Promise<string>` : Returns a promise which resolves to the Ethereum address associated with the email.
+* `Promise<string>` : Returns a promise which resolves to the Ethereum address associated with the email
 
 **Reference**
 
@@ -39,6 +35,4 @@ const publicAddress = await torus.getPublicAddress({
   verifierId: "random@gmail.com"
 });
 ```
-
-## 
 

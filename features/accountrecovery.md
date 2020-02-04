@@ -1,6 +1,6 @@
 # Account Recovery
 
-Torus's OAuth logins inherits account recovery and management mechanisms of existing account management systems \(eg, Google's password recovery system, or Facebook's security questions\). Basically, if user's lose their logins, they can just use pre-existing, and familiar recovery tools to recover their login.
+Torus's OAuth logins inherits account recovery and management mechanisms of existing account management systems \(eg, Google's password recovery system, or Facebook's security questions\). If user's forgets their password, they can just use familiar recovery tools to recover their login.
 
 ![Account recovery](../.gitbook/assets/accountrecovery.png)
 
