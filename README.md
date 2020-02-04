@@ -7,11 +7,11 @@ description: >-
 
 # Overview
 
-## TLDR:
+## TLDR
 
 Developers can integrate Torus into their DApps with just a few lines of code - [get started here](getting-started.md).
 
-Or here is the [API Reference](api-reference/class.md).
+Or were you looking for the [API Reference](api-reference/class.md)?
 
 ## Architecture
 
