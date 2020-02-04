@@ -28,7 +28,6 @@
 ## Enabled Logins
 
 * [OAuth](enabled-logins/oauth.md)
-* [Email Password / Phone number](enabled-logins/email.md)
 
 ## Supported Integrations
 
