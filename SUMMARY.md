@@ -20,8 +20,8 @@
 * [Private Key Export](features/exportprivatekey.md)
 * [Language Support](features/language.md)
 * [Account Resolver](features/nameresolver.md)
-* [Permissions](features/permissions.md)
 * [Themes](features/themes.md)
+* [PWA](features/pwa.md)
 * [Whitelabeling](features/whitelabeling.md)
 
 ## Enabled Logins
@@ -31,7 +31,6 @@
 ## Supported Integrations
 
 * [Layer 2 Compatible](supported-integrations/layer2.md)
-* [Smart Contract Compatible](supported-integrations/smartcontract.md)
 
 ## Developing with torus
 
