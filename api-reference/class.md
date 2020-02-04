@@ -1,4 +1,8 @@
-# Class
+---
+description: 'create, initialize, and clean up a Torus web3 instance.'
+---
+
+# Initialization
 
 ## Torus
 
@@ -14,19 +18,13 @@ Using ES6,
 import Torus from "@toruslabs/torus-embed";
 ```
 
-## torusObject
-
-```text
-`instance`
-```
-
-All API's can be accessed by creating a new instance of Torus
+Then, create a new instance of Torus.
 
 ```javascript
 const torus = new Torus(options);
 ```
 
-The Torus constructor takes an object with `TorusCtorArgs` as input
+The Torus constructor takes an object with `TorusCtorArgs` as input.
 
 **Parameters**
 
@@ -157,5 +155,23 @@ await torus.init({
   },
   showTorusButton: true // default: true
 });
+```
+
+## cleanUp
+
+This cleans up the iframe and buttons created by torus package. If the user is logged in, it logs him out first and then cleans up.
+
+```javascript
+await torus.cleanUp();
+```
+
+**Returns**
+
+* `Promise<void>` : Returns a promise which resolves to void.
+
+**Examples**
+
+```javascript
+await torus.cleanUp();
 ```
 

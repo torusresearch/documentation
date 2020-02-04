@@ -1,6 +1,6 @@
 # Language Support
 
-Our wallet supports multiple languages \(Whitelabelling\). Contact us at hello@tor.us for more information.
+Our wallet is currently available in English, German, Japanese, Korean, and Mandarin \(Chinese\).
 
 ![Language](../.gitbook/assets/language.png)
 
