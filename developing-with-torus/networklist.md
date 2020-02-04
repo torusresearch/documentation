@@ -1,8 +1,6 @@
 # Network List
 
-We support all networks that provide an Ethereum JRPC endpoint. The following options are already pre-configured by default in the Torus wallet.
+We support all networks with jrpc endpoints. In addition, we provide direct connections to the following networks:
 
 ![Network list](../.gitbook/assets/networklist.png)
-
-Wanna add your network here? You know [what](mailto:hello@tor.us) to [do](https://github.com/torusresearch/torus-website/pulls)!
 

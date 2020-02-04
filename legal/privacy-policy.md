@@ -10,7 +10,7 @@ description: >-
 ## Owner and Data Controller
 
 Torus Labs Private Limited  
-8A Jalan Klapa, Singapore
+60 Paya Lebar Road \#08-05 Paya Lebar Square Singapore 409051
 
 **Contact email:** hello@tor.us
 

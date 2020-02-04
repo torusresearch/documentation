@@ -4,13 +4,9 @@
 
 ### How is my private key stored?
 
-Torus splits a user’s private keys into shares across a network of nodes, and allows a user to retrieve this using natural login mechanisms like social authentication. One needs more than half of the shares to reconstruct the private key
+Torus splits a user’s private keys into shares across a network of nodes, and allows a user to retrieve this using natural login mechanisms like social authentication. One needs more than half of the shares to reconstruct the private key.
 
-### Does Google/Facebook/ other OAuths have access to my private key?
-
-No they do not. Please refer to Q1 to understand how a private key is being stored.
-
-### What is Shamir's secret sharing?
+### What is Shamir secret sharing?
 
 It is a form of secret sharing, where a secret is divided into parts, giving each participant its own unique part. To reconstruct the original secret, a minimum number of parts is required. In the threshold scheme this number is less than the total number of parts. Otherwise all participants are needed to reconstruct the original secret.
 

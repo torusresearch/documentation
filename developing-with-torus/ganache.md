@@ -1,6 +1,6 @@
 # Developing with Ganache
 
-The Torus website runs on `HTTPS`. The browser security model does not allow an insecure connection to a `HTTP` endpoint over `HTTPS`. Install the following [npm package](https://www.npmjs.com/package/ganache-http-proxy) to proxy your `HTTP` traffic from Ganache through a `HTTPS` endpoint. The npm package redirects the traffic present on `https://localhost:8545` to your Ganache port \(eg. `http://localhost:8546`\)
+The torus website runs on `HTTPS`. The browser security model does not allow an insecure connection to a `HTTP` endpoint over `HTTPS`. Install the [npm package](https://www.npmjs.com/package/ganache-http-proxy) to proxy your `HTTP` traffic from Ganache through a `HTTPS` endpoint. The npm package redirects the traffic present on your Ganache port through `https://localhost:8545`.
 
 ## Install and run ganache-http-proxy
 

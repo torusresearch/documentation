@@ -24,13 +24,13 @@ Torus provides you with the easiest way to start using any Blockchain. If the DA
 
 ### Is this the best platform to trade?
 
-There are many platforms available to trade, with several trusted aggrigator websites that establish the legitimacy and trustability of each platform. It would be wise to conduct sufficient research before committing to any platform.
+There are many platforms available to trade, with several trusted aggregation websites that establish the legitimacy and trust of each platform. It would be wise to conduct sufficient research before committing to any platform.
 
-One method of identifying a good platform to trade on is to gauge it's popularity based on the daily volume of trading it handles. [CoinMarketCap](https://coinmarketcap.com/rankings/exchanges/) is a good aggregator of the popular trading platforms to conduct initial research on.
+One method of identifying a good platform to trade on is to gauge it's popularity based on the daily volume of trading it handles. [CoinMarketCap](https://coinmarketcap.com/rankings/exchanges/) is a good aggregation site of the popular trading platforms to conduct initial research on.
 
 ### Is this application secure?
 
-Torus splits a user’s private keys across a network of nodes, and allows a user to retrieve this using natural login mechanisms like social authentication. This distributed key generation scheme ensures that the users identity and keys are fully protected and not controlled by any single entity. The nodes supporting Torus are major stakeholders within the industry and have proven themselves to be of reputable sources of trust, this protects the network from any collusion.
+Torus splits a user’s private keys across a network of nodes, and allows a user to retrieve this using natural login mechanisms like social authentication. This distributed key generation scheme ensures that the users identity and keys are fully protected and not controlled by any single entity. The nodes supporting Torus are major stakeholders within the industry and have proven themselves to be of reputable sources of trust, this protects the network from any collusion. 
 
 ## Torus
 
