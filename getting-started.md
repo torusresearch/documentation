@@ -51,7 +51,7 @@ Please refer to the [examples](https://github.com/torusresearch/torus-embed/tree
 
 ### Web3/ether.js
 
-Integrating with Torus gives you a provider, which can be wrapped by the Web3. This instance can be used to play with, read more on [Web3's Documentation](https://web3js.readthedocs.io/en/1.0/). You can implement web3 functionalities just like you would with Metamask. 
+Integrating with Torus gives you a provider, which can be wrapped by the Web3. This instance functions similar to that as Metamask's web3 provider, and we have taken great care to make it compatible with Metamask's [Web3 APIs](https://web3js.readthedocs.io/en/1.0/).
 
 ### AngularJS users
 
@@ -75,4 +75,8 @@ window['process'] = process;
 The code snippet below sets Torus as the default login method for the DApp, paste the following script to the &lt;body&gt; of index.html.
 
 {% embed url="https://gist.github.com/chaitanyapotti/733405286923fa047af4cb26d167acd4" caption="Torus embed script" %}
+
+The script tag creates a `window.ethereum` web3 provider. This can be wrapped with your desired version of Web3 to create a web3 object. We also provide a `window.web3` object \(v0.20.7\), which allows for backward compatibility with existing DApps that are using Metamask.
+
+In fact, if you inject this script tag into a page for any existing DApp, most of it the time it Just Works.
 
