@@ -1,17 +1,10 @@
 ---
 description: >-
-  Torus streamlines all DApp login processes and allows users to log in to your
-  DApp with Google OAuth Login accounts without the need for any complicated
-  tools.
+  Torus streamlines onboarding by allowing users to start using your DApp with
+  existing social accounts.
 ---
 
 # Getting Started
-
-## Environment requirements
-
-To ensure an efficient implementation process, we highly encourage you to configure the environment to the requirements below :
-
-* NodeJS: 10.x
 
 ## Install Torus
 

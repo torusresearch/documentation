@@ -1,133 +1,109 @@
 ---
 description: >-
-  Torus is a user-friendly, secure, and non-custodial key management system for
-  DApps. We're focused on providing mainstream users a gateway to the
+  Welcome to the Torus Docs! Torus is a secure, non-custodial key management
+  system for DApps. We're focused on providing mainstream users a gateway to the
   decentralized ecosystem.
 ---
 
 # Overview
 
-## TLDR
+## TLDR:
 
 Developers can integrate Torus into their DApps with just a few lines of code - [get started here](getting-started.md).
 
-Or were you looking for the [API Reference](api-reference/class.md)?
+Or here is the [API Reference](api-reference/class.md).
 
-## Architecture
+## Key Management Architecture \(How It Works?\)
 
-![](.gitbook/assets/image.png)
+![General Architecture of Torus](.gitbook/assets/image.png)
 
 ### General Overview <a id="general-overview"></a>
 
-_This document serves primarily as a guide to Torus, and not as a technical specification. It may become outdated. For the latest and greatest, checkout our open-source code at_ [_https://github.com/torusresearch_](https://github.com/torusresearch/torus-website)_​‌_
+This document is not meant to serve as a set of technical specifications. You can view our most updated code repository at [https://github.com/torusresearch](https://github.com/torusresearch/torus-website)​‌
 
-The architecture consists of four parts:‌
+The Torus Architecture is described in four main parts:‌
 
 * Nodes in charge of Distributed Key Generation \(DKG\)
 * A smart contract in charge of the management of nodes
-* A private BFT network between nodes
-* A javascript front-end wallet client that interacts with nodes
+* A private Byzantine Fault Tolerant network between nodes
+* A Javascript client that interacts with nodes
 
-A smart contract is used for node discovery. Nodes are selected, operate for a fixed period, and generate a set of keys via DKG.‌
+A smart contract is used for node discovery. They are selected, operate for a fixed period, and generate a set of keys via DKG.‌
 
-When a user arrives at a DApp, the javascript client is loaded. From there, a user logs in, they provide proof that they are logged in, and the proof is verified by each node individually. This proof is integrated with the modern OAuth 2.0 Token Authentication flow. For new users, nodes will assign a new key share from the pre-generated set of key shares, and store this assignment in an internal mapping. For returning users, nodes will look up their internal mapping and return that user's corresponding key share.‌
+When a user arrives at a DApp, the javascript client is loaded, and creating a secure javascript context. From there, a user logs in, they provide proof that they are logged in with a third-party authentication service, and the proof is verified by each node individually. This proof can be integrated into today's OAuth 2.0 standard flow. For new users, nodes will assign a new key share from the pre-generated set of key shares, and store this assignment in an internal mapping. For returning users, nodes will look up their internal mapping and return that user's corresponding key share.‌
 
-The javascript client then assembles these shares and reconstructs the users key in the front-end. This key is kept for the session and is not persisted in storage.
+The user then recollects these shares and reconstructs his or her key in the front-end javascript client, only to be kept for the session and erased once the browser is closed.‌
 
-### Torus Nodes <a id="a-node-and-its-trust-assumptions"></a>
+### A Node and Its Trust Assumptions <a id="a-node-and-its-trust-assumptions"></a>
 
-#### Epochs
+#### What is a Torus node ? <a id="what-a-torus-node-is"></a>
 
-Torus nodes operate within a certain time period, called an epoch. Nodes within the same epoch are part of the same BFT network and hold key shares that are compatible with each others' key shares. Nodes within different epochs do not. The main purpose of epochs is to ensure that node operators can be removed and added, and to minimize the impact of loss of key shares or node failures over time.
+A Torus node primarily does four things: it starts, it runs a key generation protocol, it maps keys, and it re-shares its keys to the next set of nodes. To not roll our crypto, we stick to the academic schemes for Distributed Key Generation \(DKG\) and Proactive Secret Sharing \(PSS\) carefully and have made modifications only where necessary.‌
 
-#### Initialization
+The Torus node is part of an epoch of nodes that run as a network. This network can store private keys and map them to appropriate user IDs, and allow users to retrieve them via non-cryptographic authentication methods.‌
 
-When a Torus node is started, the node tries to register its connection details on an Ethereum smart contract. Once all nodes have been registered for that epoch, they try to connect with each other to set up the BFT network, and start generating distributed keys. They also listen for incoming information from nodes in the previous epoch.
+Beyond the persisting mappings of keys to user IDs, the network has no other shared state. Tendermint is used simply for purposes of having a Byzantine Fault Tolerant \(BFT\) replicated state to share this mapping state between nodes.‌
 
-#### Operation <a id="what-a-torus-node-is"></a>
-
-During operation, a Torus node runs two separate parallel process: one to map user IDs to keys, and one to generate distributed keys.
-
-The mapping process primarily interacts with the BFT layer, which allows nodes to share state on which keys belong to which users. When a new user requests for a key, the node submits a BFT transaction that modifies this state. Existing users who have logged in are compared against this shared state to ensure that they retrieve the correct key share.
-
-The distributed key generation process primarily uses libp2p for communication between nodes, and generates a buffer of shared keys, in order to reduce the average response time for key assignments for new users.
-
-When a user wishes to retrieve their keys, they individually submit their OAuth token via a commit-reveal scheme to the nodes, and once this OAuth token is checked for uniqueness and validity, each node returns the user's \(encrypted\) key share. This does not require communication between the nodes.
-
-#### Migration
-
-When an epoch comes to an end, the current node operators agree on the next epoch, and send information about the current mapping state and the existing keys to the next set of nodes in the next epoch. This is done via typical reliable broadcast methods for the mapping, and PSS \(proactive secret sharing\) for the key shares.
+A Torus node is also not a typical distributed system since each node operator only runs a single node.‌
 
 #### Trust Assumptions <a id="trust-assumptions"></a>
 
-The Torus Network operates on two main threshold assumptions: a key generation threshold \(&gt;¼\)and a key retrieval threshold \(&gt;½\). Generating keys for new users requires more than ¾ of the nodes to be operating honestly, and reconstructing keys for existing users requires &gt;½ of the nodes to be operating honestly. For more information, refer to the dual-threshold construction in [AVSS](https://eprint.iacr.org/2002/134.pdf).
+We built Torus on the assumptions of honest majority, keeping our code tolerant of some byzantine adversaries.‌
 
-While most other secret sharing schemes use ⅔ honest majority with a &gt;⅓ reconstruction threshold, our preference for total system failure over key theft favors the former thresholds.‌
+For the deployed scheme, since Asynchronous Verifiable Secret Sharing \(AVSS\) supports a dual-threshold sharing, we are using a 3/4 honest majority with a 1/2 + 1 reconstruction threshold.‌
+
+While most other secret sharing schemes use 2/3 honest majority with a 1/3 + 1 reconstruction threshold, our preference for total system failure over key theft favors the former thresholds.‌
 
 ### Key Generation <a id="key-generation"></a>
 
-Since key generation is an activity that requires several rounds of communication, it is unwise to do this whenever a user requires new keys. Instead, we generate buffers of unassigned keys ahead of time, so that we only need to assign them to users when they request for new keys.‌
+Since key generation is an activity that requires several rounds of communication, it is unwise to do this whenever a user requires new keys. Instead, we generate buffers of unused keys ahead of time, so that we only need to assign them to users when they request for new keys.‌
 
-We run this Distributed Key Generation \(DKG\) via a cryptographic scheme called [Asynchronous Verifiable Secret Sharing \(AVSS\) by Cachin et al. \(2002\)](https://eprint.iacr.org/2002/134.pdf). The main advantage the DKG has over the other well-known DKGs like Pedersen DKG, Feldman's VSS and its variants is that it is fully asynchronous and thus does not require a complaint phase when we consider the allowance for a small zero-knowledge proof. This results in a simpler implementation \(with constant communication rounds even during malicious scenarios\),  but at the expense of message size.
+We run this Distributed Key Generation \(DKG\) via a cryptographic scheme called [Asynchronous Verifiable Secret Sharing \(AVSS\) by Cachin et al. \(2002\)](https://eprint.iacr.org/2002/134.pdf). The main advantage the DKG has over the other well-known DKGs like Pedersen DKG - Feldmen's VSS and its variants is that it is fully Asynchronous and thus does not require a complaint phase when we consider the allowance for a small zero-knowledge proof. This simplifies matters greatly, reducing the rounds of communication, but at the expense of message complexity and some initial logical overhead \(we will need to use bivariate sharings instead of the usual univariate sharings\).‌ Which is a fair trade-off.
 
-In brief, this scheme generates a random bivariate polynomial \(i.e. 2D surface\) and creates horizontal \(X\) and vertical \(Y\) slices at the appropriate indices as sharings. We then get sub-sharings \(points\) on these horizontal and vertical sharings at the appropriate indices and echo them to other nodes. As a node, the polynomial reconstructed from the sub-sharings received from other nodes should match up with the initial sharing that the node received from the dealer, and even if they do not, the node can always interpolate the correct sharing via these echoed sub-sharings. This eliminates the dealer complaint phase. We then we restrict ourselves to just the horizontal \(X\) domain such that our final sharings are still on that of a univariate polynomial, which is what a typical DKG does.‌
+In brief, this scheme generates a random 2D plane and creates horizontal \(X\) and vertical \(Y\) slices at the appropriate indices as sharings. We then get sub-sharings on these horizontal and vertical sharings at the appropriate indices and echo them to other nodes. As a node, the sub-sharings received from other nodes should match up with the initial sharing that the node received from the dealer, and even if they do not, the node can always interpolate the correct sharing via these echoed sub-sharings. This eliminates the dealer complaint phase. Once completed, we restrict ourselves to just the horizontal \(X\) domain such that our final sharings are still on that of a univariate polynomial, which is what a typical DKG does.‌
 
-At the end of the distributed key generation process, the nodes are left with a \(polynomial\) share to a master polynomial. This master polynomial is the sum of all the initial polynomials which were generated by each participating node. Since a threshold number of nodes contributed to this master polynomial's randomness, it is not possible for any non-threshold subset of nodes to recover its coefficients. 
-
-The constant coefficient of this master polynomial is the user's private key.
-
-### Proactive Secret Sharing
-
-The Torus network functions in epochs. Each epoch has a set of nodes that are in charge of the node operations, and when they are done, they migrate the necessary state over to the next epoch's nodes. Since our entire system does not store any state other than the mappings of TorusIDs to user IDs and private keys, the only systems needed are the ones that migrate mappings and private keys across epochs.‌
-
-The migration of keys uses Proactive Secret Sharing \(PSS\), also from the AVSS paper. Simply copying shares across epochs is a bad idea, since a single node operator operating in two separate epochs would get access to two shares, and it also makes it not possible to increase or decrease the number of operators in each epoch.
-
-In brief, the key idea is that we create polynomial sharings of the existing key shares and add these polynomials in a specific way such that the coefficient of the master polynomial is the Lagrange interpolation of the existing key shares. Much like how DKGs are the sum of several secret sharings, where the master secret is the sum of all of the secrets from each of the N-parallel secret sharing protocols, we can do the same thing by setting N-parallel secret sharing protocols to be run by the original set of nodes, with their "secret" as their share. The resulting shares of shares, if added appropriately \(multiply them by Lagrange coefficients first\), would lead to a re-sharing on the original secret.
+At the end of the Key Generation process, the nodes are left with a final \(aggregated\) share to a master public key pair, which every node contributed to its randomness. This is achieved without the formation of the respective private key in any context. The next section, "Authentication and Assignments," goes through how a user is assigned and retrieves their keys.
 
 ### Authentication and Assignments <a id="authentication-and-assignments"></a>
 
 #### Key Assignments <a id="key-assignments"></a>
 
-The keys are assigned to a combination of `verifier` \(e.g., Google, Reddit, Discord\) and `verifier_id` \(e.g., email, username\), which is a unique identifier respective to and provided by the `verifier`.‌ This assignment can be triggered by any node and is decided through the nodes consensus layer.
+The keys are assigned to a combination of `verifier` \(e.g., Google, Reddit, Discord\) and `verifier_id` \(e.g., email, username\), which is a unique identifier respective and provided by the `verifier`.‌ This assignment can be triggered by any node and is decided through the nodes consensus layer.
 
 #### Verifiers and Key Retrieval <a id="verifiers-and-key-retrieval"></a>
 
 In order to allow for general identifiers to be used instead of only allowing OAuth, we typically need at least two of these APIs to be implemented by the external verifier:‌
 
-1. an API that issues unique tokens when a user is logged in.
+1. an API that issues unique tokens with a unique representation.
 2. an API that consumes these tokens and returns user information as well as when the token was issued.
 
-The first API must be accessible from the browser \(e.g. CORS-enabled, restricted headers\), in order to ensure that the Torus servers are not able to intercept the user's token \(front-running\).
+Typically any entity that fulfills an interface and provides signatures on unique ID strings and timestamp can be a verifier. This is extendable to most authentication schemes, including many implementations of the OAuth standard and OpenID Connect.‌
 
-Typically any entity that fulfills these two APIs and provides signatures on unique ID strings and timestamp can be a verifier. This is extendable to several authentication schemes, including existing authentication standards like OAuth Token flow and OpenID Connect.‌
+**OAuth Integration**
+
+Although there is the OAuth 2.0 standard, many implementations of them differ slightly from the specification. Many implementations, including Google's, do not necessitate a server gaining access to a user's OAuth before the front-end. Google's, for example, through its client, uses an iframe and post a message to communicate the OAuth token directly to the front-end. The OAuth tokens often represent signatures that can be verified locally against a public key by the recipient nodes.‌
+
+In the case where tokens are shared with a server ahead of the front-end, we extend commit-reveal schemes, similar to the one described below, to ensure a user's key is always returned to only themselves.‌
 
 **Front-Running Protection**
 
-In order to prevent a rogue node, or the Torus servers, from front-running you by taking your token, impersonating your login, and thereby stealing your key, we use a commitment scheme on our token similar to Bracha's Reliable Broadcast, to ensure that all nodes can be sure that a threshold number of other nodes are aware of the commitment, before it is finally revealed.‌
+In order to prevent the possibility of a rogue node from front-running you by taking your token, spinning up a browser and pretending to be you and thereby stealing your key, we use a commitment scheme on our token similar to Bracha's Reliable Broadcast, to ensure that all nodes can be sure that most other nodes are aware of the commitment, before it is finally revealed.‌
 
-The general approach is as follows: we ensure that the front-end gets access to the token first, creates a commitment to the token and a temporary public-private keypair, and reveals the token only if a threshold number of nodes accept this commitment. The nodes will then use this keypair to encrypt the shares before sending it to the user.
+This is done by generating a temporary private key that nodes will use to encrypt all incoming communication. The received token is then hashed from the first API, asking for a signature on this hashed token from all nodes, bundling these signatures together as a proof, and submitting the proof together with the plain un-hashed token to each node to get back our shares.‌
 
-This is done by generating a temporary public-private keypair in the front-end. The front-end calls the first API and receives an authentication token. This token is hashed, and the front-end sends the token hash and the temporary public key to each node, and each node returns a signature on this message, if this is the first time they have seen this token commitment. A bundle of these signatures is the proof, and submitting the proof together with the plain \(unhashed token to each node results in the node responding with a key share that is encrypted with the temporary public key.
+The idea here is that as an honest node, you will never give out shares for a token whose commitment has been seen before. You want to give out shares, but you cannot be sure that the final incoming request with proof is not by a front-runner. However, you know that to generate this proof, enough nodes must have received this token and encrypted a message for a recipient with this private key.‌
 
-**Attack 1: Front-runner intercepts the original commitment request and sends a modified public key**
+If a front-runner had intercepted the original commitment and gotten this proof for himself, the user would not receive enough signatures and would never have revealed this token, so this scenario would not be possible. Even if a front-runner is currently intercepting this message that contains a revealed token with proof, by encrypting the share with the associated temporary private key, the front-runner has no way of decrypting it. This sounds complicated and unlikely, but it is relatively easy to spot attack.‌
 
-In this case, the user will not receive a threshold number of signatures, and thus will not reveal their token. They will then be required to login again and request for a new token. Since the requests to the nodes are made in a random order, eventually a threshold honest set can be reached before a front-runner receives the commitment request.
+#### Private Key Reconstruction <a id="private-key-reconstruction"></a>
 
-**Attack 2: Front-runner intercepts the reveal request and resends it to other nodes**
+To improve the user experience, we make use of a Javascript front-end client to provide a Web3 interface for DApps that holds the private key for the user in a separate Javascript context. All communications to nodes, third-party authentication servers, as well as message signing, are done in this separate Javascript iframe context that is loaded within our domain.‌
 
-Since a public key is already associated with the token in the commitment request, nodes will only respond with encrypted shares. Even if a front-runner intercepts the encrypted shares, they will be unable to decrypt it.
+### Node Migration <a id="node-migration"></a>
 
-### Torus wallet
+The Torus network functions in epochs. Each epoch has a set of nodes that are in charge of the node operations, and when they are done, they migrate the necessary state over to the next epoch's nodes. Since our entire system does not store any state other than the mappings of TorusIDs to user verifier IDs and private keys, the only systems needed are the ones that migrate mappings and private keys across epochs.‌
 
-To make our key management solution usable for DApps, we provide a Web3 interface that interfacess with an iframe that holds the private key for the user in a separate javascript context. All communications to nodes, third-party authentication servers, as well as message signing, are done in this separate javascript iframe context that is loaded on some [tor.us](https://tor.us) subdomain.
+The migration of keys uses Proactive Secret Sharing, also from Cachin et al. This is necessary because we cannot just copy shares to the new set of nodes, as that might mean that a single node operator could get access to more than one share, and it is not possible to add or remove nodes. Proactive Secret Sharing allows that.‌
 
-As such, Torus wallet consists of a javascript Web3 SDK \([torus-embed](https://github.com/torusresearch/torus-embed)\) and the site that is loaded in the iframe \([torus-website](https://github.com/torusresearch/torus-website)\). 
-
-#### Integrity hashes
-
-To ensure content integrity for the Torus wallet, all imported files in the Torus wallet are integrity hashed, and the resulting javascript SDK also has an integrity hash. We also go one step further to ensure that it's not possible for the Torus development team to modify the wallet after release by ensuring that the torus-embed SDK keeps an integrity hash of a particular static release of torus-website, and checks that the iframe's contents matches this integrity hash. As long as you do not update your installed version of the torus-embed javascript, even if the Torus team hosts a malicious version of torus-website, your torus-embed SDK will refuse to load it. We also use integrity hashes for our service workers to the same effect. Both of these are not currently natively supported by browsers at the moment but we use a fetch-validate-cache-and-load method to achieve this.
-
-These integrity hashes help to ensure that the Torus wallet front-end cannot be freely modified by the Torus team post-release. All releases are versioned and will always be accessible at app.tor.us/vX.XX.XX.
-
-
+In brief, the key idea is that we create sharings of shares and add them up in a way such that they form a Lagrange Interpolation on the original secret. Much like how DKGs are the sum of several secret sharings, where the master secret is the sum of all of the secrets from each of the N-parallel secret sharing protocols, we can do the same thing by setting N-parallel secret sharing protocols to be run by the original set of nodes, with their "secret" as their share. The resulting shares of shares, if added appropriately \(multiply them by Lagrange coefficients first\), would lead to a re-sharing on the original secret.
 
