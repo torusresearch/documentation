@@ -10,7 +10,7 @@
 * [Account](api-reference/account.md)
 * [Account Resolver](api-reference/address-resolver.md)
 * [Topup](api-reference/topup.md)
-* [Ethereum API](api-reference/ethereum-api.md)
+* [Ethereum](api-reference/ethereum-api.md)
 
 ## Features
 
@@ -49,4 +49,5 @@
 * [Terms and Conditions](legal/terms-and-conditions.md)
 * [Privacy Policy](legal/privacy-policy.md)
 * [Cookie Policy](legal/cookie-policy.md)
+* [Changelog](changelog.md)
 
