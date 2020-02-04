@@ -15,7 +15,7 @@
 ## Features
 
 * [Account Recovery](features/accountrecovery.md)
-* [FIAT to Cryptocurrency](features/purchasecryptocurrency.md)
+* [Purchasing cryptocurrency](features/purchasecryptocurrency.md)
 * [Edit Transaction](features/edittransaction.md)
 * [ERC 721](features/erc721.md)
 * [Export Private Key](features/exportprivatekey.md)
