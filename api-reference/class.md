@@ -14,19 +14,13 @@ Using ES6,
 import Torus from "@toruslabs/torus-embed";
 ```
 
-## torusObject
-
-```text
-`instance`
-```
-
-All API's can be accessed by creating a new instance of Torus
+Then, create a new instance of Torus.
 
 ```javascript
 const torus = new Torus(options);
 ```
 
-The Torus constructor takes an object with `TorusCtorArgs` as input
+The Torus constructor takes an object with `TorusCtorArgs` as input.
 
 **Parameters**
 
