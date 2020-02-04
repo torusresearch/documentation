@@ -54,6 +54,10 @@ Yes, you don't have to pay anything to use Torus. We monetise primarily through 
 
 Torus is a software service that simplifies and facilitates the use of cryptocurrencies. Different countries have different legalities pertaining to the use of cryptocurrencies, with most countries accepting its use. You can find out if cryptocurrencies are legal in your country [here](https://www.loc.gov/law/help/cryptocurrency/world-survey.php).
 
+### Does Torus have a token?
+
+Not at the moment, no.
+
 ## Login / Logging In
 
 ### How should I log in?
@@ -66,7 +70,7 @@ Rather than developing an entirely new system, Torus leverages on existing authe
 
 ### What if I lose access to my Google Account?
 
-Your private key is specific to your computer and Google login account, in the event of losing your Google login account password, you would need to start the password recovery process on Google's account management system. Be sure to back up your account recovery codes and keep them safe.
+Your private key is specific to your Google account. In the event of losing your Google login account password, you would need to start the password recovery process on Google's account management system. Be sure to back up your account recovery codes and keep them safe.
 
 ### How do I proceed if I do not have a Google Account?
 
