@@ -76,7 +76,7 @@ The code snippet below sets Torus as the default login method for the DApp, past
 
 {% embed url="https://gist.github.com/chaitanyapotti/733405286923fa047af4cb26d167acd4" caption="Torus embed script" %}
 
-The script tag creates a `window.ethereum` web3 provider. This can be wrapped with your desired version of Web3 to create a web3 object. We also provide a `window.web3` object \(v0.20.7\), which allows for backward compatibility with existing DApps that are using Metamask.
+The script tag creates a `window.ethereum` web3 provider. This can be wrapped with your desired version of Web3 to create a web3 object. We also provide a `window.web3` object \(v0.20.7\), which allows for backward compatibility with existing DApps that are using Metamask's web3 object.
 
 In fact, if you inject this script tag into a page for any existing DApp, most of it the time it Just Works.
 
