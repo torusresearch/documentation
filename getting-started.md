@@ -1,6 +1,6 @@
 ---
 description: >-
-  Torus streamlines onboarding by allowing users to start using your DApp with
+  Torus streamlines onboarding by allowing users to start using DApps via
   existing social accounts.
 ---
 
