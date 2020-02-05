@@ -120,3 +120,11 @@ Digital assets on the blockchain vary in value, for more information on the pric
 
 Yes, in general, transactions on Ethereum are public. 
 
+## Cookies
+
+### Why is Torus asking me to enable cookies? How can I enable cookies?
+
+Torus does not store cookies, but our 3rd-party login providers do. For example, Google login stores a cookie in your browser for authentication purposes. 
+
+You can check out this article here to figure out how to enable cookies for your device and browser: [https://medium.com/@akohubteam/how-to-enable-third-party-cookies-on-your-browsers-f9a8143b8cc5](https://medium.com/@akohubteam/how-to-enable-third-party-cookies-on-your-browsers-f9a8143b8cc5)
+
