@@ -80,3 +80,7 @@ The script tag creates a `window.ethereum` web3 provider. This can be wrapped wi
 
 In fact, if you inject this script tag into a page for any existing DApp, most of it the time it Just Works.
 
+### Development Environment
+
+If you are to developing with Torus in a local environment/with ganache, https is necessary to interact with app.tor.us. Checkout [the steps here](https://https://docs.tor.us/developing-with-torus/ganache) to get started.
+
