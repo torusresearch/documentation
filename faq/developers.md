@@ -35,9 +35,9 @@ We log you out of your 3rd-party account immediately after your identity is veri
 ### Is it possible to allow users to persist their session with the DApp, so that they don't have to login again?
 
   
-It is definitely possible but keeping the user logged in for just that session gives better privacy guarantees for users.
+It is definitely possible but keeping the user logged in for just that session gives better privacy guarantees for users. There is no easy way for Torus to ensure that users are logged out by the DApp, so we opted to keep user sessions self contained.
 
-Most Oauth providers already solve this problem by auto-approving the login request if the user logged in recently, and it may not even require user interaction. 
+Most Oauth providers already solve this problem by auto-approving the login request if the user logged in recently, and it may not even require user interaction. For example, for Facebook login, users do not even need to click anything if they have recently logged in.
 
 ## Torus
 
