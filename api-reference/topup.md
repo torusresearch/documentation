@@ -16,6 +16,7 @@ const paymentStatus = await torus.initiateTopup(provider, params);
 
 * `provider` - `enum` \(required\) : The specified payment partner. Supported options for provider are `moonpay` `wyre` `coindirect`
 * `params` - `PaymentParams` \(optional\) : The topup tx params. used to autofill the form for that specific provider
+  * `selectedAddress` - `string` \(optional\): The address to top up
   * `selectedCurrency` - `string` \(optional\) : The fiat currency supported. e.g.: "USD". In case an unsupported currency is specified, it throws
   * `fiatValue` - `Number` \(optional\) : The fiat value. It must be between the max and min value supported by that provider
   * `selectedCryptoCurrency` - `string` \(optional\) : The crypto currency supported. e.g.: "ETH". In case an unsupported crypto currency is specified, it throws
