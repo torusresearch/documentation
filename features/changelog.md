@@ -1,6 +1,6 @@
 ---
 description: >-
-  For updates, also checkout the release QA checklist for the most real time
+  For updates, also checkout the release [QA checklist](http://bit.ly/torusQA) for the most real time
   updates on functionality.
 ---
 
