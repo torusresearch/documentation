@@ -1,3 +1,9 @@
+---
+description: >-
+  For updates, also checkout the release QA checklist for the most real time
+  updates on functionality.
+---
+
 # Changelog
 
 ## [v0.2.14](https://github.com/torusresearch/torus-website/pull/831)
