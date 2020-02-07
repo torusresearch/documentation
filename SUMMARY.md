@@ -36,6 +36,7 @@
 
 * [Developing with Ganache](developing-with-torus/ganache.md)
 * [Network List](developing-with-torus/networklist.md)
+* [Changelog](developing-with-torus/changelog.md)
 
 ## FAQ
 
@@ -47,5 +48,4 @@
 * [Terms and Conditions](legal/terms-and-conditions.md)
 * [Privacy Policy](legal/privacy-policy.md)
 * [Cookie Policy](legal/cookie-policy.md)
-* [Changelog](legal/changelog.md)
 

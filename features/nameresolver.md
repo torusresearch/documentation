@@ -1,12 +1,10 @@
 # Account Resolver
 
-All you need is your email\* or social ID, users can transact without having to copy paste long ETH addresses. Torus resolves users' OAuth IDs into Ethereum addresses.
-
-\* Note: Only applicable to Google/G-Suite email addresses
+All you need is a Google email or social ID in the recipient field. Users can transact without using Ethereum addresses. Developers can use the [getPublicAddress](https://docs.tor.us/api-reference/address-resolver#getpublicaddress) to do account resolution as well.
 
 ![Name resolver](../.gitbook/assets/nameresolver.png)
 
 ### How does this work?
 
-Read the Overview
+Read the [overview](https://docs.tor.us/#operation)
 
