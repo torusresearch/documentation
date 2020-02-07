@@ -14,7 +14,7 @@
 
 ## Features
 
-* [Changelog](developing-with-torus/changelog.md)
+* [Changelog](features/changelog.md)
 * [Account Recovery](features/accountrecovery.md)
 * [Purchasing cryptocurrency](features/purchasecryptocurrency.md)
 * [ERC 721](features/erc721.md)
