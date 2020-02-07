@@ -14,6 +14,7 @@
 
 ## Features
 
+* [Changelog](features/changelog.md)
 * [Account Recovery](features/accountrecovery.md)
 * [Purchasing cryptocurrency](features/purchasecryptocurrency.md)
 * [ERC 721](features/erc721.md)
@@ -36,7 +37,6 @@
 
 * [Developing with Ganache](developing-with-torus/ganache.md)
 * [Network List](developing-with-torus/networklist.md)
-* [Changelog](developing-with-torus/changelog.md)
 
 ## FAQ
 

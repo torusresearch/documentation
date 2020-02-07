@@ -2,7 +2,7 @@
 
 ## [v0.2.14](https://github.com/torusresearch/torus-website/pull/831)
 
-* Version bump for torus-embed \(omitted in previous patch\)
+* Integrated new inpage provider in torus-embed SDK
 
 ## [v0.2.13](https://github.com/torusresearch/torus-website/pull/801)
 
