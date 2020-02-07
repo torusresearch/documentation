@@ -1,5 +1,24 @@
 # Changelog
 
+## [v0.2.14](https://github.com/torusresearch/torus-website/pull/831)
+
+* Version bump for torus-embed \(omitted in previous patch\)
+
+## [v0.2.13](https://github.com/torusresearch/torus-website/pull/801)
+
+* DARK MODE EVERYWHERE
+* Language change UI + translations updated
+* Re-Fetch provider quote on closing window
+* Use new random-id to fix warnings related to build
+* Add support for new inpage provider, improves compatibility with Metamask
+* Update packages
+* Selected address support for payment tx
+* USD tx amount fixes
+* Add LRC support
+* Metamask controller upgrades + fixes
+* Moonpay signature support
+* Fix service-worker bugs
+
 ## [v0.2.12](https://github.com/torusresearch/torus-website/pull/758)
 
 * Start using torus.js npm package

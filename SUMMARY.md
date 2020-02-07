@@ -47,5 +47,5 @@
 * [Terms and Conditions](legal/terms-and-conditions.md)
 * [Privacy Policy](legal/privacy-policy.md)
 * [Cookie Policy](legal/cookie-policy.md)
-* [Changelog](changelog.md)
+* [Changelog](legal/changelog.md)
 
