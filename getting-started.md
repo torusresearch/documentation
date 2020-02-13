@@ -78,7 +78,15 @@ The code snippet below sets Torus as the default login method for the DApp, past
 
 The script tag creates a `window.ethereum` web3 provider. This can be wrapped with your desired version of Web3 to create a web3 object. We also provide a `window.web3` object \(v0.20.7\), which allows for backward compatibility with existing DApps that are using Metamask's web3 object.
 
-In fact, if you inject this script tag into a page for any existing DApp, most of it the time it Just Works.
+#### IPFS
+
+For DApps using IPFS, we also have a version of this script hosted on IPFS.
+
+```text
+<script src="https://cloudflare-ipfs.com/ipfs/QmcQADhGeYvyRm56xoijAM4gs7ZLBu3WfeotTpc7SdUuMa"
+integrity="sha384-PAg4PvuFYzWY4THGynmPbfqGUb0gekmTzumGoo/yhESiri+rsds0O65AJW3eEHMc"
+crossorigin="anonymous"></script>
+```
 
 ### Development Environment
 
