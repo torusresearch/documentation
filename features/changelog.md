@@ -1,7 +1,7 @@
 ---
 description: >-
-  For updates, also checkout the release [QA checklist](http://bit.ly/torusQA) for the most real time
-  updates on functionality.
+  For updates, also checkout the release [QA checklist](http://bit.ly/torusQA)
+  for the most real time updates on functionality.
 ---
 
 # Changelog
@@ -69,8 +69,6 @@ description: >-
 * Update packages
 * Support for cookies
 * CI improvements
-
-
 
 For older releases, go to [Github](https://github.com/torusresearch/torus-website/pulls?q=base%3Amaster)
 

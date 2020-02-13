@@ -15,7 +15,7 @@ Or were you looking for the [API Reference](api-reference/class.md)?
 
 ## Architecture
 
-![](.gitbook/assets/image.png)
+![](.gitbook/assets/graph-6-final.png)
 
 ### General Overview <a id="general-overview"></a>
 
