@@ -6,6 +6,10 @@ description: >-
 
 # Changelog
 
+## [v1.0.0](https://github.com/torusresearch/torus-website/pull/843)
+
+* Launched out of beta
+
 ## [v0.2.14](https://github.com/torusresearch/torus-website/pull/831)
 
 * Integrated new inpage provider in torus-embed SDK
