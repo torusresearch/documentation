@@ -49,3 +49,7 @@
 * [Privacy Policy](legal/privacy-policy.md)
 * [Cookie Policy](legal/cookie-policy.md)
 
+## Contact
+
+* [Bug Bounty](contact/bug-bounty.md)
+
