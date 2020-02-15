@@ -90,5 +90,5 @@ crossorigin="anonymous"></script>
 
 ### Development Environment
 
-If you are to developing with Torus in a local environment/with ganache, https is necessary to interact with app.tor.us. Checkout [the steps here](https://https://docs.tor.us/developing-with-torus/ganache) to get started.
+If you are to developing with Torus in a local environment/with ganache, https is necessary to interact with app.tor.us. Checkout [the steps here](https://docs.tor.us/developing-with-torus/ganache) to get started.
 
