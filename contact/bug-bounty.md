@@ -1,6 +1,6 @@
 # Bug Bounty
 
-We have an ongoing bug bounty program for security-related bugs that compromise key security.
+We have an ongoing bug bounty program for **security-related bugs that compromise key security**.
 
 The tiers are as follows:
 
