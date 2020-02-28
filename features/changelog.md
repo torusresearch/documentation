@@ -6,6 +6,15 @@ description: >-
 
 # Changelog
 
+## [v1.1.0](https://github.com/torusresearch/torus-website/pull/904)
+
+* Receive site metadata
+* Remove Vuex store dependency in popups
+* Fix timing issues with service worker popups
+* Fix z-index issue with web3Connect
+* New UI
+* Bug fixes
+
 ## [v1.0.0](https://github.com/torusresearch/torus-website/pull/843)
 
 * Launched out of beta
