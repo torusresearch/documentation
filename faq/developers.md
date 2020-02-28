@@ -49,6 +49,10 @@ For DApp integrations, refer the ["Getting Started"](../getting-started.md) sect
 
 There are several restrictions. Some integrations are possible \(eg. native support, Chrome extensions\), whereas others are not \(eg. using Torus wallet in a server context\). Right now, we only have browser based support. 
 
+### What browsers are supported?
+
+Chrome, Edge, Firefox, Brave, Safari and other major browsers. IE and private browsing in Safari are not supported.
+
 ### How can i become one of the nodes running Torus?
 
 We are currently running the network as a permissioned network, so there is a whitelist process, please reach out at hello@tor.us
