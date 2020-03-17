@@ -71,6 +71,7 @@ await torus.init(params);
   * `enableLogging` - `boolean` \(optional\) : Enables/disables logging. Useful for debugging
   * `showTorusButton` - `boolean` \(optional\) : Shows/Hides the Torus Button
   * `enabledVerifiers` - `VerifierStatus` \(optional\) : Hides certain types of logins \(Default is true\)
+  * `integrity` - `IntegrityParams` \(optional\) : Enables Optional integrity checking \(Default is false\)
 
 **Returns**
 
@@ -107,6 +108,12 @@ interface NetworkInterface {
     | string;
   chainId?: number;
   networkName?: string;
+}
+
+interface IntegrityParams {
+  check: boolean;
+  hash?: string;
+  version?: string;
 }
 ```
 
