@@ -65,12 +65,13 @@ await torus.init(params);
 
 **Parameters**
 
-* `params` - `TorusParams` \(optional\) : The parameters passed to initialize torus object
+* `params` - `TorusParams` \(optional\) : The parameters passed to initialize Torus object
   * `network` - `NetworkInterface` \(optional\) : The network options. Used for setting a default network
   * `buildEnv` - `enum` \(optional\): The build environment to use. Supported values are `production` `development` `staging` `testing`
   * `enableLogging` - `boolean` \(optional\) : Enables/disables logging. Useful for debugging
   * `showTorusButton` - `boolean` \(optional\) : Shows/Hides the Torus Button
-  * `enabledVerifiers` - `VerifierStatus` \(optional\) : Hides certain types of logins \(Default is true\)
+  * `enabledVerifiers` - `VerifierStatus` \(optional\) : Hides certain types of logins \(default is true\)
+  * `integrity` - `IntegrityParams` \(optional\) : Enables optional integrity checking \(default is false\)
 
 **Returns**
 
@@ -107,6 +108,12 @@ interface NetworkInterface {
     | string;
   chainId?: number;
   networkName?: string;
+}
+
+interface IntegrityParams {
+  check: boolean;
+  hash?: string;
+  version?: string;
 }
 ```
 
