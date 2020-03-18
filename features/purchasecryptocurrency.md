@@ -1,4 +1,4 @@
-# Purchasing cryptocurrency
+# Purchasing Cryptocurrency
 
 Torus has a range of providers to allow your users to purchase cryptocurrencies directly with credit card/wire transfer. Developers can either access this through presenting the "Topup" page below, or trigger the fiat-to-crypto providers directly from the API.
 

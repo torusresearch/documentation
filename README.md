@@ -9,7 +9,7 @@ description: >-
 
 ## TLDR
 
-Developers can integrate Torus into their DApps with just a few lines of code - [get started here](getting-started.md) or head over to the [API Reference](api-reference/class.md).
+Developers can integrate Torus into their DApps with just a few lines of code - [get started here](getting-started/) or head over to the [API Reference](api-reference/class.md).
 
 Users can start using Torus [here](https://ipfs.io/ipfs/QmVrWpAivFzEN6GGerdURNXfssr5YpHjTtZopHHGQ6AHmU).
 

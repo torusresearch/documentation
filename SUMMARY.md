@@ -1,7 +1,9 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Getting Started](getting-started.md)
+* [Getting Started](getting-started/README.md)
+  * [iFrame Wallet Integration](getting-started/iframe-wallet-integration.md)
+  * [Direct Torus Network Integration](getting-started/direct-torus-network-integration.md)
 
 ## API Reference
 
@@ -16,7 +18,7 @@
 
 * [Changelog](features/changelog.md)
 * [Account Recovery](features/accountrecovery.md)
-* [Purchasing cryptocurrency](features/purchasecryptocurrency.md)
+* [Purchasing Cryptocurrency](features/purchasecryptocurrency.md)
 * [ERC 721](features/erc721.md)
 * [Private Key Export](features/exportprivatekey.md)
 * [Language Support](features/language.md)

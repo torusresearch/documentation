@@ -43,7 +43,7 @@ Most Oauth providers already solve this problem by auto-approving the login requ
 
 ### How do I start using Torus?
 
-For DApp integrations, refer the ["Getting Started"](../getting-started.md) section. To use the wallet, head over to [https://app.tor.us](https://app.tor.us)
+For DApp integrations, refer the ["Getting Started"](../getting-started/) section. To use the wallet, head over to [https://app.tor.us](https://app.tor.us)
 
 ### Can I use the Torus wallet outside of a browser context?
 

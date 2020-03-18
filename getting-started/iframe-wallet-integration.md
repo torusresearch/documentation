@@ -1,12 +1,4 @@
----
-description: >-
-  Torus streamlines onboarding by allowing users to start using DApps via
-  existing social accounts.
----
-
-# Getting Started
-
-## Install Torus
+# iFrame Wallet Integration
 
 ### NPM Package
 
@@ -46,6 +38,8 @@ await torus.init({
 await torus.login(); // await torus.ethereum.enable()
 const web3 = new Web3(torus.provider);
 ```
+
+### Examples
 
 Please refer to the [examples](https://github.com/torusresearch/torus-embed/tree/master/examples) folder for sample implementations or the Class documentation for further init options
 
