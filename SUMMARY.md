@@ -2,8 +2,8 @@
 
 * [Overview](README.md)
 * [Getting Started](getting-started/README.md)
-  * [iFrame Wallet Integration](getting-started/iframe-wallet-integration.md)
-  * [Direct Torus Network Integration](getting-started/direct-torus-network-integration.md)
+  * [Torus Wallet Integration](getting-started/torus-wallet-integration.md)
+  * [DirectAuth Integration](getting-started/directauth-network-integration.md)
 
 ## API Reference
 

@@ -1,4 +1,4 @@
-# iFrame Wallet Integration
+# Torus Wallet Integration
 
 ### NPM Package
 
