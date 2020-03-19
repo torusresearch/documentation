@@ -6,7 +6,9 @@ description: user account management
 
 ## login
 
-Prompts the user to login. Opens the login popup if the user is not already logged in.
+Prompts the user to login if they are not logged in. 
+
+If you wish to avoid using the Torus modal, pass a specific verifier i.e. google, facebook.
 
 ```javascript
 await torus.login(params);
