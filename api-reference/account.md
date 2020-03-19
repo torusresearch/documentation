@@ -6,9 +6,7 @@ description: user account management
 
 ## login
 
-Prompts the user to login if they are not logged in. 
-
-If you wish to avoid using the Torus modal, pass a specific verifier i.e. google, facebook.
+Prompts the user to login if they are not logged in. If an OAuth verifier is not provided, a modal selector will be shown.
 
 ```javascript
 await torus.login(params);
