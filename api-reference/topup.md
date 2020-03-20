@@ -41,17 +41,18 @@ const paymentProviders = {
     validCurrencies: ['USD'],
     validCryptoCurrencies: ['ETH', 'DAI', 'USDC']
   },
-  coindirect: {
-    minOrderValue: 20,
-    maxOrderValue: 1000,
-    validCurrencies: ['EUR'],
-    validCryptoCurrencies: ['ETH']
+  rampnetwork: {
+    minOrderValue: 1,
+    maxOrderValue: 10000,
+    validCurrencies: ['GBP', 'EUR'],
+    validCryptoCurrencies: ['ETH', 'DAI', 'USDC']
   }
 }
 ```
 
 ```typescript
 interface PaymentParams {
+  selectedAddress?: string;
   selectedCurrency?: string;
   fiatValue?: Number;
   selectedCryptoCurrency?: string;  
@@ -68,12 +69,13 @@ const paymentStatus = await torus.initiateTopup('wyre');
 const paymentStatus = await torus.initiateTopup('moonpay', {
   selectedCurrency: "USD",
   fiatValue: 50,
-  selectedCryptoCurrency: "ETH"
+  selectedCryptoCurrency: "ETH",
+  selectedAddress: "0xabc..."
 });
 ```
 
 ```javascript
-const paymentStatus = await torus.initiateTopup('coindirect', {
+const paymentStatus = await torus.initiateTopup('rampnetwork', {
   selectedCurrency: "USD"
 });
 ```
