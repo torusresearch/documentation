@@ -6,6 +6,21 @@ description: >-
 
 # Changelog
 
+## [v1.2.1](https://github.com/torusresearch/torus-website/pull/947)
+
+* Allow topup API to be called without login
+* Billboard changes
+
+## [v1.2.0](https://github.com/torusresearch/torus-website/pull/934)
+
+* Added better linting
+* Add Ramp network payment provider
+* CI Optimizations
+* Bug fixes
+* Update packages
+* Add more tests
+* Add more currencies
+
 ## [v1.1.0](https://github.com/torusresearch/torus-website/pull/904)
 
 * Receive site metadata
