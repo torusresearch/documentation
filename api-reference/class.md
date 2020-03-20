@@ -86,6 +86,7 @@ interface TorusParams {
   enableLogging?: boolean;
   showTorusButton?: boolean;
   enabledVerifiers?: VerifierStatus;
+  integrity?: IntegrityParams;
 }
 
 interface VerifierStatus {
