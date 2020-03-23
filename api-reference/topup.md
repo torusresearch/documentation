@@ -28,7 +28,7 @@ const paymentStatus = await torus.initiateTopup(provider, params);
 **Reference**
 
 ```javascript
-const paymentProviders = {
+torus.paymentProviders = {
   moonpay: {
     minOrderValue: 24.99,
     maxOrderValue: 2000,
