@@ -6,6 +6,24 @@ description: >-
 
 # Changelog
 
+## [v1.2.4](https://github.com/torusresearch/torus-website/pull/963)
+
+* Refactor
+* Billboard changes
+* Fix lint
+* Updated packages
+* Bug fixes
+
+## [v1.2.3](https://github.com/torusresearch/torus-website/pull/954)
+
+* Window container max width
+* Moonpay wallet address confirmation screen
+
+## [v1.2.2](https://github.com/torusresearch/torus-website/pull/951)
+
+* Payment provider changes
+* ERC20 approve changes
+
 ## [v1.2.1](https://github.com/torusresearch/torus-website/pull/947)
 
 * Allow topup API to be called without login
