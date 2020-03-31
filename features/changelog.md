@@ -6,6 +6,21 @@ description: >-
 
 # Changelog
 
+## [v1.2.6](https://github.com/torusresearch/torus-website/pull/972)
+
+* Fix issue with gas estimation
+* Update packages
+
+## [v1.2.5](https://github.com/torusresearch/torus-website/pull/969)
+
+* CircleCI optimization
+* Update packages
+* Fix Ci scripts
+* Show billboard always
+* Fix issue with ramp ERC20 payments
+* New Twitch API
+* Lint fixes
+
 ## [v1.2.4](https://github.com/torusresearch/torus-website/pull/963)
 
 * Refactor
