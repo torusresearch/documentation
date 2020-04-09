@@ -8,7 +8,7 @@ Depending on your applications needs Torus can be integrated in either via the [
 
 ### iFrame wallet integration via NPM
 
-The iFrame wallet allows any application to seamlessly support their user's interactions with Ethereum\(and other chains\). OAuth logins, fiat-to-crypto and much more listed in the features section. You can install via a [npm package](https://www.npmjs.com/package/@toruslabs/torus-embed) or [ipfs](torus-wallet-integration.md#ipfs). More [details](torus-wallet-integration.md)
+The iFrame wallet allows any application to seamlessly support their user's interactions with Ethereum\(and other chains\). OAuth logins, fiat-to-crypto and much more listed in the features section. You can install via a [npm package](https://www.npmjs.com/package/@toruslabs/torus-embed) or [ipfs](torus-wallet-integration.md#ipfs). or [jsdelivr](https://cdn.jsdelivr.net/npm/@toruslabs/torus-embed) or [unpkg](https://unpkg.com/@toruslabs/torus-embed) More [details](torus-wallet-integration.md)
 
 ```javascript
 npm i @toruslabs/torus-embed

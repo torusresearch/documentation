@@ -9,7 +9,7 @@ description: 'create, initialize, and clean up a Torus web3 instance.'
 This is the main class of anything related to Torus
 
 ```javascript
-const Torus = require("@toruslabs/torus-embed").default;
+const Torus = require("@toruslabs/torus-embed");
 ```
 
 Using ES6,

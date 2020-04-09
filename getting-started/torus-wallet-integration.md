@@ -47,36 +47,25 @@ Please refer to the [examples](https://github.com/torusresearch/torus-embed/tree
 
 Integrating with Torus gives you a provider, which can be wrapped by the Web3. This instance functions similar to that as Metamask's web3 provider, and we have taken great care to make it compatible with Metamask's [Web3 APIs](https://web3js.readthedocs.io/en/1.0/).
 
-### AngularJS users
-
-**Please include the following NPM packages:**
-
-```bash
-process, buffer
-```
-
-And add the following code into polyfills.ts.
-
-```javascript
-import * as process from 'process';
-window['process'] = process;
-(window as any).global = window;
-(window as any).global.Buffer = (window as any).global.Buffer || require('buffer').Buffer;
-```
-
 ### Script Tag
 
 The code snippet below sets Torus as the default login method for the DApp, paste the following script to the &lt;body&gt; of index.html.
 
-{% embed url="https://gist.github.com/chaitanyapotti/733405286923fa047af4cb26d167acd4" caption="Torus embed script" %}
+```markup
+<script src="https://cdn.jsdelivr.net/npm/@toruslabs/torus-embed"></script>
+```
 
-The script tag creates a `window.ethereum` web3 provider. This can be wrapped with your desired version of Web3 to create a web3 object. We also provide a `window.web3` object \(v0.20.7\), which allows for backward compatibility with existing DApps that are using Metamask's web3 object.
+```markup
+<script src="https://unpkg.com/@toruslabs/torus-embed"></script>
+```
+
+The script tag creates a `window.torus` object. You can initialize it and use it as above
 
 #### IPFS
 
 For DApps using IPFS, we also have a version of this script hosted on IPFS.
 
-```text
+```markup
 <script src="https://cloudflare-ipfs.com/ipfs/QmcQADhGeYvyRm56xoijAM4gs7ZLBu3WfeotTpc7SdUuMa"
 integrity="sha384-PAg4PvuFYzWY4THGynmPbfqGUb0gekmTzumGoo/yhESiri+rsds0O65AJW3eEHMc"
 crossorigin="anonymous"></script>
