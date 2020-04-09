@@ -61,15 +61,7 @@ The code snippet below sets Torus as the default login method for the DApp, past
 
 The script tag creates a `window.torus` object. You can initialize it and use it as above
 
-#### IPFS
 
-For DApps using IPFS, we also have a version of this script hosted on IPFS.
-
-```markup
-<script src="https://cloudflare-ipfs.com/ipfs/QmcQADhGeYvyRm56xoijAM4gs7ZLBu3WfeotTpc7SdUuMa"
-integrity="sha384-PAg4PvuFYzWY4THGynmPbfqGUb0gekmTzumGoo/yhESiri+rsds0O65AJW3eEHMc"
-crossorigin="anonymous"></script>
-```
 
 ### Development Environment
 
