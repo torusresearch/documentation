@@ -61,8 +61,6 @@ The code snippet below sets Torus as the default login method for the DApp, past
 
 The script tag creates a `window.torus` object. You can initialize it and use it as above
 
-
-
 ### Development Environment
 
 If you are to developing with Torus in a local environment/with ganache, https is necessary to interact with app.tor.us. Checkout [the steps here](https://docs.tor.us/developing-with-torus/ganache) to get started.
