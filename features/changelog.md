@@ -6,6 +6,19 @@ description: >-
 
 # Changelog
 
+## [v1.3.0](https://github.com/torusresearch/torus-website/pull/983)
+
+* Use webpack to build and release \(Fixed [blocknative/onboard\#219](https://github.com/blocknative/onboard/issues/219)\)
+* Remove isMetamask=true \([Web3Modal/web3modal\#130](https://github.com/Web3Modal/web3modal/issues/130)\)
+* Remove build scripts that are no longer necessary
+* Update documentation
+* Fixed bugs \([Web3Modal/web3modal\#138](https://github.com/Web3Modal/web3modal/issues/138)\)
+* Update packages of fetch-node-details and torus.js
+* Clean up scripts related to new torus-embed
+* Hide dapp permission
+* sendgrid use new email template
+* Use browser language by default
+
 ## [v1.2.6](https://github.com/torusresearch/torus-website/pull/972)
 
 * Fix issue with gas estimation
