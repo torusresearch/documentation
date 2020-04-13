@@ -1,6 +1,24 @@
 # Developers
 
-## Private Key
+## Torus
+
+### How do I start using Torus?
+
+For DApp integrations, refer the ["Getting Started"](../getting-started/) section. To use the wallet, head over to [https://app.tor.us](https://app.tor.us)
+
+### Can I use the Torus wallet outside of a browser context? Why doesn't it work in NodeJS?
+
+There are several restrictions. Some integrations are possible \(eg. native support, Chrome extensions\), whereas others are not \(eg. using Torus wallet in a server context\). Right now, we only have browser based support. 
+
+Using it directly in NodeJS via require will **not** work since the SDK relies on browser capabilities like service workers and window.open.
+
+### What browsers are supported?
+
+Chrome, Edge, Firefox, Brave, Safari and other major browsers. IE and private browsing in Safari are not supported.
+
+### How can i become one of the nodes running Torus?
+
+We are currently running the network as a permissioned network, so there is a whitelist process, please reach out at hello@tor.usPrivate Key
 
 ### How is my private key stored?
 
@@ -38,24 +56,6 @@ We log you out of your 3rd-party account immediately after your identity is veri
 It is definitely possible but keeping the user logged in for just that session gives better privacy guarantees for users. There is no easy way for Torus to ensure that users are logged out by the DApp, so we opted to keep user sessions self contained.
 
 Most Oauth providers already solve this problem by auto-approving the login request if the user logged in recently, and it may not even require user interaction. For example, for Facebook login, users do not even need to click anything if they have recently logged in.
-
-## Torus
-
-### How do I start using Torus?
-
-For DApp integrations, refer the ["Getting Started"](../getting-started/) section. To use the wallet, head over to [https://app.tor.us](https://app.tor.us)
-
-### Can I use the Torus wallet outside of a browser context?
-
-There are several restrictions. Some integrations are possible \(eg. native support, Chrome extensions\), whereas others are not \(eg. using Torus wallet in a server context\). Right now, we only have browser based support. 
-
-### What browsers are supported?
-
-Chrome, Edge, Firefox, Brave, Safari and other major browsers. IE and private browsing in Safari are not supported.
-
-### How can i become one of the nodes running Torus?
-
-We are currently running the network as a permissioned network, so there is a whitelist process, please reach out at hello@tor.us
 
 ## Any other questions?
 
