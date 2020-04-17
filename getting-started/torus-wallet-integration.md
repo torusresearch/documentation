@@ -45,11 +45,11 @@ Please refer to the [examples](https://github.com/torusresearch/torus-embed/tree
 
 ### Web3/ether.js
 
-Integrating with Torus gives you a provider, which can be wrapped by the Web3. This instance functions similar to that as Metamask's web3 provider, and we have taken great care to make it compatible with Metamask's [Web3 APIs](https://web3js.readthedocs.io/en/1.0/).
+Integrating with the Torus Wallet gives you a provider, which can be wrapped by the Web3. This instance functions similar to that as Metamask's web3 provider, and we have taken great care to make it compatible with Metamask's [Web3 APIs](https://web3js.readthedocs.io/en/1.0/).
 
 ### Script Tag
 
-The code snippet below sets Torus as the default login method for the DApp, paste the following script to the &lt;body&gt; of index.html.
+The code snippet below sets Torus Wallet as the default login method for the DApp, paste the following script to the &lt;body&gt; of index.html.
 
 ```markup
 <script src="https://cdn.jsdelivr.net/npm/@toruslabs/torus-embed"></script>
@@ -63,5 +63,7 @@ The script tag creates a `window.torus` object. You can initialize it and use it
 
 ### Development Environment
 
-If you are to developing with Torus in a local environment/with ganache, https is necessary to interact with app.tor.us. Checkout [the steps here](https://docs.tor.us/developing-with-torus/ganache) to get started.
+If you are to developing with the Torus Wallet in a local environment/with ganache, https is necessary to interact with app.tor.us. Checkout [the steps here](https://docs.tor.us/developing-with-torus/ganache) to get started.
+
+In general, the Torus wallet integration only works in a secure browser environment, as it needs access to browser APIs like window.open and window.crypto.
 
