@@ -58,7 +58,7 @@ You now need at least 2 out of 3 of the points are required to reconstruct the l
 
 This is a 2/3 Shamir secret sharing of the original line.
 
-### How can i become one of the nodes running Torus?
+### How can I become one of the nodes running Torus?
 
 We are currently running the network as a permissioned network, so there is a whitelist process, please reach out at hello@tor.usPrivate Key
 
