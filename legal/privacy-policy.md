@@ -1,8 +1,7 @@
 ---
 description: >-
-  This privacy policy is only applicable to Torus website (https://tor.us) not
-  Torus wallet (https://app.tor.us). The Torus wallet does not store any data.
-  Latest update: 9 December 2019.
+  This privacy policy is applicable to both the Torus website (https://tor.us)
+  and Torus wallet (https://app.tor.us). Latest update: 22 April 2020
 ---
 
 # Privacy Policy
