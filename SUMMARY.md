@@ -55,3 +55,8 @@
 
 * [Bug Bounty](contact/bug-bounty.md)
 
+## Integration Guideline
+
+* [Torus Wallet Integration](integration-guideline/torus-wallet-integration-guideline.md)
+* [DirectAuth Integration](integration-guideline/directauth-integration-guideline.md)
+
