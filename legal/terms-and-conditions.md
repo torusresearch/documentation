@@ -78,7 +78,7 @@ The Service provides, or third parties may provide, links to other World Wide We
 
 ‌You agree that, except as otherwise expressly provided in these Terms, there shall be no third party beneficiaries to the Terms.
 
-### ‌**12. Notice and Procedure for Making Claims of Copyright Infringement**
+## ‌**12. Notice and Procedure for Making Claims of Copyright Infringement**
 
 If you believe that your copyright or the copyright of a person on whose behalf you are authorized to act has been infringed, please provide Torus Labs a written Notice containing the following information:
 
