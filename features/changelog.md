@@ -6,6 +6,24 @@ description: >-
 
 # Changelog
 
+## [v1.3.2](https://github.com/torusresearch/torus-website/pull/1064)
+
+The following changes have been made in this release:
+
+* White label solution
+* etherumjs related package updates
+* Bug fixes
+* Ramp Campaign changes
+* Login action refactor
+
+## [v1.3.1](https://github.com/torusresearch/torus-website/pull/1057)
+
+The following changes have been made in this release:
+
+* Xanpool Integration
+* v8 changes
+* Update packages
+
 ## [v1.3.0](https://github.com/torusresearch/torus-website/pull/983)
 
 * Use webpack to build and release \(Fixed [blocknative/onboard\#219](https://github.com/blocknative/onboard/issues/219)\)
