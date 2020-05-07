@@ -6,6 +6,12 @@ description: >-
 
 # Changelog
 
+## [v1.3.3](https://github.com/torusresearch/torus-website/pull/1071)
+
+The following changes have been made in this release:
+
+* Fix Issue with twitch api being deprecated
+
 ## [v1.3.2](https://github.com/torusresearch/torus-website/pull/1064)
 
 The following changes have been made in this release:
