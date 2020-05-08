@@ -6,6 +6,12 @@ description: >-
 
 # Changelog
 
+## [v1.3.4](https://github.com/torusresearch/torus-website/pull/1073)
+
+The following changes have been made in this release:
+
+* Fix localStorage undefined issue for theme
+
 ## [v1.3.3](https://github.com/torusresearch/torus-website/pull/1071)
 
 The following changes have been made in this release:
