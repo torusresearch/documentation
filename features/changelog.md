@@ -6,6 +6,10 @@ description: >-
 
 # Changelog
 
+## [v1.4.0](https://github.com/torusresearch/torus-website/pull/1087)
+
+The last release \(v1.3.5\) must've been a patch release
+
 ## [v1.3.5](https://github.com/torusresearch/torus-website/pull/1085)
 
 The following changes have been made in this release:
