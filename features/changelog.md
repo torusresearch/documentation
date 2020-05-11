@@ -6,6 +6,16 @@ description: >-
 
 # Changelog
 
+## [v1.3.5](https://github.com/torusresearch/torus-website/pull/1085)
+
+The following changes have been made in this release:
+
+* Add support for whitelabel solution \( theme, translations, logos etc\)
+* Move widget and login modal to iframe
+* Fixed issue with gasPrice being set 0 on custom networks
+* Fixed issue with custom network support
+* Update packages
+
 ## [v1.3.4](https://github.com/torusresearch/torus-website/pull/1073)
 
 The following changes have been made in this release:
