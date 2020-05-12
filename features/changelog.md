@@ -6,6 +6,14 @@ description: >-
 
 # Changelog
 
+## [v1.4.1](https://github.com/torusresearch/torus-website/pull/1091)
+
+The following changes have been made in this release:
+
+* receive torus widget visibility status from embed
+* Fix issues with whitelabel state in popups
+* Allow dapp to re-request permission for user info
+
 ## [v1.4.0](https://github.com/torusresearch/torus-website/pull/1087)
 
 The last release \(v1.3.5\) must've been a patch release
