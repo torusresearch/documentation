@@ -32,6 +32,14 @@ Our nodes have managed volumes and snapshot policies to ensure that key shares a
 
 No...
 
+### When do I need to update the SDK to get new features?
+
+The SDK \([torus-embed](https://github.com/torusresearch/torus-embed)\) is a Javascript package that loads our wallet website \([torus-website](https://github.com/torusresearch/torus-website)\) in an iframe. Methods that are called from the SDK are relayed to the iframe via the browser's Window.postMessage API. 
+
+ By default, the SDK always fetches the latest version of the website, so if there are new features within the website, it is automatically available when the website is updated. You can turn this off by specifying integrityParams in the initialization.
+
+However, if there are new features in the SDK you'll need to update the SDK to get the new features. The SDK cannot update itself automatically. 
+
 ## Privacy
 
 ### Will Torus have access to a user's contacts from the OAuth login?
