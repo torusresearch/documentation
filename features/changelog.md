@@ -6,6 +6,12 @@ description: >-
 
 # Changelog
 
+## [v1.4.2](https://github.com/torusresearch/torus-website/pull/1093)
+
+The following changes have been made in this release:
+
+* Fix issue with dark mode redirect html
+
 ## [v1.4.1](https://github.com/torusresearch/torus-website/pull/1091)
 
 The following changes have been made in this release:
