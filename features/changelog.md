@@ -6,6 +6,31 @@ description: >-
 
 # Changelog
 
+## [v1.4.4](https://github.com/torusresearch/torus-website/pull/1117)
+
+The following changes have been made in this release:
+
+* Optimization \(lighthouse optimizations\)
+* Reduce build size by 9 MB \(50%\) \(clean up images, remove duplicates\)
+* Wallet history moved to preferences controller
+* Torus signed message
+* Fix issues with logout
+* Bug fixes
+
+## [v1.4.3](https://github.com/torusresearch/torus-website/pull/1102)
+
+The following changes have been made in this release:
+
+* Added alt on images
+* Added aria-labels and title for button-icons link-icons
+* Support multiple language for tncLink
+* Add gtm tags
+* Fix issues with manifest files and logos
+* Fix appjs not being cached
+* Don't cache in top level scoped service workers
+* Add preconnect to certain domains
+* Remove robots.txt
+
 ## [v1.4.2](https://github.com/torusresearch/torus-website/pull/1093)
 
 The following changes have been made in this release:
