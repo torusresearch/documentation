@@ -4,11 +4,11 @@ description: Distributed Key Generation as a Service
 
 # What is DirectAuth?
 
-Applications can directly interact with the [Torus Network](../how-torus-works/system-architecture.md) to assign, store and retrieve keys on the network - Distributed Key Generation as a Service. The integration is compatible with both web/native apps, applications get access to the OAuth scopes provided to them \(name/email from Google\) and there are no longer pop-ups - applications literally own the UX.
+Applications can directly interact with the [Torus Network](../how-torus-works/system-architecture.md) to assign, store and retrieve keys on the network - Distributed Key Generation as a Service. The integration is compatible with both web/native apps, applications get access to the OAuth scopes provided to them \(name/email from Google\) and there are no longer pop-ups - applications literally own the UX and can implement their own permissions structure.
 
 ![DirectAuth Architecture](../.gitbook/assets/directauth-overview.png)
 
-Just as how the Torus Wallet has a verifier script for each of the authentication methods, this integration includes a deployment of a verifier script on the BFT layer that the nodes share for the application specifically. Keys which are generated through the DKG protocol are assigned to the verifier script, which shares are respectively retrieved through successful execution of the script. Whilst most integrations integrate different OAuths, the script is generalisable and can be used to combine multiple OAuths, signatures and other varied forms of attestation for a user. A list of verifiers can be found [here](supported-authenticators-verifiers.md)
+DirectAuth abstracts out all of the core modules used to interact with the Torus Network from the Torus Wallet. As such, just as how the Torus Wallet has a verifier script for each of the authentication methods, this integration includes a deployment of a verifier script on the BFT layer that the nodes share for the application specifically. Keys which are generated through the DKG protocol are assigned to the verifier script, which shares are respectively retrieved through successful execution of the script. Whilst most integrations integrate different OAuths, the script is generalisable and can be used to combine multiple OAuths, signatures and other varied forms of attestation for a user. A list of verifiers can be found [here](supported-authenticators-verifiers.md)
 
 ## What does this mean for my application?
 
