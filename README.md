@@ -32,5 +32,5 @@ When a user arrives at a DApp, the client is loaded. From there, a user logs in,
 
 The client then assembles these shares and reconstructs the users key in the front-end. This key is kept for the session and is not persisted in localstorage, or for native apps kept in memory for a session.
 
-For more,  take a look at [System Architecture](how-torus-works/system-architecture.md)
+For more,  take a look at [System Architecture](how-torus-works/system-architecture.md) or our [high-level write ups](https://medium.com/toruslabs/what-distributed-key-generation-is-866adc79620)
 
