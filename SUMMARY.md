@@ -14,7 +14,7 @@
   * [Gasless/Meta Transactions](direct-auth/compatibility-and-common-patterns/gasless-meta-transactions.md)
   * [Scalability/Layer2 Solutions](direct-auth/compatibility-and-common-patterns/scalability-layer2-solutions.md)
   * [Password Manager Flow](direct-auth/compatibility-and-common-patterns/password-manager-flow.md)
-  * [Untitled](direct-auth/compatibility-and-common-patterns/untitled.md)
+  * [Threshold Device Key Management](direct-auth/compatibility-and-common-patterns/untitled.md)
 * [Supported Authenticators/Logins](direct-auth/supported-authenticators-verifiers.md)
 * [Integration Guidelines](direct-auth/integration-guidelines.md)
 

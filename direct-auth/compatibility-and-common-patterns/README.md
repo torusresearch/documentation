@@ -7,7 +7,7 @@ This section briefly outlines techniques and patterns that applications have use
 * \*\*\*\*[**Gasless/Meta Transactions**](gasless-meta-transactions.md)\*\*\*\*
 * \*\*\*\*[**Scalability Solutions**](scalability-layer2-solutions.md)\*\*\*\*
 * \*\*\*\*[**Password Manager Flow**](password-manager-flow.md)\*\*\*\*
-* **Shamir's Secret Sharing Device Management**
+* **Threshold Device Key Management**
 
 For some of these patterns we have tools to/templated implementations which make implementing these complex patterns/architectures easier. Do get in contact to find out more! 
 
