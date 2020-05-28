@@ -8,10 +8,7 @@ This section briefly outlines techniques and patterns that applications have use
 * \*\*\*\*[**Scalability Solutions**](scalability-layer2-solutions.md)\*\*\*\*
 * \*\*\*\*[**Password Manager Flow**](password-manager-flow.md)\*\*\*\*
 * **Threshold Device Key Management**
+* **Session Management**
 
 For some of these patterns we have tools to/templated implementations which make implementing these complex patterns/architectures easier. Do get in contact to find out more! 
-
-### **Can I build sessions?**
-
-### Can I use DirectAuth with other key management patterns?
 
