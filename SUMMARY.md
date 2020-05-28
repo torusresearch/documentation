@@ -1,49 +1,57 @@
 # Table of contents
 
 * [Overview](README.md)
-* [Getting Started](getting-started/README.md)
-  * [Torus Wallet Integration](getting-started/torus-wallet-integration.md)
-  * [DirectAuth Integration](getting-started/directauth-network-integration.md)
+* [Getting Started](getting-started.md)
 
-## API Reference
+## DirectAuth <a id="direct-auth"></a>
 
-* [Initialization](api-reference/class.md)
-* [Display](api-reference/display.md)
-* [Account](api-reference/account.md)
-* [Account Resolver](api-reference/address-resolver.md)
-* [Topup](api-reference/topup.md)
-* [Ethereum](api-reference/ethereum-api.md)
+* [Quick Start](direct-auth/quick-start.md)
+* [What is DirectAuth?](direct-auth/what-is-directauth.md)
+* [Integrating DirectAuth](direct-auth/integrating-directauth/README.md)
+  * [Designing your Key Management Architecture](direct-auth/integrating-directauth/designing-your-key-management-architecture.md)
+  * [Deploying on the Torus Network](direct-auth/integrating-directauth/deploying-on-the-torus-network.md)
+* [Compatibility and Common Patterns](direct-auth/compatibility-and-common-patterns/README.md)
+  * [Gasless/Meta Transactions](direct-auth/compatibility-and-common-patterns/gasless-meta-transactions.md)
+  * [Scalability/Layer2 Solutions](direct-auth/compatibility-and-common-patterns/scalability-layer2-solutions.md)
+  * [Password Manager Flow](direct-auth/compatibility-and-common-patterns/password-manager-flow.md)
+  * [Untitled](direct-auth/compatibility-and-common-patterns/untitled.md)
+* [Supported Authenticators/Logins](direct-auth/supported-authenticators-verifiers.md)
+* [Integration Guidelines](direct-auth/integration-guidelines.md)
 
-## Features
+## Torus Wallet
 
-* [Changelog](features/changelog.md)
-* [Account Recovery](features/accountrecovery.md)
-* [Purchasing Cryptocurrency](features/purchasecryptocurrency.md)
-* [ERC 721](features/erc721.md)
-* [Private Key Export](features/exportprivatekey.md)
-* [Language Support](features/language.md)
-* [Account Resolver](features/nameresolver.md)
-* [Themes](features/themes.md)
-* [PWA](features/pwa.md)
-* [Whitelabeling](features/whitelabeling.md)
+* [Quick Start](torus-wallet/quick-start.md)
+* [Changelog](torus-wallet/changelog.md)
+* [Features](torus-wallet/features/README.md)
+  * [Account Recovery](torus-wallet/features/accountrecovery.md)
+  * [Purchasing Cryptocurrency](torus-wallet/features/purchasecryptocurrency.md)
+  * [ERC 721](torus-wallet/features/erc721.md)
+  * [Private Key Export](torus-wallet/features/exportprivatekey.md)
+  * [Language Support](torus-wallet/features/language.md)
+  * [Account Resolver](torus-wallet/features/nameresolver.md)
+  * [Themes](torus-wallet/features/themes.md)
+  * [PWA](torus-wallet/features/pwa.md)
+  * [Whitelabeling](torus-wallet/features/whitelabeling.md)
+* [API Reference](torus-wallet/api-reference/README.md)
+  * [Initialization](torus-wallet/api-reference/class.md)
+  * [Account](torus-wallet/api-reference/account.md)
+  * [Display](torus-wallet/api-reference/display.md)
+  * [Account Resolver](torus-wallet/api-reference/address-resolver.md)
+  * [Topup](torus-wallet/api-reference/topup.md)
+  * [Ethereum](torus-wallet/api-reference/ethereum-api.md)
+* [Developing with Torus Wallet](torus-wallet/developing-with-torus-wallet/README.md)
+  * [OAuth Providers](torus-wallet/developing-with-torus-wallet/oauth.md)
+  * [Layer 2 Compatibility](torus-wallet/developing-with-torus-wallet/layer2.md)
+  * [Developing with Ganache](torus-wallet/developing-with-torus-wallet/ganache.md)
+  * [Available Network List](torus-wallet/developing-with-torus-wallet/networklist.md)
+* [FAQ](torus-wallet/faq-1/README.md)
+  * [Developers](torus-wallet/faq-1/developers.md)
+  * [Users](torus-wallet/faq-1/users.md)
+* [Integration Examples](torus-wallet/integration-guidelines.md)
 
-## Enabled Logins
+## How Torus Works
 
-* [OAuth](enabled-logins/oauth.md)
-
-## Supported Integrations
-
-* [Layer 2 Compatible](supported-integrations/layer2.md)
-
-## Developing with torus
-
-* [Developing with Ganache](developing-with-torus/ganache.md)
-* [Network List](developing-with-torus/networklist.md)
-
-## FAQ
-
-* [Users](faq/users.md)
-* [Developers](faq/developers.md)
+* [System Architecture](how-torus-works/system-architecture.md)
 
 ## Legal
 
@@ -54,9 +62,4 @@
 ## Contact
 
 * [Bug Bounty](contact/bug-bounty.md)
-
-## Integration Guideline
-
-* [Torus Wallet Integration](integration-guideline/torus-wallet-integration-guideline.md)
-* [DirectAuth Integration](integration-guideline/directauth-integration-guideline.md)
 
