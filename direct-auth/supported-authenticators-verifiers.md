@@ -27,7 +27,7 @@ There are some nuances with certain login providers, so don't hesitate to get in
 
 It is possible to combine these attestation methods in AND/OR ways. For example you could combine a Google AND Reddit login to access a key. this vice versa can be done for Google OR Reddit. For these aggregate verifiers, its important to note that a user's verifierID must be known ahead of time, as keys in Torus are append only. Meaning to assign to a key to a user with the aggregate verifier Google OR Reddit, I must know the users gmail account and reddit account ahead of time. 
 
-This disadvantage and be subverted if the two attestation methods share the same verifierID. For example, Auth0 generic email logins OR Google logins both use email accounts as the verifierID, as such the verifierID can me shared amonst the two. This is referred to as a Single ID Verifier.
+This disadvantage can be subverted if the two attestation methods share the same verifierID. For example, Auth0 generic email logins OR Google logins both use email accounts as the verifierID, as such the verifierID can me shared amonst the two. This is referred to as a Single ID Verifier.
 
 ### Using your own custom login provider
 
