@@ -12,10 +12,9 @@ To allow your web app to retrieve keys from the Torus Network, we'll be using th
 4. At verifier's interface \(where you obtain client id\), please use `baseUrl/redirect` \(eg: [http://localhost:3000/serviceworker/redirect](http://localhost:3000/serviceworker/redirect)\) as the redirect\_uri where baseUrl is the one passed while instantiating `DirectWebSdk`
 5. Instantiate the package with your own specific client-id
 
-```text
+```javascript
 const torus = new DirectWebSdk({
   baseUrl: "http://localhost:3000/serviceworker/",
-  GOOGLE_CLIENT_ID: "MY CLIENT ID GOOGLE",
   proxyContractAddress: "0x4023d2a0D330bF11426B12C6144Cfb96B7fa6183", // details for test net
   network: "ropsten", // details for test net
 });
@@ -24,8 +23,12 @@ await torus.init();
 
 1. Trigger the login
 
-```text
-const userInfo = await torus.triggerLogin("google", "google-MY SPECIFIC VERIFIER");
+```javascript
+const userInfo = await torus.triggerLogin({
+  typeOfLogin: "google",
+  verifier: "google",
+  clientId: "MY CLIENT ID GOOGLE",
+});
 ```
 
 {% hint style="info" %}
