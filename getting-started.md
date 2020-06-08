@@ -8,13 +8,13 @@ description: >-
 
 Depending on your applications needs Torus can be integrated in either via the [Torus Wallet](torus-wallet/quick-start.md), or through interacting directly with the Torus Network via [DirectAuth](direct-auth/what-is-directauth.md). 
 
-### Torus Wallet integration
+### [Torus Wallet integration](torus-wallet/quick-start.md)
 
 The Torus Wallet allows any application to seamlessly support their user's interactions with Ethereum \(and similar EVM chains\). It comes with a prebuilt UI, OAuth logins, fiat-to-crypto, whitelabel and much more listed in the [features section](torus-wallet/features/). 
 
 If your application is already compatible with Metamask/other web3 providers, integrating the Torus Wallet would give you a provider to wrap the same web3 interface. You can install via a [npm package](https://www.npmjs.com/package/@toruslabs/torus-embed) or [ipfs](torus-wallet/quick-start.md#ipfs). or [jsdelivr](https://cdn.jsdelivr.net/npm/@toruslabs/torus-embed) or [unpkg](https://unpkg.com/@toruslabs/torus-embed) More [details](torus-wallet/quick-start.md)
 
-### DirectAuth integration
+### [DirectAuth integration](direct-auth/quick-start.md)
 
 Applications can directly interact with the Torus Network to assign, store and retrieve keys on the network - Distributed Key Generation as a Service. Whilst abstracting key management from your application, the integration is compatible with both web/native apps, blockchain agnostic, and there are no longer any pop-ups - your application will be in full control of the permissions flow. More [information](direct-auth/what-is-directauth.md) 
 
