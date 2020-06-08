@@ -15,7 +15,7 @@ Or you can start with experiencing the [Torus Wallet](https://app.tor.us) \(load
 
 ## What's Torus, How does it work?
 
-Torus is a user-friendly and non-custodial key management system for DApps. It runs a Distributed Key Generation protocol that allows applications to access its generated keys via OAuths and thus existing user accounts. Try out the experience on the [Torus Wallet](https://app.tor.us)
+Torus is a user-friendly, fully open source and non-custodial key management system for DApps. It runs a Distributed Key Generation protocol that allows applications to access its generated keys via OAuths and thus existing user accounts. Try out the experience on the [Torus Wallet](https://app.tor.us)
 
 ![](.gitbook/assets/graph-6-final.png)
 
