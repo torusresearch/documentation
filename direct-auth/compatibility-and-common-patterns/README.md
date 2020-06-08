@@ -7,7 +7,7 @@ This section briefly outlines techniques and patterns that applications have use
 * \*\*\*\*[**Gasless/Meta Transactions**](gasless-meta-transactions.md)\*\*\*\*
 * \*\*\*\*[**Scalability Solutions**](scalability-layer2-solutions.md)\*\*\*\*
 * \*\*\*\*[**Password Manager Flow**](password-manager-flow.md)\*\*\*\*
-* **Threshold Device Key Management**
+* \*\*\*\*[**Threshold Device Key Management**](untitled.md)\*\*\*\*
 * **Session Management**
 * **Different Elliptic Curve/Key Derivation**
 
