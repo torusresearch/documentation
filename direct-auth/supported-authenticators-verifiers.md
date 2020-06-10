@@ -8,18 +8,21 @@ DirectAuth deploys a custom Verifier Script for your application on the Torus Ne
 
 Known logins or attestation methods that can be chosen include OAuths and custom logins methods:
 
-| Attestation/Login Method | Lookups |
-| :--- | :--- |
-| Google OAuth2 | Y |
-| Reddit OAuth2 | Y |
-| Discord OAuth2 | Y |
-| Twitch OAuth2 | N |
-| Facebook OAuth2 | N |
-| Apple OAuth2 | N |
-| Auth0 login | Depends |
-| AWS Cognito | Depends |
-| Custom JWT logins | Depends |
-| Custom ECDSA logins | Depends |
+| Attestation/Login Method | Lookups | VerifierID Case-sensitive |
+| :--- | :--- | :--- |
+| Google OAuth2 | Y | N |
+| Reddit OAuth2 | Y | N |
+| Discord OAuth2 | Y | Y |
+| Twitch OAuth2 | N | Y |
+| Facebook OAuth2 | N | Y |
+| Apple OAuth2 | N | Y |
+| Github \(Proxy\) | Y | N |
+| Linkedin \(Proxy\) | N | Y |
+| Weibo \(Proxy\) | Y | N |
+| Auth0 login | Depends | Depends |
+| AWS Cognito | Depends | Depends |
+| Custom JWT logins | Depends | Depends |
+| Custom ECDSA logins | Depends | Depends |
 
 There are some nuances with certain login providers, so don't hesitate to get in touch to get further details.
 
