@@ -4,7 +4,7 @@ description: Integrate DirectAuth in your web application today
 
 # Quick Start
 
-To allow your web app to retrieve keys from the Torus Network, we'll be using the [direct-web-sdk](https://github.com/torusresearch/torus-direct-web-sdk):
+To allow your web app to retrieve keys from the Torus Network, we'll be using the [direct-web-sdk](https://github.com/torusresearch/torus-direct-web-sdk), the repo itself has examples that you can also refer to:
 
 1. Install the package `npm i @toruslabs/torus-direct-web-sdk`
 2. Serve [service worker](https://github.com/torusresearch/torus-direct-web-sdk/blob/master/public/sw.js) from `baseUrl` where baseUrl is the one passed while instantiating `DirectWebSdk` for specific login \(example [http://localhost:3000/serviceworker/](http://localhost:3000/serviceworker/)\). If you're already using a sw, pls ensure to port over the fetch override from [our service worker](https://github.com/torusresearch/torus-direct-web-sdk/blob/master/public/sw.js)
