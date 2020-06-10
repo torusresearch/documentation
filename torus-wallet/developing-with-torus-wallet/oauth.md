@@ -12,3 +12,5 @@ We support the following login providers:
 
 For login providers that wish to integrate, contact us at hello@tor.us
 
+A full list of the providers can be found [here](../../direct-auth/supported-authenticators-verifiers.md)
+
