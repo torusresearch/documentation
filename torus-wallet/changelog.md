@@ -6,6 +6,16 @@ description: >-
 
 # Changelog
 
+## [v1.5.0](https://github.com/torusresearch/torus-website/pull/1134)
+
+The following changes have been made in this release:
+
+* Badges
+* Add support for custom logins
+* Show External transactions
+* Bug fixes \(Including invalid qr code\)
+* Update packages
+
 ## [v1.4.4](https://github.com/torusresearch/torus-website/pull/1117)
 
 The following changes have been made in this release:
