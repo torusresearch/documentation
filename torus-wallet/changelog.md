@@ -6,6 +6,17 @@ description: >-
 
 # Changelog
 
+## [v1.5.2](https://github.com/torusresearch/torus-website/pull/1139)
+
+The following changes have been made in this release:
+
+* fix issue with activeButton text
+* fix issue with popuphandler
+
+## [v1.5.1](https://github.com/torusresearch/torus-website/pull/1137)
+
+Fix issue with enabledVerifiers not being hidden
+
 ## [v1.5.0](https://github.com/torusresearch/torus-website/pull/1134)
 
 The following changes have been made in this release:
