@@ -6,6 +6,14 @@ description: >-
 
 # Changelog
 
+## [v1.5.3](https://github.com/torusresearch/torus-website/pull/1145)
+
+The following changes have been made in this release:
+
+* getUserInfo doesn't require a popup anymore
+* Fix issue with active button select
+* Fix issue with reddit login on mobile screens
+
 ## [v1.5.2](https://github.com/torusresearch/torus-website/pull/1139)
 
 The following changes have been made in this release:
