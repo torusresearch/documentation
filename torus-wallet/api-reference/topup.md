@@ -2,11 +2,11 @@
 description: cryptocurrency purchases through our fiat-to-crypto partners
 ---
 
-# Topup
+# Top-up
 
 ## initiateTopup
 
-Initiates a topup tx with the specified provider right from the dapp. Please refer below for supported values of params and providers
+Initiates a top up tx with the specified provider right from the dapp. Please refer below for supported values of params and providers
 
 ```javascript
 const paymentStatus = await torus.initiateTopup(provider, params);

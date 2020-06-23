@@ -9,7 +9,7 @@ description: >-
 
 ### Integrate via:
 
-#### A [npm package](https://www.npmjs.com/package/@toruslabs/torus-embed).
+#### [npm package](https://www.npmjs.com/package/@toruslabs/torus-embed)
 
 ```markup
 npm i @toruslabs/torus-embed
@@ -64,7 +64,7 @@ The code snippet below sets Torus Wallet as the default login method for the DAp
 <script src="https://unpkg.com/@toruslabs/torus-embed"></script>
 ```
 
-The script tag creates a `window.torus` object. You can initialize it and use it as above
+The script tag creates a `window.torus` object. You can initialize it and use it as above.
 
 #### IPFS
 
@@ -76,7 +76,7 @@ You can also choose in load the embed via IPFS
 
 ### Examples
 
-Please refer to the [examples](https://github.com/torusresearch/torus-embed/tree/master/examples) folder for sample implementations or the Class documentation for further init options
+Please refer to the [examples](https://github.com/torusresearch/torus-embed/tree/master/examples) folder for sample implementations or the Class documentation for further init options.
 
 ### Web3/ether.js
 
@@ -84,7 +84,7 @@ Integrating with the Torus Wallet gives you a provider, which can be wrapped by 
 
 ### Development Environment
 
-If you are developing with the Torus Wallet in a local environment/with ganache, https is necessary to interact with app.tor.us. Checkout [the steps here](https://docs.tor.us/developing-with-torus/ganache) to get started.
+If you are developing with the Torus Wallet in a local environment/with ganache, https is necessary to interact with app.tor.us. Check out [the steps here](https://docs.tor.us/developing-with-torus/ganache) to get started.
 
 In general, the Torus wallet integration only works in a secure browser environment, as it needs access to browser APIs like window.open and window.crypto.
 

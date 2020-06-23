@@ -37,7 +37,7 @@
   * [Account](torus-wallet/api-reference/account.md)
   * [Display](torus-wallet/api-reference/display.md)
   * [Account Resolver](torus-wallet/api-reference/address-resolver.md)
-  * [Topup](torus-wallet/api-reference/topup.md)
+  * [Top-up](torus-wallet/api-reference/topup.md)
   * [Ethereum](torus-wallet/api-reference/ethereum-api.md)
 * [Developing with Torus Wallet](torus-wallet/developing-with-torus-wallet/README.md)
   * [OAuth Providers](torus-wallet/developing-with-torus-wallet/oauth.md)

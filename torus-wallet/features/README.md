@@ -14,5 +14,5 @@ description: >-
 * \*\*\*\*[**Account Resolver**](nameresolver.md)\*\*\*\*
 * \*\*\*\*[**Themes**](themes.md)\*\*\*\*
 * \*\*\*\*[**PWA**](pwa.md)\*\*\*\*
-* \*\*\*\*[**Whitelabeling**](whitelabeling.md)\*\*\*\*
+* \*\*\*\*[**White-labeling**](whitelabeling.md)\*\*\*\*
 
