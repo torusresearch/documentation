@@ -6,6 +6,14 @@ description: >-
 
 # Changelog
 
+## [v1.5.4](https://github.com/torusresearch/torus-website/pull/1154)
+
+The following changes have been made in this release:
+
+* Bug fixes for firefox, rehydrate, tx post, rehydration, balance in iframe
+* Whitelabel changes
+* Client id separation
+
 ## [v1.5.3](https://github.com/torusresearch/torus-website/pull/1145)
 
 The following changes have been made in this release:
