@@ -51,7 +51,12 @@
 
 ## How Torus Works
 
-* [System Architecture](how-torus-works/system-architecture.md)
+* [Overview and Architecture](how-torus-works/system-architecture.md)
+* [Role of Torus Nodes](how-torus-works/role-of-torus-nodes.md)
+* [Key Generation and Resharing](how-torus-works/key-generation-and-resharing.md)
+* [Logins, Key Assignments and Retrievals](how-torus-works/logins-key-assignments-and-retrievals.md)
+* [Torus Wallet](how-torus-works/torus-wallet.md)
+* [Proxy Verifiers](how-torus-works/oauth2-vs-proxy-sign-in.md)
 
 ## Legal
 
