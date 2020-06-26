@@ -1,8 +1,8 @@
 ---
-description: Also called verifiers
+description: Also called authenticators
 ---
 
-# Supported Authenticators/Logins
+# Supported Verifiers/Logins
 
 DirectAuth deploys a custom Verifier Script for your application on the Torus Network. Verifier Scripts determine the access structure to your users keys and the set Verifier Scripts chosen determine which logins your application will ultimately use. You can read more about verifiers [here](https://medium.com/toruslabs/key-assignments-resolution-and-retrieval-afb984500612).
 
