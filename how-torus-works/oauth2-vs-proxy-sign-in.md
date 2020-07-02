@@ -1,6 +1,6 @@
 # Proxy Verifiers
 
-Proxy verifiers differ from a [standard verifier or 3rd party 0Auth2 logins](logins-key-assignments-and-retrievals.md) as they depend on a proxy inbetween the Torus Network and the third party \(Google\)
+Proxy verifiers differ from a [standard verifier or 3rd party OAuth2 logins](logins-key-assignments-and-retrievals.md) as they depend on a proxy inbetween the Torus Network and the third party \(Google\)
 
 This is often a login service provider such as Auth0, AWS Cognito, or Okta, and the login flow differentiates as below:
 
