@@ -1,7 +1,7 @@
 ---
 description: >-
   This privacy policy is applicable to both the Torus website (https://tor.us)
-  and Torus wallet (https://app.tor.us). Latest update: 22 April 2020
+  and Torus wallet (https://app.tor.us). Latest update: 03 July 2020
 ---
 
 # Privacy Policy
