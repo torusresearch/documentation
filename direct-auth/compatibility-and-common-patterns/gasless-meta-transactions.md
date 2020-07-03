@@ -8,7 +8,7 @@ Gasless or meta transactions are transactions which have had their gas cost abst
 
 ![](../../.gitbook/assets/image%20%283%29.png)
 
-There are many open source implementations of smart contract wallets \([Argent](https://github.com/argentlabs/argent-contracts), [Authereum](https://github.com/authereum), [Gnosis Safe](https://github.com/gnosis/safe-contracts)\) and standards for implementing them on your contracts \([EIP-1613](https://eips.ethereum.org/EIPS/eip-1613)\) that you can use or take reference to. 
+There are many open source implementations of smart contract wallets \([Argent](https://github.com/argentlabs/argent-contracts), [Authereum](https://github.com/authereum), [Gnosis Safe](https://github.com/gnosis/safe-contracts)\) and standards for implementing them on your contracts \([EIP-1613](https://eips.ethereum.org/EIPS/eip-1613)\) that you can use or take reference to.
 
 These contracts can be complicated, and take some time to deploy/use. We provide a smart contract wallet deployment tool kit that can get you setup quickly, which applications are free to use.
 

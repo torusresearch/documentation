@@ -23,6 +23,8 @@ Personal Data may be freely provided by the User, or, in case of Usage Data, col
 
 Unless specified otherwise, all Data requested by Torus Labs is mandatory and failure to provide this Data may make it impossible for Torus Labs to provide its services. In cases where Torus Labs specifically states that some Data is not mandatory, Users are free not to communicate this Data without consequences to the availability or the functioning of the Service.
 
+The Personal Data collected to use Torus are public data related to the account and may include the profile photo, username and email address. Private data related to the account, such as registered address, and passwords will not be collected by Torus, and is not mandatory to the use of service.
+
 Users who are uncertain about which Personal Data is mandatory are welcome to contact the Owner.
 
 Any use of Cookies – or of other tracking tools – by Torus Labs or by the owners of third-party services used by Torus Labs serves the purpose of providing the Service required by the User, in addition to any other purposes described in the present document and in the Cookie Policy, if available.
