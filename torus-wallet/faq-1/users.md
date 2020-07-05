@@ -12,7 +12,7 @@ Cryptocurrencies are digital equivalents of currencies, where the record of ever
 
 ### What is Blockchain?
 
-Blockhain is the underlying technology that supports cryptocurrencies. A public blockchain is a digital record of information that is duplicated and shared across a network of many computers instead of a single central server. Updating the digital record requires a complex computational process to ensure that only the right information is added to the blockchain. The public record of information stored across the network ensures that no one entity is able to control, corrupt and change the data, keeping the record secure and verifiable.
+Blockchain is the underlying technology that supports cryptocurrencies. A public blockchain is a digital record of information that is duplicated and shared across a network of many computers instead of a single central server. Updating the digital record requires a complex computational process to ensure that only the right information is added to the blockchain. The public record of information stored across the network ensures that no one entity is able to control, corrupt and change the data, keeping the record secure and verifiable.
 
 ### What is a DApp?
 
