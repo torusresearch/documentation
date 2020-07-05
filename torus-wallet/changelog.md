@@ -6,6 +6,16 @@ description: >-
 
 # Changelog
 
+## [v1.6.0](https://github.com/torusresearch/torus-website/pull/1196)
+
+The following changes have been made in this release:
+
+* Matic codename
+* New logins
+* Bug fixes
+* Topup API changes
+* Performance improvements
+
 ## [v1.5.4](https://github.com/torusresearch/torus-website/pull/1154)
 
 The following changes have been made in this release:
