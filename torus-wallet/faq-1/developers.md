@@ -20,6 +20,10 @@ Chrome, Edge, Firefox, Brave, Safari and other major browsers. IE and private br
 
 You might be running on non-secure domains, which don't have window.crypto enabled. Try loading your site over https or localhost.
 
+### Why doesn't Torus Wallet work for my dapp in Firefox/IE?
+
+The Torus Wallet relies on many browser-specific technologies which differ in implementation. We try to make the Torus Wallet compatible with as many browsers as possible, but browser updates can change some of these behaviours. If your dapp isn't working in a specific browser, please check out the issues [here](https://github.com/torusresearch/torus-website/issues) to see if it has already been raised or resolved. 
+
 ### How is my private key stored?
 
 Torus splits a user’s private keys into shares across a network of nodes, and allows a user to retrieve this using natural login mechanisms like social authentication. You need access to more than half of the shares to reconstruct the private key.
