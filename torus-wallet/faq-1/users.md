@@ -120,6 +120,12 @@ Digital assets on the blockchain vary in value, for more information on the pric
 
 Yes, in general, transactions on Ethereum are public. 
 
+### What's an "external transaction" in the transaction history page?
+
+These are transactions that were sent to you / you sent, that weren't initiated from the Torus Wallet. If you exported your private key and used it on other wallets, or if an non-Torus wallet sent you cryptocurrency, it will show up as an "external transaction".
+
+We detect these transactions by consulting 3rd block explorer services like Etherscan for publicly viewable transaction information. 
+
 ## Cookies
 
 ### Why is Torus asking me to enable cookies? How can I enable cookies?
