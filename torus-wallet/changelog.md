@@ -6,6 +6,13 @@ description: >-
 
 # Changelog
 
+## [v1.7.1](https://github.com/torusresearch/torus-website/pull/1205)
+
+The following changes have been made in this release:
+
+* Change lookup \(username -&gt; id\) for github, twitter
+* comment out second disclaimer
+
 ## [v1.7.0](https://github.com/torusresearch/torus-website/pull/1201)
 
 The following changes have been made in this release:
