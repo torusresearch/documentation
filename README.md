@@ -7,13 +7,13 @@ description: >-
 
 # Overview
 
-## I want to get coding!
+## Quickstart
 
-Developers can integrate Torus into their DApps with just a few lines of code - [get started here](getting-started.md).
+You can [integrate Torus](getting-started.md) into your DApp with just a few lines of code and give your users an amazing onboarding experience.
 
-Or you can start with experiencing the [Torus Wallet](https://app.tor.us)
+Don't just take our word for it, [check it out](https://app.tor.us) for yourself!
 
-## What's Torus, How does it work?
+## What's Torus, how does it work?
 
 Torus is a user-friendly, fully open source and non-custodial key management system for DApps. It runs a Distributed Key Generation protocol that allows applications to access its generated keys via OAuths and thus existing user accounts. Try out the experience on the [Torus Wallet](https://app.tor.us)
 
