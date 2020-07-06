@@ -6,6 +6,14 @@ description: >-
 
 # Changelog
 
+## [v1.7.0](https://github.com/torusresearch/torus-website/pull/1201)
+
+The following changes have been made in this release:
+
+* Fix issues with whitelabel support
+* Update packages
+* Bug fixes
+
 ## [v1.6.0](https://github.com/torusresearch/torus-website/pull/1196)
 
 The following changes have been made in this release:
