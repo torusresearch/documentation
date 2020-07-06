@@ -11,7 +11,7 @@ description: >-
 
 Developers can integrate Torus into their DApps with just a few lines of code - [get started here](getting-started.md).
 
-Or you can start with experiencing the [Torus Wallet](https://app.tor.us) \(loaded up via [IPFS](https://ipfs.io/ipfs/QmVrWpAivFzEN6GGerdURNXfssr5YpHjTtZopHHGQ6AHmU)\).
+Or you can start with experiencing the [Torus Wallet](https://app.tor.us)
 
 ## What's Torus, How does it work?
 
