@@ -6,6 +6,10 @@ description: >-
 
 # Changelog
 
+## [v1.7.2](https://github.com/torusresearch/torus-website/pull/1207)
+
+Send to twitter and verify
+
 ## [v1.7.1](https://github.com/torusresearch/torus-website/pull/1205)
 
 The following changes have been made in this release:
