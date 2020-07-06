@@ -12,6 +12,10 @@ There are several restrictions. Some integrations are possible \(eg. native supp
 
 Using it directly in NodeJS via require will **not** work since the SDK relies on browser capabilities like service workers and window.open.
 
+### Why is the Torus Wallet login modal hidden below other elements on my page?
+
+Instead of setting a high CSS z-index, which can be quite annoying, we choose to let Vuetify take care of this. If you find that you are still facing a problem, you can add CSS for the selector "\#torusIframe" to set the z-index yourself.
+
 ### What browsers are supported?
 
 Chrome, Edge, Firefox, Brave, Safari and other major browsers. IE and private browsing in Safari are not supported.
