@@ -15,10 +15,12 @@ Known logins or attestation methods that can be chosen include OAuths and custom
 | Discord OAuth2 | Y | Y |
 | Twitch OAuth2 | N | Y |
 | Facebook OAuth2 | N | Y |
-| Apple OAuth2 | N | Y |
+| Apple \(Proxy\) | N | Y |
 | Github \(Proxy\) | Y | N |
 | Linkedin \(Proxy\) | N | Y |
 | Weibo \(Proxy\) | Y | N |
+| Twitter \(Proxy\) | Y | N |
+| Line \(Proxy\) | N | Y |
 | Auth0 login | Depends | Depends |
 | AWS Cognito | Depends | Depends |
 | Custom JWT logins | Depends | Depends |

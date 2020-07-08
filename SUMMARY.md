@@ -17,6 +17,7 @@
   * [Threshold Device Key Management](direct-auth/compatibility-and-common-patterns/untitled.md)
 * [Supported Verifiers/Logins](direct-auth/supported-authenticators-verifiers.md)
 * [Integration Guidelines](direct-auth/integration-guidelines.md)
+* [Examples](direct-auth/examples.md)
 
 ## Torus Wallet
 

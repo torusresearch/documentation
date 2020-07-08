@@ -6,7 +6,7 @@ description: >-
 
 # Getting Started
 
-Depending on your applications needs Torus can be integrated via the [Torus Wallet](torus-wallet/quick-start.md), or through interacting directly with the Torus Network via [DirectAuth](direct-auth/what-is-directauth.md). 
+Depending on your applications needs, Torus can be integrated via the [Torus Wallet](torus-wallet/quick-start.md), or through interacting directly with the Torus Network via [DirectAuth](direct-auth/what-is-directauth.md). 
 
 ### [Torus Wallet integration](torus-wallet/quick-start.md)
 
