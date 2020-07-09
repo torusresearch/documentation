@@ -6,6 +6,13 @@ description: >-
 
 # Changelog
 
+## [v1.7.3](https://github.com/torusresearch/torus-website/pull/1211)
+
+The following changes have been made in this release:
+
+* Twitter Share
+* Identify Token Approve tx in activity page
+
 ## [v1.7.2](https://github.com/torusresearch/torus-website/pull/1207)
 
 Send to twitter and verify
