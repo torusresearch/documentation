@@ -72,6 +72,7 @@ await torus.init(params);
   * `showTorusButton` - `boolean` \(optional\) : Shows/Hides the Torus Button
   * `enabledVerifiers` - `VerifierStatus` \(optional\) : Hides certain types of logins \(default is true\)
   * `integrity` - `IntegrityParams` \(optional\) : Enables optional integrity checking \(default is false\)
+  * `loginConfig` - Array of login config items. Used to modify the default logins/ add new logins. Read more on [Login Config](class.md#login-config).
 
 **Returns**
 
@@ -87,6 +88,7 @@ interface TorusParams {
   showTorusButton?: boolean;
   enabledVerifiers?: VerifierStatus;
   integrity?: IntegrityParams;
+  loginConfig?: LoginConfig;
 }
 
 interface VerifierStatus {
@@ -165,6 +167,92 @@ await torus.init({
 });
 ```
 
+## loginConfig
+
+Array of login config items. Used to modify the default logins/ add new logins under `torus.init`.
+
+```javascript
+await torus.init({
+  loginConfig: {
+    [verifier]: loginConfigItem
+  }
+});
+```
+
+**Parameters**
+
+* `loginConfig` - `LoginConfig` \(optional\) : Array of login configuration per verifier
+  * `verifier` - Verifier provided by torus as a key or a default verifier used by torus
+*  `loginConfigItem` - `LoginConfigItem` : parameters per verifier
+  * `typeOfLogin` - `LOGIN_TYPE`: The type of login
+  * `description` - `string` \(optional\) : Description for button. If provided, it renders as a full length button. else, icon button
+  * `clientId` - `string` \(optional\) : Custom client\_id. If not provided, we use the default for torus app
+  * `logoHover` - `string` \(optional\) : Logo to be shown on mouse hover. If not provided, we use the default for torus app
+  * `logoLight` - `string` \(optional\): Logo to be shown on dark background \(dark theme\). If not provided, we use the default for torus app
+  * `logoDark` - `string` \(optional\): Logo to be shown on light background \(light theme\). If not provided, we use the default for torus app
+  * `showOnModal` - `boolean` \(optional\): Whether to show the login button on modal or not
+  * `jwtParameters` - `JwtParameters` \(optional\): Custom JWT parameters to configure the login. Useful for Auth0 configuration
+
+**Reference**
+
+```typescript
+type LOGIN_TYPE =
+  | 'google'
+  | 'facebook'
+  | 'reddit'
+  | 'discord'
+  | 'twitch'
+  | 'apple'
+  | 'github'
+  | 'linkedin'
+  | 'twitter'
+  | 'weibo'
+  | 'line'
+  | 'jwt'
+  | 'email-password'
+  | 'passwordless'
+
+interface LoginConfig {
+  [verifier: string]: LoginConfigItem
+}
+
+interface LoginConfigItem {
+  typeOfLogin: LOGIN_TYPE
+  description?: string
+  clientId?: string
+  logoHover?: string
+  logoLight?: string
+  logoDark?: string
+  showOnModal?: boolean
+  jwtParameters?: JwtParameters
+}
+
+interface JwtParameters {
+  domain: string;
+  client_id?: string;
+  redirect_uri?: string;
+  leeway?: number;
+  verifierIdField?: string;
+}
+```
+
+**Example**
+
+```javascript
+await torus.init({
+  loginConfig: {
+    'google': {
+      description: 'Login with google',
+      clientId: 'CLIENT_ID',
+      logoHover: 'https://sample.com/google-logo-hover.svg',
+      logoLight: 'https://sample.com/google-logo-light.svg',
+      logoDark: 'https://sample.com/google-logo-dark.svg',
+      showOnModal: true,
+    },
+  },
+})
+```
+
 ## cleanUp
 
 This cleans up the iframe and buttons created by torus package. If the user is logged in, it logs him out first and then cleans up.
@@ -182,4 +270,3 @@ await torus.cleanUp();
 ```javascript
 await torus.cleanUp();
 ```
-
