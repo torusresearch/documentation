@@ -6,6 +6,16 @@ description: >-
 
 # Changelog
 
+## [v1.8.0](https://github.com/torusresearch/torus-website/pull/1222)
+
+The following changes have been made in this release:
+
+* Api Keys integration
+* change limits and remove max enforcement for payment providers
+* ChainId support for eip-1193
+* Bug fixes \(storage of various txs etc.\)
+* Update packages
+
 ## [v1.7.3](https://github.com/torusresearch/torus-website/pull/1211)
 
 The following changes have been made in this release:
