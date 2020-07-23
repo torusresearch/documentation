@@ -183,7 +183,7 @@ await torus.init({
 
 * `loginConfig` - `LoginConfig` \(optional\) : Array of login configuration per verifier
   * `verifier` - Verifier provided by torus as a key or a default verifier used by torus
-*  `loginConfigItem` - `LoginConfigItem` : parameters per verifier
+* `loginConfigItem` - `LoginConfigItem` : parameters per verifier
   * `typeOfLogin` - `LOGIN_TYPE`: The type of login
   * `description` - `string` \(optional\) : Description for button. If provided, it renders as a full length button. else, icon button
   * `clientId` - `string` \(optional\) : Custom client\_id. If not provided, we use the default for torus app
@@ -213,7 +213,6 @@ type LOGIN_TYPE =
   | 'passwordless'
 
 interface LoginConfig {
-  [verifier: string]: LoginConfigItem
 }
 
 interface LoginConfigItem {
@@ -270,3 +269,4 @@ await torus.cleanUp();
 ```javascript
 await torus.cleanUp();
 ```
+

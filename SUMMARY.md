@@ -58,6 +58,8 @@
 * [Logins, Key Assignments and Retrievals](how-torus-works/logins-key-assignments-and-retrievals.md)
 * [Torus Wallet](how-torus-works/torus-wallet.md)
 * [Proxy Verifiers](how-torus-works/oauth2-vs-proxy-sign-in.md)
+* [DKG Specification](how-torus-works/dkg-specification.md)
+* [Audits](how-torus-works/audits.md)
 
 ## Legal
 
