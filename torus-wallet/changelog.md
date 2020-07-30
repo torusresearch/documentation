@@ -6,6 +6,14 @@ description: >-
 
 # Changelog
 
+## [v1.8.2](https://github.com/torusresearch/torus-website/pull/1228)
+
+The following changes have been made in this release:
+
+* Show miime link when using japanese locale
+* Fix issues with multiple transactions
+* Update packages
+
 ## [v1.8.1](https://github.com/torusresearch/torus-website/pull/1224)
 
 Update packages
