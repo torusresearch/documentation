@@ -6,6 +6,16 @@ description: >-
 
 # Changelog
 
+## [v1.8.3](https://github.com/torusresearch/torus-website/pull/1242)
+
+The following changes have been made in this release:
+
+* Auth0 error propagation
+* New UI for action pending modals
+* Payment provider changes
+* Bug fixes \(Display insufficient funds error\)
+* Update packages
+
 ## [v1.8.2](https://github.com/torusresearch/torus-website/pull/1228)
 
 The following changes have been made in this release:
