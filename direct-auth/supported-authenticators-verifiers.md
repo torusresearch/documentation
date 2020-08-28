@@ -36,7 +36,7 @@ This disadvantage can be subverted if the two attestation methods share the same
 
 ### Using your own custom login provider
 
-You can use your own login provider's with Torus, using one of the custom login schemes \(either via JWTs or ECDSA signatures\). This way, your users can still use your existing login provider, with DirectAuth. As long as your application follows the 
+You can use your own login provider's with Torus, using one of the custom login schemes \(either via JWTs or ECDSA signatures\). This way, your users can still use your existing login provider, with DirectAuth. As long as your application follows the JWT specification and uses JWKS for signing whose public keys are exposed by an endpoint, it should be supported
 
 ### Can XXXX authenticator/login be supported?
 
