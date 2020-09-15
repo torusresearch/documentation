@@ -1,6 +1,6 @@
 # Bug Bounty
 
-We have an ongoing bug bounty program for **security-related bugs that compromise key security**.
+We have an ongoing bug bounty program for **security-related bugs that compromise key security**. This is generally only applicable for [https://app.tor.us](https://app.tor.us).
 
 The tiers are as follows:
 
