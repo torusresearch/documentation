@@ -6,6 +6,14 @@ description: >-
 
 # Changelog
 
+## [v1.8.4](https://github.com/torusresearch/torus-website/pull/1252)
+
+The following changes have been made in this release:
+
+* Added Kakao and wechat logins
+* Bug fixes
+* Update packages
+
 ## [v1.8.3](https://github.com/torusresearch/torus-website/pull/1242)
 
 The following changes have been made in this release:
