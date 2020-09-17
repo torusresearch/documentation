@@ -6,6 +6,10 @@ description: >-
 
 # Changelog
 
+## [v1.8.5](https://github.com/torusresearch/torus-website/pull/1256)
+
+Bug fixes
+
 ## [v1.8.4](https://github.com/torusresearch/torus-website/pull/1252)
 
 The following changes have been made in this release:
