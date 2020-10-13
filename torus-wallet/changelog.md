@@ -6,6 +6,16 @@ description: >-
 
 # Changelog
 
+## [v1.8.6](https://github.com/torusresearch/torus-website/pull/1290)
+
+The following changes have been made in this release:
+
+* Add support for walletconnect
+* Custom nonce
+* New QR scanner
+* Allow custom nonce
+* Bug fixes
+
 ## [v1.8.5](https://github.com/torusresearch/torus-website/pull/1256)
 
 Bug fixes
