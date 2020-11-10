@@ -59,6 +59,6 @@ Firstly, register our app with OAuth login providers. There are two types of pro
   For proxy providers, please provide us the client id, Authentication domain provided by the proxy provider to deploy a verifier for you.
 
 {% hint style="info" %}
-Reach out to [hello@tor.us](mailto:hello@tor.us) or [Telegram group](https://t.me/torusdev) to get your verifier spun up today!
+Reach out to us at [hello@tor.us](mailto:hello@tor.us) or [Telegram group](https://t.me/torusdev) to get your verifier spun up today!
 {% endhint %}
 
