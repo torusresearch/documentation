@@ -10,6 +10,7 @@ Depending on your application's platform we have different SDKs for integrating 
 * [Android in Java SDK](https://github.com/torusresearch/torus-direct-android-sdk)
 * [IOS Swift SDK](https://github.com/torusresearch/torus-direct-swift-sdk)
 * [Native SDK in Java](https://github.com/torusresearch/torus-utils-java)
+* [React Native Sdk in Javascript](https://github.com/torusresearch/torus-direct-react-native-sdk)
 
 These SDKs implement interactions with the Torus Network which are detailed more closely [here](https://medium.com/toruslabs/key-assignments-resolution-and-retrieval-afb984500612) and [here](../../how-torus-works/system-architecture.md#verifiers-and-key-retrieval). Each of the SDKs go into further detail with exact implementation details and example code within their readme's.
 
