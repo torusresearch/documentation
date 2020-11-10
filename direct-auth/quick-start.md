@@ -4,6 +4,8 @@ description: Integrate DirectAuth in your web application today
 
 # Quick Start
 
+Try our hosted example [here](https://vue-direct.tor.us)
+
 To allow your web app to retrieve keys from the Torus Network, we'll be using the [direct-web-sdk](https://github.com/torusresearch/torus-direct-web-sdk), the repo itself has examples that you can also refer to:
 
 1. Install the package `npm i @toruslabs/torus-direct-web-sdk`

@@ -18,6 +18,7 @@
 * [Supported Verifiers/Logins](direct-auth/supported-authenticators-verifiers.md)
 * [Integration Guidelines](direct-auth/integration-guidelines.md)
 * [Examples](direct-auth/examples.md)
+* [FAQ](direct-auth/faq.md)
 
 ## Torus Wallet
 
