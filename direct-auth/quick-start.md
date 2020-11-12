@@ -39,9 +39,9 @@ For integration into other mobile, native or other platforms please refer to [In
 
 ## Registration
 
-Firstly, register our app with OAuth login providers. There are two types of providers which torus supports. Click on the links to see instructions on how to configure OAuth provider. 
+Firstly, register your app with OAuth login providers. There are two types of providers which Torus supports. Click on the links to see instructions on how to configure OAuth provider. 
 
-* Native providers allow you to register your app directly with [implicit grant support ](https://oauth.net/2/grant-types/implicit/)and use with torus. The following are the supported native providers
+* Native providers allow you to register your app directly with [implicit grant support ](https://oauth.net/2/grant-types/implicit/)and use with Torus. The following are the supported native providers
 
   * [Google](https://support.google.com/googleapi/answer/6158849)
   * [Facebook](https://developers.facebook.com/docs/apps)
@@ -49,7 +49,7 @@ Firstly, register our app with OAuth login providers. There are two types of pro
   * [Discord](https://discord.com/developers/docs/topics/oauth2)
   * [Twitch](https://dev.twitch.tv/docs/authentication/#registration)
 
-  For native providers, please provide us the client/app id registered with the provider to deploy a verifier for you.
+  For native providers, please provide us with the client/app ID registered with the provider.
 
 * Proxy providers require you to register your app on OAuth provider and add some config on their app. Proxy providers enable you to use some non-implicit type logins. \(e.g: Twitter, Apple, GitHub, LinkedIn, Email-Password, Magic link, WeChat etc.\)  Some examples of proxy providers
 
@@ -58,10 +58,10 @@ Firstly, register our app with OAuth login providers. There are two types of pro
   * [Cognito](https://aws.amazon.com/cognito/getting-started/)
   * or any custom OAuth2 compliant login provider
 
-  For proxy providers, please provide us the client id, Authentication domain provided by the proxy provider to deploy a verifier for you.
+  For proxy providers, please provide us with the Client ID, Authentication domain provided by the proxy provider.
 
 {% hint style="info" %}
-Register at https://register.directauth.io to get your verifier spun up today!
+Register at [https://register.directauth.io](https://register.directauth.io) to get your verifier spun up today!
 {% endhint %}
 
 
