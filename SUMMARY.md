@@ -16,6 +16,7 @@
   * [Password Manager Flow](direct-auth/compatibility-and-common-patterns/password-manager-flow.md)
   * [Threshold Device Key Management](direct-auth/compatibility-and-common-patterns/untitled.md)
 * [Supported Verifiers/Logins](direct-auth/supported-authenticators-verifiers.md)
+* [Linking Accounts](direct-auth/linking-accounts.md)
 * [Integration Guidelines](direct-auth/integration-guidelines.md)
 * [Examples](direct-auth/examples.md)
 * [FAQ](direct-auth/faq.md)
