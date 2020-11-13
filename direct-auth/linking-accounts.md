@@ -22,6 +22,12 @@ privKeyA = privKeyB + nonce
 
 ```
 
+#### Suggesting users to account link
+
+You can find accounts with the same email, and prompt the users to link them. For example, a user can create an account with Google with the user@gmail.com, and then log in with Facebook, with an account linked to the same email.
+
+If that occurs, you can show users the list of available accounts so they can link them, by first authenticating with the account they will be linking to.
+
 ### Common Unique Identifier
 
 Several logins in DirectAuth have common datafields for users. For example, Google and traditional email logins share that they use email accounts to identify a user. Take a look at [Supported Verifiers/Logins](supported-authenticators-verifiers.md) for more details here.
