@@ -6,6 +6,18 @@ description: >-
 
 # Changelog
 
+## [v1.8.7](https://github.com/torusresearch/torus-website/pull/1303)
+
+The following changes have been made in this release:
+
+* Add spanish language support
+* Use localstorage for pwa
+* Wallet connect fixes
+* Wyre WOR implementation
+* Mercuryo integration
+* Updated deps
+* Bug fixes
+
 ## [v1.8.6](https://github.com/torusresearch/torus-website/pull/1290)
 
 The following changes have been made in this release:
