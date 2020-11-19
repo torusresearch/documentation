@@ -22,6 +22,6 @@ Firstly, register your app with OAuth login providers. There are two types of pr
   For proxy providers, please provide us with the Client ID, Authentication domain provided by the proxy provider.
 
 {% hint style="info" %}
-Register at [https://register.directauth.io](https://register.directauth.io) to get your verifier spun up today!
+Register at [http://register.directauth.io](http://register.directauth.io) to get your verifier spun up today!
 {% endhint %}
 
