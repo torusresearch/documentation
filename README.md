@@ -9,7 +9,9 @@ description: >-
 
 ## Quickstart
 
-You can [integrate Torus](getting-started.md) into your DApp with just a few lines of code and give your users an amazing onboarding experience.
+[Integrate Torus](getting-started.md) into your DApp with just a few lines of code and give your users an amazing onboarding experience:
+
+{% page-ref page="getting-started.md" %}
 
 Don't just take our word for it, [check it out](https://app.tor.us) for yourself!
 
