@@ -18,7 +18,7 @@ Instead of setting a high CSS z-index, which can be quite annoying, we choose to
 
 ### What browsers are supported?
 
-Chrome, Edge, Firefox, Brave, Safari and other major browsers. IE and private browsing in Safari are not supported.
+Chrome, Edge, Firefox, Brave, Safari and other major browsers. IE and private browsing in Safari are not supported. On browsers that don't support ancestorOrigins \(eg. Firefox\), we make use of the document.referrer, so you will have to ensure that your app is served with an appropriate Referrer-Policy.
 
 ### I'm getting share decryption issues, how do I resolve that?
 
