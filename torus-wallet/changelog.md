@@ -6,6 +6,10 @@ description: >-
 
 # Changelog
 
+## [v1.9.0](https://github.com/torusresearch/torus-website/pull/1348)
+
+Tkey release
+
 ## [v1.8.7](https://github.com/torusresearch/torus-website/pull/1303)
 
 The following changes have been made in this release:
