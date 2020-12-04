@@ -5,6 +5,7 @@
 
 ## DirectAuth <a id="direct-auth"></a>
 
+* [Redirects & Service Workers](direct-auth/redirects-and-service-workers.md)
 * [Quick Start](direct-auth/quick-start.md)
 * [What is DirectAuth?](direct-auth/what-is-directauth.md)
 * [Integrating DirectAuth](direct-auth/integrating-directauth/README.md)
