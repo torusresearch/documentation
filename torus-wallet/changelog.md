@@ -6,6 +6,18 @@ description: >-
 
 # Changelog
 
+## [v1.9.1](https://github.com/torusresearch/torus-website/pull/1363)
+
+The following changes have been made in this release:
+
+* Added support for encrypt/decrypt
+* Add support to delete share in tkey
+* Unstoppable domains support
+* Add support for binance smart chain
+* Fix several bugs related to custom networks and tokens
+* Add support for custom tokens
+* Update deps
+
 ## [v1.9.0](https://github.com/torusresearch/torus-website/pull/1348)
 
 Tkey release
