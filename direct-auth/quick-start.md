@@ -4,6 +4,10 @@ description: Integrate DirectAuth in your web application today
 
 # Quick Start
 
+{% hint style="info" %}
+Register at [http://register.directauth.io](http://register.directauth.io) to get your verifier spun up today!
+{% endhint %}
+
 Try our hosted example [here](https://vue-direct.tor.us)
 
 To allow your web app to retrieve keys from the Torus Network, we'll be using the [direct-web-sdk](https://github.com/torusresearch/torus-direct-web-sdk), the repo itself has examples that you can also refer to:
@@ -63,4 +67,6 @@ Firstly, register your app with OAuth login providers. There are two types of pr
 {% hint style="info" %}
 Register at [http://register.directauth.io](http://register.directauth.io) to get your verifier spun up today!
 {% endhint %}
+
+
 
