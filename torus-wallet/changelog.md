@@ -6,6 +6,17 @@ description: >-
 
 # Changelog
 
+## [v1.9.2](https://github.com/torusresearch/torus-website/pull/1383)
+
+The following changes have been made in this release:
+
+* Move contents of app folder outside
+* Delete Share Confirmation
+* Export share, input share and recovery email support for tkey 
+* Scripts for alpha
+* Update dependencies
+* Fix bugs
+
 ## [v1.9.1](https://github.com/torusresearch/torus-website/pull/1363)
 
 The following changes have been made in this release:
