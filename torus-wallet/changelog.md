@@ -6,6 +6,16 @@ description: >-
 
 # Changelog
 
+## [v1.9.3](https://github.com/torusresearch/torus-website/pull/1391)
+
+The following changes have been made in this release:
+
+* Use custom gas price for custom networks
+* Add support for xdai network
+* Add support for recovery email
+* Bug fixes
+* Update deps
+
 ## [v1.9.2](https://github.com/torusresearch/torus-website/pull/1383)
 
 The following changes have been made in this release:
