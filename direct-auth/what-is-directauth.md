@@ -6,7 +6,7 @@ description: Distributed Key Generation as a Service
 
 **Applications can directly interact with the** [**Torus Network**](../how-torus-works/system-architecture.md) **to assign, store and retrieve keys on the network - Distributed Key Generation as a Service**. The integration is compatible with both web/native apps, applications get access to the OAuth scopes provided to them \(name/email from Google\) and there are no longer pop-ups - applications literally own the UX and can implement their own permissions structure.
 
-**DirectAuth allows any application to embed the same interactions as the Torus Wallet in their application.** The fundamental flow for Torus sign-in is as follows:
+**Using DirectAuth allows you to manage an app-specific private key for your users, while storing it in the distributed Torus Network.** You can see a demo of this on the Torus Wallet**.** The fundamental flow for Torus sign-in is as follows:
 
 ![Standard login with OAuth2 \(Google, Facebook, Apple, Reddit, Discord, Twitch\)](../.gitbook/assets/image%20%285%29.png)
 
