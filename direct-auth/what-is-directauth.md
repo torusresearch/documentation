@@ -18,7 +18,7 @@ DirectAuth implements an interaction flow highlighted [here](../how-torus-works/
 
 ![DirectAuth Architecture](../.gitbook/assets/directauth-overview.png)
 
-As such, just as how the Torus Wallet has a verifier script for each of the authentication methods, this integration includes a deployment of a verifier script on the BFT layer that the nodes share for the application specifically. Keys which are generated through the DKG protocol are assigned to the verifier script, which shares are respectively retrieved through successful execution of the script. Whilst most integrations integrate different OAuths, the script is generalisable and can be used to combine multiple OAuths, signatures and other varied forms of attestation for a user. A list of verifiers can be found [here](supported-authenticators-verifiers.md).
+Just as how the Torus Wallet has a verifier script for each of the authentication methods, this integration includes a deployment of a verifier script on the BFT layer that the nodes share for the application specifically. Keys which are generated through the DKG protocol are assigned to the verifier script, which shares are respectively retrieved through successful execution of the script. Whilst most integrations integrate different OAuths, the script is generalisable and can be used to combine multiple OAuths, signatures and other varied forms of attestation for a user. A list of verifiers can be found [here](supported-authenticators-verifiers.md).
 
 ## What does this mean for my application?
 
