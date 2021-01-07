@@ -8,6 +8,10 @@ description: cryptocurrency purchases through our fiat-to-crypto partners
 
 Initiates a top up tx with the specified provider right from the dapp. Please refer below for supported values of params and providers
 
+{% hint style="info" %}
+Topup api doesn't require the user to be logged in with Torus
+{% endhint %}
+
 ```javascript
 const paymentStatus = await torus.initiateTopup(provider, params);
 ```
