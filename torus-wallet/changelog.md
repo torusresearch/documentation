@@ -6,6 +6,14 @@ description: >-
 
 # Changelog
 
+## [v1.9.4](https://github.com/torusresearch/torus-website/pull/1398)
+
+The following changes have been made in this release:
+
+* Add support for signing messages with out popup \(customPrefix eth\_sign\)
+* Add seedphrase module
+* Update deps
+
 ## [v1.9.3](https://github.com/torusresearch/torus-website/pull/1391)
 
 The following changes have been made in this release:
