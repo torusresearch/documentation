@@ -6,6 +6,14 @@ description: >-
 
 # Changelog
 
+## [v1.9.5](https://github.com/torusresearch/torus-website/pull/1407)
+
+The following changes have been made in this release:
+
+* Update deps
+* Start using infura v3
+* Tkey Seed phrase binance fixes
+
 ## [v1.9.4](https://github.com/torusresearch/torus-website/pull/1398)
 
 The following changes have been made in this release:
