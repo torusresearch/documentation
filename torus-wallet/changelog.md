@@ -6,6 +6,13 @@ description: >-
 
 # Changelog
 
+## [v1.9.6](https://github.com/torusresearch/torus-website/pull/1413)
+
+The following changes have been made in this release:
+
+* Bug fixes
+* Eth transfer only for other chains
+
 ## [v1.9.5](https://github.com/torusresearch/torus-website/pull/1407)
 
 The following changes have been made in this release:
