@@ -6,6 +6,13 @@ description: >-
 
 # Changelog
 
+## [v1.9.8](https://github.com/torusresearch/torus-website/pull/1425)
+
+The following changes have been made in this release:
+
+* Minor optimization to parallelize getting keys
+* Fix issue with logout route change in iframe
+
 ## [v1.9.7](https://github.com/torusresearch/torus-website/pull/1420)
 
 The following changes have been made in this release:
