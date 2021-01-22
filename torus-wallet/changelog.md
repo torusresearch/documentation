@@ -6,6 +6,14 @@ description: >-
 
 # Changelog
 
+## [v1.9.7](https://github.com/torusresearch/torus-website/pull/1420)
+
+The following changes have been made in this release:
+
+* Fix issue with window closing
+* Log errors
+* Bug fixes and package updates
+
 ## [v1.9.6](https://github.com/torusresearch/torus-website/pull/1413)
 
 The following changes have been made in this release:
