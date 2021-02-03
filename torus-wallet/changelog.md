@@ -6,6 +6,17 @@ description: >-
 
 # Changelog
 
+## [v1.9.9](https://github.com/torusresearch/torus-website/pull/1435)
+
+The following changes have been made in this release:
+
+* Update packages
+* Add support to set your own private key as Torus Key
+* Optimize tkey flow
+* Bug fixes from Sentry
+* Spring festival slider for binance
+* New api for cryptocompare currency
+
 ## [v1.9.8](https://github.com/torusresearch/torus-website/pull/1425)
 
 The following changes have been made in this release:
