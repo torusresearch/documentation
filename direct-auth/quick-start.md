@@ -32,7 +32,7 @@ await torus.init();
 ```javascript
 const userInfo = await torus.triggerLogin({
   typeOfLogin: "google",
-  verifier: "google",
+  verifier: "MY VERIFIER NAME",
   clientId: "MY CLIENT ID GOOGLE",
 });
 ```
