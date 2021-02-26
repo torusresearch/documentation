@@ -6,6 +6,14 @@ description: >-
 
 # Changelog
 
+## [v1.9.10](https://github.com/torusresearch/torus-website/pull/1447)
+
+The following changes have been made in this release:
+
+* Bug fixes
+* Optimization
+* Fix tests
+
 ## [v1.9.9](https://github.com/torusresearch/torus-website/pull/1435)
 
 The following changes have been made in this release:
