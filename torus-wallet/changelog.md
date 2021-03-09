@@ -6,6 +6,13 @@ description: >-
 
 # Changelog
 
+## [v1.9.11](https://github.com/torusresearch/torus-website/pull/1451)
+
+The following changes have been made in this release:
+
+* use interval to display verifier names
+* fix bugs
+
 ## [v1.9.10](https://github.com/torusresearch/torus-website/pull/1447)
 
 The following changes have been made in this release:
