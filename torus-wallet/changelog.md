@@ -6,6 +6,10 @@ description: >-
 
 # Changelog
 
+## [v1.9.12](https://github.com/torusresearch/torus-website/pull/1453)
+
+Add BigInt polyfill to support older browsers
+
 ## [v1.9.11](https://github.com/torusresearch/torus-website/pull/1451)
 
 The following changes have been made in this release:
