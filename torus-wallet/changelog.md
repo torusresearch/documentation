@@ -6,6 +6,13 @@ description: >-
 
 # Changelog
 
+## [v1.9.13](https://github.com/torusresearch/torus-website/pull/1455)
+
+The following changes have been made in this release:
+
+* Fix bugs
+* Update broadcast channel
+
 ## [v1.9.12](https://github.com/torusresearch/torus-website/pull/1453)
 
 Add BigInt polyfill to support older browsers
