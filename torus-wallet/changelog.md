@@ -6,6 +6,13 @@ description: >-
 
 # Changelog
 
+## [v1.9.14](https://github.com/torusresearch/torus-website/pull/1460)
+
+The following changes have been made in this release:
+
+* Fix issues with tKey
+* update deps
+
 ## [v1.9.13](https://github.com/torusresearch/torus-website/pull/1455)
 
 The following changes have been made in this release:
