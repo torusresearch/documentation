@@ -5,7 +5,7 @@ description: Integrate DirectAuth in your web application today
 # Quick Start
 
 {% hint style="info" %}
-Register at [http://register.directauth.io](http://register.directauth.io) to get your verifier spun up today!
+Register at [register.directauth.io](http://register.directauth.io) to get your verifier spun up today!
 {% endhint %}
 
 Try our hosted example [here](https://vue-direct.tor.us)

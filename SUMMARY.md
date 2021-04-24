@@ -5,7 +5,17 @@
 
 ## DirectAuth <a id="direct-auth"></a>
 
+* [Get Started](direct-auth/get-started.md)
 * [Quick Start](direct-auth/quick-start.md)
+* [API Reference](direct-auth/api-reference/README.md)
+  * [Web](direct-auth/api-reference/web-1/README.md)
+    * [Installation](direct-auth/api-reference/web-1/installation.md)
+    * [API Reference](direct-auth/api-reference/web-1/api-reference.md)
+  * [React Native](direct-auth/api-reference/react-native.md)
+  * [Android](direct-auth/api-reference/android/README.md)
+    * [Installation](direct-auth/api-reference/android/installation.md)
+    * [API Reference](direct-auth/api-reference/android/api-reference.md)
+  * [iOS](direct-auth/api-reference/ios.md)
 * [What is DirectAuth?](direct-auth/what-is-directauth.md)
 * [Integrating DirectAuth](direct-auth/integrating-directauth/README.md)
   * [Designing your Key Management Architecture](direct-auth/integrating-directauth/designing-your-key-management-architecture.md)
