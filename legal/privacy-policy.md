@@ -1,48 +1,49 @@
 ---
 description: >-
-  This privacy policy is applicable to both the Torus website (https://tor.us)
-  and Torus wallet (https://app.tor.us). Latest update: 03 July 2020
+  This privacy policy is applicable to the Web3Auth website
+  (https://web3auth.io), Torus website (https://tor.us), and Torus Wallet
+  Application (https://app.tor.us). Latest update: 12 January 2022
 ---
 
 # Privacy Policy
 
 ## Owner and Data Controller
 
-Torus Labs Private Limited  
+Torus Labs Private Limited\
 8A Jalan Klapa, Singapore
 
 **Contact email:** hello@tor.us
 
 ## Types of Data Collected
 
-Among the types of Personal Data that Torus Labs collects, by itself or through third parties, there are: Cookies; Usage Data.
+Among the types of Personal Data that Web3Auth and Torus Labs collects, by itself or through third parties, there are: Cookies; Usage Data.
 
 Complete details on each type of Personal Data collected are provided in the dedicated sections of this privacy policy or by specific explanation texts displayed prior to the Data collection.
 
-Personal Data may be freely provided by the User, or, in case of Usage Data, collected automatically when using Torus Labs.
+Personal Data may be freely provided by the User, or, in case of Usage Data, collected automatically when using Web3Auth and Torus Labs.
 
-Unless specified otherwise, all Data requested by Torus Labs is mandatory and failure to provide this Data may make it impossible for Torus Labs to provide its services. In cases where Torus Labs specifically states that some Data is not mandatory, Users are free not to communicate this Data without consequences to the availability or the functioning of the Service.
+Unless specified otherwise, all Data requested by Web3Auth and Torus Labs is mandatory and failure to provide this Data may make it impossible for Web3Auth and Torus Labs to provide its services. In cases where Web3Auth and Torus Labs specifically states that some Data is not mandatory, Users are free not to communicate this Data without consequences to the availability or the functioning of the Service.
 
-The Personal Data collected to use Torus are public data related to the account and may include the profile photo, username and email address. Private data related to the account, such as registered address, and passwords will not be collected by Torus, and is not mandatory to the use of service.
+The Personal Data collected to use Torus are public data related to the account and may include the profile photo, username and email address. Private data related to the account, such as registered address, and passwords will not be collected by Web3Auth or Torus Labs, and is not mandatory to the use of service.
 
 Users who are uncertain about which Personal Data is mandatory are welcome to contact the Owner.
 
-Any use of Cookies – or of other tracking tools – by Torus Labs or by the owners of third-party services used by Torus Labs serves the purpose of providing the Service required by the User, in addition to any other purposes described in the present document and in the Cookie Policy, if available.
+Any use of Cookies – or of other tracking tools – by Web3Auth and Torus Labs or by the owners of third-party services used by Web3Auth and Torus Labs serves the purpose of providing the Service required by the User, in addition to any other purposes described in the present document and in the Cookie Policy, if available.
 
-Users are responsible for any third-party Personal Data obtained, published or shared through Torus Labs and confirm that they have the third party's consent to provide the Data to the Owner.
+Users are responsible for any third-party Personal Data obtained, published or shared through Web3Auth and Torus Labs and confirm that they have the third party's consent to provide the Data to the Owner.
 
 ## Mode and Place of Processing the Data
 
 ### Methods of Processing
 
-The Owner takes appropriate security measures to prevent unauthorized access, disclosure, modification, or unauthorized destruction of the Data.  
-The Data processing is carried out using computers and/or IT enabled tools, following organizational procedures and modes strictly related to the purposes indicated. In addition to the Owner, in some cases, the Data may be accessible to certain types of persons in charge, involved with the operation of Torus Labs \(administration, sales, marketing, legal, system administration\) or external parties \(such as third-party technical service providers, mail carriers, hosting providers, IT companies, communications agencies\) appointed, if necessary, as Data Processors by the Owner. The updated list of these parties may be requested from the Owner at any time.
+The Owner takes appropriate security measures to prevent unauthorized access, disclosure, modification, or unauthorized destruction of the Data.\
+The Data processing is carried out using computers and/or IT enabled tools, following organizational procedures and modes strictly related to the purposes indicated. In addition to the Owner, in some cases, the Data may be accessible to certain types of persons in charge, involved with the operation of Web3Auth and Torus Labs (administration, sales, marketing, legal, system administration) or external parties (such as third-party technical service providers, mail carriers, hosting providers, IT companies, communications agencies) appointed, if necessary, as Data Processors by the Owner. The updated list of these parties may be requested from the Owner at any time.
 
 ### Legal Basis of Processing
 
 The Owner may process Personal Data relating to Users if one of the following applies:
 
-* Users have given their consent for one or more specific purposes. Note: Under some legislations the Owner may be allowed to process Personal Data until the User objects to such processing \(“opt-out”\), without having to rely on consent or any other of the following legal bases. This, however, does not apply, whenever the processing of Personal Data is subject to European data protection law;
+* Users have given their consent for one or more specific purposes. Note: Under some legislations the Owner may be allowed to process Personal Data until the User objects to such processing (“opt-out”), without having to rely on consent or any other of the following legal bases. This, however, does not apply, whenever the processing of Personal Data is subject to European data protection law;
 * provision of Data is necessary for the performance of an agreement with the User and/or for any pre-contractual obligations thereof;
 * processing is necessary for compliance with a legal obligation to which the Owner is subject;
 * processing is related to a task that is carried out in the public interest or in the exercise of official authority vested in the Owner;
@@ -87,33 +88,33 @@ Personal Data is collected for the following purposes and using the following se
 
 The services contained in this section enable the Owner to monitor and analyze web traffic and can be used to keep track of User behavior.
 
-**Google Analytics \(Google LLC\)**
+**Google Analytics (Google LLC)**
 
-Google Analytics is a web analysis service provided by Google LLC \(“Google”\). Google utilizes the Data collected to track and examine the use of Torus Labs, to prepare reports on its activities and share them with other Google services.  
+Google Analytics is a web analysis service provided by Google LLC (“Google”). Google utilizes the Data collected to track and examine the use of Web3Auth and Torus Labs, to prepare reports on its activities and share them with other Google services.\
 Google may use the Data collected to contextualize and personalize the ads of its own advertising network.
 
 Personal Data collected: Cookies; Usage Data.
 
-Place of processing: United States – [Privacy Policy](https://policies.google.com/privacy) 
+Place of processing: United States – [Privacy Policy](https://policies.google.com/privacy)&#x20;
 
 Users who wish to opt out of Google Analytics can do so by installing the browser extension [Opt Out](https://tools.google.com/dlpage/gaoptout?hl=en). Privacy Shield participant.
 
 ### Displaying Content from External Platforms
 
-This type of service allows you to view content hosted on external platforms directly from the pages of Torus Labs and interact with them.  
+This type of service allows you to view content hosted on external platforms directly from the pages of Web3Auth and Torus Labs and interact with them.\
 This type of service might still collect web traffic data for the pages where the service is installed, even when Users do not use it.
 
-**YouTube Video Widget \(Google LLC\)**
+**YouTube Video Widget (Google LLC)**
 
-YouTube is a video content visualization service provided by Google LLC that allows Torus Labs to incorporate content of this kind on its pages.
+YouTube is a video content visualization service provided by Google LLC that allows Web3Auth and Torus Labs to incorporate content of this kind on its pages.
 
 Personal Data collected: Cookies; Usage Data.
 
 Place of processing: United States – [Privacy Policy](https://policies.google.com/privacy). Privacy Shield participant.
 
-**Google Fonts \(Google LLC\)**
+**Google Fonts (Google LLC)**
 
-Google Fonts is a typeface visualization service provided by Google LLC that allows Torus Labs to incorporate content of this kind on its pages.
+Google Fonts is a typeface visualization service provided by Google LLC that allows Web3Auth and Torus Labs to incorporate content of this kind on its pages.
 
 Personal Data collected: Usage Data; various types of Data as specified in the privacy policy of the service.
 
@@ -121,10 +122,10 @@ Place of processing: United States – [Privacy Policy](https://policies.google.
 
 ### Registration and Authentication
 
-By registering or authenticating, Users allow Torus Labs to identify them and give them access to dedicated services.  
-Depending on what is described below, third parties may provide registration and authentication services. In this case, Torus Labs will be able to access some Data, stored by these third-party services, for registration or identification purposes.
+By registering or authenticating, Users allow Web3Auth and Torus Labs to identify them and give them access to dedicated services.\
+Depending on what is described below, third parties may provide registration and authentication services. In this case, Web3Auth and Torus Labs will be able to access some Data, stored by these third-party services, for registration or identification purposes.
 
-**Google OAuth \(Google LLC\)**
+**Google OAuth (Google LLC)**
 
 Google OAuth is a registration and authentication service provided by Google LLC and is connected to the Google network.
 
@@ -134,10 +135,10 @@ Place of processing: United States – [Privacy Policy](https://policies.google.
 
 ### Tag Management
 
-This type of service helps the Owner to manage the tags or scripts needed on Torus Labs in a centralized fashion.  
+This type of service helps the Owner to manage the tags or scripts needed on Web3Auth and Torus Labs in a centralized fashion.\
 This results in the Users' Data flowing through these services, potentially resulting in the retention of this Data.
 
-**Google Tag Manager \(Google LLC\)**
+**Google Tag Manager (Google LLC)**
 
 Google Tag Manager is a tag management service provided by Google LLC.
 
@@ -147,14 +148,14 @@ Place of processing: United States – [Privacy Policy](https://policies.google.
 
 ### Traffic Optimization and Distribution
 
-This type of service allows Torus Labs to distribute their content using servers located across different countries and to optimize their performance.  
-Which Personal Data are processed depends on the characteristics and the way these services are implemented. Their function is to filter communications between Torus Labs and the User's browser.  
+This type of service allows Web3Auth and Torus Labs to distribute their content using servers located across different countries and to optimize their performance.\
+Which Personal Data are processed depends on the characteristics and the way these services are implemented. Their function is to filter communications between Web3Auth and Torus Labs and the User's browser.\
 Considering the widespread distribution of this system, it is difficult to determine the locations to which the contents that may contain Personal Information User are transferred.
 
-**Cloudflare \(Cloudflare Inc.\)**
+**Cloudflare (Cloudflare Inc.)**
 
-Cloudflare is a traffic optimization and distribution service provided by Cloudflare Inc.  
-The way Cloudflare is integrated means that it filters all the traffic through Torus Labs, i.e., communication between Torus Labs and the User's browser, while also allowing analytical data from Torus Labs to be collected.
+Cloudflare is a traffic optimization and distribution service provided by Cloudflare Inc.\
+The way Cloudflare is integrated means that it filters all the traffic through Web3Auth or Torus Labs, i.e., communication between Web3Auth or Torus Labs and the User's browser, while also allowing analytical data from Web3Auth and Torus Labs to be collected.
 
 Personal Data collected: Cookies; various types of Data as specified in the privacy policy of the service.
 
@@ -187,22 +188,22 @@ Any requests to exercise User rights can be directed to the Owner through the co
 
 ## Cookie Policy
 
-Torus Labs uses Cookies. To learn more and for a detailed cookie notice, the User may consult the [Cookie Policy](https://docs.tor.us/legal/cookie-policy).
+Web3Auth and Torus Labs uses Cookies. To learn more and for a detailed cookie notice, the User may consult the [Cookie Policy](https://docs.tor.us/legal/cookie-policy).
 
 ## Additional information about Data collection and processing
 
 ### Legal Action
 
-The User's Personal Data may be used for legal purposes by the Owner in Court or in the stages leading to possible legal action arising from improper use of Torus Labs or the related Services.  
+The User's Personal Data may be used for legal purposes by the Owner in Court or in the stages leading to possible legal action arising from improper use of Web3Auth or Torus Labs or the related Services.\
 The User declares to be aware that the Owner may be required to reveal personal data upon request of public authorities.
 
 ### Additional Information About User's Personal Data
 
-In addition to the information contained in this privacy policy, Torus Labs may provide the User with additional and contextual information concerning particular Services or the collection and processing of Personal Data upon request.
+In addition to the information contained in this privacy policy, Web3Auth and Torus Labs may provide the User with additional and contextual information concerning particular Services or the collection and processing of Personal Data upon request.
 
 ### System Logs and Maintenance
 
-For operation and maintenance purposes, Torus Labs and any third-party services may collect files that record interaction with Torus Labs \(System logs\) use other Personal Data \(such as the IP Address\) for this purpose.
+For operation and maintenance purposes, Web3Auth, Torus Labs and any third-party services may collect files that record interaction with Web3Auth and Torus Labs (System logs) use other Personal Data (such as the IP Address) for this purpose.
 
 ### Information not Contained in this Policy
 
@@ -210,24 +211,24 @@ More details concerning the collection or processing of Personal Data may be req
 
 ### How “Do Not Track” Requests are Handled
 
-Torus Labs does not support “Do Not Track” requests.  
+Web3Auth and Torus Labs do not support “Do Not Track” requests.\
 To determine whether any of the third-party services it uses honor the “Do Not Track” requests, please read their privacy policies.
 
 ### Changes to this Privacy Policy
 
-The Owner reserves the right to make changes to this privacy policy at any time by giving notice to its Users on this page and possibly within Torus Labs and/or - as far as technically and legally feasible - sending a notice to Users via any contact information available to the Owner. It is strongly recommended to check this page often, referring to the date of the last modification listed at the bottom.
+The Owner reserves the right to make changes to this privacy policy at any time by giving notice to its Users on this page and possibly within Web3Auth and Torus Labs and/or - as far as technically and legally feasible - sending a notice to Users via any contact information available to the Owner. It is strongly recommended to check this page often, referring to the date of the last modification listed at the bottom.
 
 Should the changes affect processing activities performed on the basis of the User’s consent, the Owner shall collect new consent from the User, where required.
 
 ## Definitions and Legal References
 
-**Personal Data \(or Data\)**
+**Personal Data (or Data)**
 
 Any information that directly, indirectly, or in connection with other information — including a personal identification number — allows for the identification or identifiability of a natural person.
 
 **Usage Data**
 
-Information collected automatically through Torus Labs \(or third-party services employed in Torus Labs\), which can include: the IP addresses or domain names of the computers utilized by the Users who use Torus Labs, the URI addresses \(Uniform Resource Identifier\), the time of the request, the method utilized to submit the request to the server, the size of the file received in response, the numerical code indicating the status of the server's answer \(successful outcome, error, etc.\), the country of origin, the features of the browser and the operating system utilized by the User, the various time details per visit \(e.g., the time spent on each page within the Application\) and the details about the path followed within the Application with special reference to the sequence of pages visited, and other parameters about the device operating system and/or the User's IT environment.
+Information collected automatically through Web3Auth or Torus Labs (or third-party services employed in Web3Auth or Torus Labs), which can include: the IP addresses or domain names of the computers utilized by the Users who use Web3Auth or Torus Labs, the URI addresses (Uniform Resource Identifier), the time of the request, the method utilized to submit the request to the server, the size of the file received in response, the numerical code indicating the status of the server's answer (successful outcome, error, etc.), the country of origin, the features of the browser and the operating system utilized by the User, the various time details per visit (e.g., the time spent on each page within the Application) and the details about the path followed within the Application with special reference to the sequence of pages visited, and other parameters about the device operating system and/or the User's IT environment.
 
 **User**
 
@@ -237,23 +238,23 @@ The individual using Torus Labs who, unless otherwise specified, coincides with 
 
 The natural person to whom the Personal Data refers.
 
-**Data Processor \(or Data Supervisor\)**
+**Data Processor (or Data Supervisor)**
 
 The natural or legal person, public authority, agency or other body which processes Personal Data on behalf of the Controller, as described in this privacy policy.
 
-**Data Controller \(or Owner\)**
+**Data Controller (or Owner)**
 
-The natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of Personal Data, including the security measures concerning the operation and use of Torus Labs. The Data Controller, unless otherwise specified, is the Owner of Torus Labs.
+The natural or legal person, public authority, agency or other body which, alone or jointly with others, determines the purposes and means of the processing of Personal Data, including the security measures concerning the operation and use of Web3Auth or Torus Labs. The Data Controller, unless otherwise specified, is the Owner of Web3Auth and Torus Labs.
 
-**Torus Labs \(or this Application\)**
+**Web3Auth and** **Torus Labs (or this Application)**
 
 The means by which the Personal Data of the User is collected and processed.
 
 **Service**
 
-The service provided by Torus Labs as described in the relative terms \(if available\) and on this site/application.
+The service provided by Web3Auth and Torus Labs as described in the relative terms (if available) and on this site/application.
 
-**European Union \(or EU\)**
+**European Union (or EU)**
 
 Unless otherwise specified, all references made within this document to the European Union include all current member states to the European Union and the European Economic Area.
 
@@ -263,7 +264,6 @@ Small sets of data stored in the User's device.
 
 **Legal information**
 
-This privacy statement has been prepared based on provisions of multiple legislations, including Art. 13/14 of Regulation \(EU\) 2016/679 \(General Data Protection Regulation\).
+This privacy statement has been prepared based on provisions of multiple legislations, including Art. 13/14 of Regulation (EU) 2016/679 (General Data Protection Regulation).
 
-This privacy policy relates solely to Torus Labs, if not stated otherwise within this document.
-
+This privacy policy relates solely to Web3Auth and Torus Labs, if not stated otherwise within this document.
